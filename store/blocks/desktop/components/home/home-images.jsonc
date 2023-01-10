@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#desktop__home--images": {
+    "title": "Sección de tres imagenes",
+    "children": [
+      "flex-layout.col#home__images--imagen1",
+      "flex-layout.col#home__images--imagen2",
+      "flex-layout.col#home__images--imagen3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__images"
+    }
+  },
+  "flex-layout.col#home__images--imagen1": {
+    "title": "Primera imagen, camisas mujer",
+    "children": [
+      "image#desktop__imagen--1"
+    ],
+    "props": {
+      "blockClass": "home__images1"
+    }
+  },
+  "flex-layout.col#home__images--imagen2": {
+    "title": "Segunda imagen, ropa 50% descuento",
+    "children": [
+      "image#desktop__imagen--2"
+    ],
+    "props": {
+      "blockClass": "home__images2"
+    }
+  },
+  "flex-layout.col#home__images--imagen3": {
+    "title": "Tercera imagen, pantalonetas",
+    "children": [
+      "image#desktop__imagen--3"
+    ],
+    "props": {
+      "blockClass": "home__images3"
+    }
+  },
+  "image#desktop__imagen--1": {
+    "title": "imagen camisa mujer",
+    "props": {
+      "src": "assets/img/camisasmujer.jpg"
+    }
+  },
+  "image#desktop__imagen--2": {
+    "title": "imagen 50% de descuento",
+    "props": {
+      "src": "assets/img/50percent.jpg"
+    }
+  },
+  "image#desktop__imagen--3": {
+    "title": "imagen pantalonetas",
+    "props": {
+      "src": "assets/img/pantalonetas.jpg"
+    }
+  }
+}

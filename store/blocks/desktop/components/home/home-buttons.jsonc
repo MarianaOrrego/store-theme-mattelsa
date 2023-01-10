@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#desktop__home--buttons": {
+        "title": "Botones de hombre y mujer",
+        "children": [
+            "flex-layout.col#home__buttons--boton-1",
+            "flex-layout.col#home__buttons--boton-2"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "blockClass": "home__buttons"
+        }
+    },
+    "flex-layout.col#home__buttons--boton-1": {
+        "title": "Botón hombre",
+        "children": [
+            "link#home__link--boton-hombre"
+        ]
+    },
+    "flex-layout.col#home__buttons--boton-2": {
+        "title": "Botón mujer",
+        "children": [
+            "link#home__link--boton-mujer"
+        ]
+    }
+}

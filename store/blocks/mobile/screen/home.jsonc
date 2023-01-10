@@ -1,0 +1,9 @@
+{
+  "responsive-layout.mobile#phone__and__tablet": {
+    "title": "Home Section 1 Desktop",
+    "children": [
+      "flex-layout.row#mobile__home--buttons",
+      "flex-layout.row#mobile__home--slider"
+    ]
+  }
+}

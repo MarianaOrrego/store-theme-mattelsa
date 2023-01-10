@@ -1,5 +1,80 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRow--home__buttons {
+    align-items      : center;
+    background-image : url(assets/img/picturehome.jpg);
+    background-repeat: no-repeat;
+    background-size  : cover;
+    display          : flex;
+    height           : 768px;
+    margin-bottom    : 5px;
+    text-align       : center;
+    width            : 100%;
+}
+
+.flexRowContent--home__buttons :global(.vtex-store-link-0-x-buttonLink) {
+    background-color: transparent;
+    border          : 3px solid #ffffff;
+    box-shadow      : none !important;
+    font-family     : 'Montserrat', sans-serif;
+    font-size       : 38px;
+    font-weight     : bold;
+    height          : 75px;
+    margin-bottom   : 0;
+    padding         : 0;
+    transition      : border .5s ease-in;
+    transition      : all .4s;
+    transition      : border-top .4s, border-left 0.3s, border-right .5s, border-bottom .1s;
+    text-transform  : lowercase;
+    width           : 213px;
+    padding-bottom  : 10px;
+}
+
+.flexRowContent--home__buttons :global(.vtex-store-link-0-x-buttonLink):hover {
+    border-bottom: 4px solid #f4f4f4 !important;
+    border-top   : 3px solid transparent;
+    border-left  : 3px solid transparent;
+    border-right : 3px solid transparent;
+}
+
+/*3 imagenes*/
+.flexRowContent--home__images :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    height: 453px;
+    margin-right: 6px;
+    overflow: hidden;
+    width: 362px;
+}
+
+.flexCol--home__images1 {
+    cursor: pointer;
+    height: 453px;
+    overflow: hidden;
+    width: 362px;
+}
+
+.flexCol--home__images2 {
+    cursor: pointer;
+    height: 453px;
+    overflow: hidden;
+    width: 362px;
+}
+
+.flexCol--home__images3 {
+    cursor: pointer;
+    height: 453px;
+    overflow: hidden;
+    width: 362px;
+}
+
+.flexCol--home__images1:hover {
+    transform : scale(1.1);
+    transition: all 500ms ease;
+}
+
+.flexCol--home__images2:hover {
+    transform : scale(1.1);
+    transition: all 500ms ease;
+}
+
+.flexCol--home__images3:hover {
+    transform : scale(1.1);
+    transition: all 500ms ease;
+}
