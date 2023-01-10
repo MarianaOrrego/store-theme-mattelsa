@@ -1,0 +1,20 @@
+{
+    "link#mobile__link--boton-hombre": {
+        "title": "Botón hombre",
+        "props": {
+            "href": "/",
+            "label": "hombre",
+            "displayMode": "button",
+            "font":"t-action--small"
+        }
+    },
+    "link#mobile__link--boton-mujer": {
+        "title": "Botón mujer",
+        "props": {
+            "href": "/",
+            "label": "mujer",
+            "displayMode": "button",
+            "font":"t-action--small"
+        }
+    }
+}
