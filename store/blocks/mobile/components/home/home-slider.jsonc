@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#mobile__home--slider": {
+        "title": "Slider",
+        "children": [
+            "list-context.image-list#mobile__slider--list"
+        ],
+        "props": {
+            "fullWidth": true, 
+            "horizontalAlign": "center"
+        }
+    },
+    "list-context.image-list#mobile__slider--list": {
+        "title": "Lista de imagenes en slider",
+        "children": [
+            "slider-layout#mobile__slider--list"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "assets/img/verano.jpg",
+                    "description": "Slide 1"
+                },
+                {
+                    "image": "assets/img/basicos.jpg",
+                    "description": "Slide 2"
+                },
+                {
+                    "image": "assets/img/disney.jpg",
+                    "description": "Slide 3"
+                },
+                {
+                    "image": "assets/img/graficos.jpg",
+                    "description": "Slide 4"
+                },
+                {
+                    "image": "assets/img/nasa.jpg",
+                    "description": "Slide 5"
+                },
+                {
+                    "image": "assets/img/oversize.jpeg",
+                    "description": "Slide 6"
+                }
+            ]
+        }
+    },
+    "slider-layout#mobile__slider--list": {
+        "title": "Slider con lista",
+        "props": {
+            "itemsPerPage": {
+                "mobile": 4
+            },
+            "infinite": false,
+            "blockClass": "home__slider",
+            "showPaginationDots": "never",
+            "usePagination": false,
+            "showNavigationArrows":"desktopOnly"
+        }
+    }
+}
