@@ -1,0 +1,8 @@
+.slideChildrenContainer--home__slider {
+    margin: 10px;
+}
+
+.sliderLayoutContainer--home__slider {
+    margin   : auto 50px;
+    max-width: 1100px;
+}

@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#mobile__home--image1": {
+    "title": "Primera imagen",
+    "children": [
+      "flex-layout.col#homemobile__images--imagen1"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__images"
+    }
+  },
+  "flex-layout.col#homemobile__images--imagen1": {
+    "title": "Primera imagen, camisas mujer",
+    "children": [
+      "image#mobilehome__imagen--1"
+    ],
+    "props": {
+      "blockClass": "home__images1"
+    }
+  },
+  "image#mobilehome__imagen--1": {
+    "title": "imagen camisa mujer",
+    "props": {
+      "src": "assets/img/camisasmujermobile.jpg",
+      "blockClass": "imagen1"
+    }
+  }
+}

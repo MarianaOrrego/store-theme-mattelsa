@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#mobile__home--image3": {
+    "title": "Tercera imagen",
+    "children": [
+      "flex-layout.col#homemobile__images--imagen3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__images",
+      "preventHorizontalStretch": false
+    }
+  },
+  "flex-layout.col#homemobile__images--imagen3": {
+    "title": "Tercera imagen, pantalonetas",
+    "children": [
+      "image#mobilehome__imagen--3"
+    ],
+    "props": {
+      "blockClass": "home__images3"
+    }
+  },
+  "image#mobilehome__imagen--3": {
+    "title": "imagen pantalonetas",
+    "props": {
+      "src": "assets/img/pantalonetasmobile.jpg"
+    }
+  }
+}

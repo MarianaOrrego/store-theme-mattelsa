@@ -2,8 +2,7 @@
     "flex-layout.row#mobile__home--buttons": {
         "title": "Botones de hombre y mujer",
         "children": [
-            "flex-layout.col#mobile__buttons--boton-1",
-            "flex-layout.col#mobile__buttons--boton-2"
+            "flex-layout.col#mobile__buttons--botones"
         ],
         "props": {
             "fullWidth": true,
@@ -11,15 +10,10 @@
             "blockClass": "home__buttons"
         }
     },
-    "flex-layout.col#mobile__buttons--boton-1": {
-        "title": "Botón hombre",
+    "flex-layout.col#mobile__buttons--botones": {
+        "title": "Botones",
         "children": [
-            "link#mobile__link--boton-hombre"
-        ]
-    },
-    "flex-layout.col#mobile__buttons--boton-2": {
-        "title": "Botón mujer",
-        "children": [
+            "link#mobile__link--boton-hombre",
             "link#mobile__link--boton-mujer"
         ]
     }
