@@ -5,9 +5,30 @@
     background-size  : cover;
     display          : flex;
     height           : 768px;
-    margin-bottom    : 5px;
     text-align       : center;
     width            : 100%;
+}
+
+@media (max-width: 1024px) {
+    .flexRow--home__buttons {
+        background-image: url(assets/img/picturehometablet.jpg);
+        height          : 576px;
+    }
+    .flexRowContent--home__images :global(.vtex-store-components-3-x-imageElement){
+        width: 1023px;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .flexRow--home__buttons {
+        background-image: url(assets/img/picturehomemobile.jpg);
+        height          : 1200px;
+    }
+    .flexRowContent--home__images :global(.vtex-store-components-3-x-imageElement){
+        width: 960px;
+        height: auto;
+    }
 }
 
 .flexRowContent--home__buttons :global(.vtex-store-link-0-x-buttonLink) {
@@ -42,17 +63,17 @@
     overflow    : hidden;
 }
 
-.flexCol--home__images1:hover {
+.flexCol--mobilehome__images1:hover {
     transform : scale(1.1);
     transition: all 500ms ease;
 }
 
-.flexCol--home__images2:hover {
+.flexCol--mobilehome__images2:hover {
     transform : scale(1.1);
     transition: all 500ms ease;
 }
 
-.flexCol--home__images3:hover {
+.flexCol--mobilehome__images3:hover {
     transform : scale(1.1);
     transition: all 500ms ease;
 }
