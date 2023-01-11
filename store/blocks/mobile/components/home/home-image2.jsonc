@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#mobile__home--image2": {
+    "title": "Segunda imagen",
+    "children": [
+      "flex-layout.col#homemobile__images--imagen2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home__images",
+      "preventHorizontalStretch": false
+    }
+  },
+  "flex-layout.col#homemobile__images--imagen2": {
+    "title": "Segunda imagen, ropa 50% descuento",
+    "children": [
+      "image#mobilehome__imagen--2"
+    ],
+    "props": {
+      "blockClass": "home__images2"
+    }
+  },
+  "image#mobilehome__imagen--2": {
+    "title": "imagen 50% de descuento",
+    "props": {
+      "src": "assets/img/50percentmobile.jpg"
+    }
+  }
+}
