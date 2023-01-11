@@ -1,0 +1,7 @@
+.headerRowBackground--header__top{
+    background-color: transparent;
+}
+
+.headerRowBackground--header__top:hover{
+    background-color: #f5f5f5;
+}

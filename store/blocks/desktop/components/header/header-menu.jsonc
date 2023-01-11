@@ -1,0 +1,72 @@
+{
+    "header-layout.desktop": {
+        "title": "Header desktop",
+        "children": [
+            "header-row#header__notification",
+            "header-row#header__top",
+            "header-row#header__middle"
+        ]
+    },
+    "header-layout.mobile": {},
+    "header-row#header__top": {
+        "title": "Header texto prueba",
+        "children": [
+            "logo#header__top--logo"
+        ],
+        "props": {
+            "blockClass": "header__top",
+            "sticky": true
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo Mattelsa",
+        "props": {
+            "url": "assets/img/LogoMattelsa.svg",
+            "width": 100,
+            "height": 24,
+            "mobileWidth": 0,
+            "mobileHeight": 0
+        }
+    },
+    "header-row#header__middle": {
+        "title": "Secciones",
+        "children": [
+            "header-force-center#header__middle"
+        ],
+        "props":{
+            "sticky": true
+        }
+    },
+    "header-force-center#header__middle": {
+        "children": [
+            "rich-text#test",
+            "rich-text#test2"
+        ]
+    },
+    "rich-text#test": {
+        "props": {
+            "text": "Texto prueba"
+        }
+    },
+    "rich-text#test2": {
+        "props": {
+            "text": "Texto prueba2"
+        }
+    },
+    "header-row#header__notification": {
+        "children": [
+            "header-border",
+            "notification.bar#home"
+        ],
+        "props": {
+            "fullWidth": "true",
+            "sticky": true
+        }
+    },
+    "notification.bar#home": {
+        "props": {
+            "content": "Clic acá para conocer nuestras políticas de envío",
+            "blockClass": "texto_politicas"
+        }
+    }
+}

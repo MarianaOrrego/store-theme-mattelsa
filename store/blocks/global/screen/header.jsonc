@@ -1,0 +1,10 @@
+{
+    "header.full": {
+        "title": "Header",
+        "blocks": [
+            "logo",
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    }
+}
