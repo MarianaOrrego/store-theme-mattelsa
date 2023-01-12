@@ -1,0 +1,19 @@
+.styledLink--menu__item {
+    font-weight: bold;
+}
+
+.menuItem--menu__item:hover {
+    border-bottom: 4px solid #484848;
+    transition   : all .3s;
+}
+
+.styledLinkContent--menu__item--sale {
+    color      : #19CD8C;
+    font-weight: bold;
+}
+
+.menuItem--menu__item--sale:hover {
+    border-bottom: 4px solid #19CD8C;
+    border-right : 1px solid #484848;
+    transition   : all .3s;
+}

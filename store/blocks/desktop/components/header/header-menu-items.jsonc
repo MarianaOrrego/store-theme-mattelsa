@@ -1,0 +1,92 @@
+{
+    "menu-item#hombre": {
+        "props": {
+            "id": "menu-item-hombre",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "hombre",
+                "text": "hombre"
+            }
+        }
+    },
+    "menu-item#mujer": {
+        "props": {
+            "id": "menu-item-mujer",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "mujer",
+                "text": "mujer"
+            }
+        }
+    },
+    "menu-item#cosas": {
+        "props": {
+            "id": "menu-item-cosas",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "cosas",
+                "text": "cosas"
+            }
+        }
+    },
+    "menu-item#tiendas": {
+        "props": {
+            "id": "menu-item-tiendas",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "tiendas",
+                "text": "tiendas"
+            }
+        }
+    },
+    "menu-item#activismo": {
+        "props": {
+            "id": "menu-item-activismo",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "activismo",
+                "text": "activismo"
+            }
+        }
+    },
+    "menu-item#sale": {
+        "props": {
+            "id": "menu-item-sale",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item--sale",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "sale",
+                "text": "sale"
+            }
+        }
+    }
+}

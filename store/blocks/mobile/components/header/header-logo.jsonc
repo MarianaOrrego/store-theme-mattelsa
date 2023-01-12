@@ -1,0 +1,30 @@
+{
+    "header-row#header__middle": {
+        "title": "Secciones",
+        "children": [
+            "header-force-center#header__middle"
+        ],
+        "props": {
+            "sticky": true
+        }
+    },
+    "header-force-center#header__middle": {
+        "title": "Contenido de las secciones",
+        "children": [
+            "logo#header__middle--logo"
+        ],
+        "props": {
+            "blockClass": "header__middle"
+        }
+    },
+    "logo#header__middle--logo": {
+        "title": "Logo Mattelsa",
+        "props": {
+            "url": "assets/img/LogoMattelsa.svg",
+            "width": 95,
+            "height": 40,
+            "mobileWidth": 0,
+            "mobileHeight": 0
+        }
+    }
+}

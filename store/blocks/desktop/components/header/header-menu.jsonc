@@ -1,72 +1,31 @@
 {
-    "header-layout.desktop": {
-        "title": "Header desktop",
-        "children": [
-            "header-row#header__notification",
-            "header-row#header__top",
-            "header-row#header__middle"
-        ]
-    },
-    "header-layout.mobile": {},
     "header-row#header__top": {
-        "title": "Header texto prueba",
+        "title": "Header menu",
         "children": [
-            "logo#header__top--logo"
+            "logo#header__top--logo",
+            "header-spacer",
+            "vtex.menu@2.x:menu#websites",
+            "header-spacer",
+            "login"
         ],
         "props": {
             "blockClass": "header__top",
-            "sticky": true
+            "sticky": true,
+            "zIndex": 1
         }
     },
-    "logo#header__top--logo": {
-        "title": "Logo Mattelsa",
-        "props": {
-            "url": "assets/img/LogoMattelsa.svg",
-            "width": 100,
-            "height": 24,
-            "mobileWidth": 0,
-            "mobileHeight": 0
-        }
-    },
-    "header-row#header__middle": {
-        "title": "Secciones",
+    "vtex.menu@2.x:menu#websites": {
+        "title": "Menu de categorias",
         "children": [
-            "header-force-center#header__middle"
-        ],
-        "props":{
-            "sticky": true
-        }
-    },
-    "header-force-center#header__middle": {
-        "children": [
-            "rich-text#test",
-            "rich-text#test2"
-        ]
-    },
-    "rich-text#test": {
-        "props": {
-            "text": "Texto prueba"
-        }
-    },
-    "rich-text#test2": {
-        "props": {
-            "text": "Texto prueba2"
-        }
-    },
-    "header-row#header__notification": {
-        "children": [
-            "header-border",
-            "notification.bar#home"
+            "menu-item#hombre",
+            "menu-item#mujer",
+            "menu-item#cosas",
+            "menu-item#tiendas",
+            "menu-item#activismo",
+            "menu-item#sale"
         ],
         "props": {
-            "fullWidth": "true",
-            "sticky": true
-        }
-    },
-    "notification.bar#home": {
-        "props": {
-            "content": "Clic acá para conocer nuestras políticas de envío",
-            "blockClass": "texto_politicas"
+            "blockClass": "header__menu--categorias"
         }
     }
 }

@@ -1,0 +1,18 @@
+{
+    "header-row#header__notification": {
+        "children": [
+            "header-border",
+            "notification.bar#home"
+        ],
+        "props": {
+            "fullWidth": "true",
+            "sticky": true
+        }
+    },
+    "notification.bar#home": {
+        "props": {
+            "content": "Clic acá para conocer nuestras políticas de envío",
+            "blockClass": "texto_politicas"
+        }
+    }
+}

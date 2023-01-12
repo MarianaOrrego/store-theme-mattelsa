@@ -1,7 +1,9 @@
-.headerRowBackground--header__top{
+.headerRowBackground--header__top {
     background-color: transparent;
+    padding         : 1%;
 }
 
-.headerRowBackground--header__top:hover{
+.headerRowBackground--header__top:hover {
     background-color: #f5f5f5;
+    transition      : all .3s;
 }

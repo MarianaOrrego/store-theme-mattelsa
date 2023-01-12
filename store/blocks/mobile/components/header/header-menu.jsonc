@@ -1,0 +1,73 @@
+{
+    "drawer#header__mobile--menu": {
+        "title":"Header drawer",
+        "children": [
+            "menu#header__menu"
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+    "drawer-trigger": {
+        "title":"Imagen menu drawer",
+        "children": [
+            "image#header__image--menu"
+        ]
+    },
+    "image#header__image--menu": {
+        "title": "Imagen menu",
+        "props": {
+            "src": "assets/img/Menu.svg"
+        }
+    },
+    "menu#header__menu": {
+        "title": "Categorias",
+        "children": [
+            "menu-item#categoria-hombre",
+            "menu-item#categoria-mujer",
+            "menu-item#categoria-cosas"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#categoria-hombre": {
+        "props": {
+            "id": "menu-item-hombre",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "hombre",
+                "text": "hombre"
+            }
+        }
+    },
+    "menu-item#categoria-mujer": {
+        "props": {
+            "id": "menu-item-mujer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "mujer",
+                "text": "mujer"
+            }
+        }
+    },
+    "menu-item#categoria-cosas": {
+        "props": {
+            "id": "menu-item-cosas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "cosas",
+                "text": "cosas"
+            }
+        }
+    }
+}
