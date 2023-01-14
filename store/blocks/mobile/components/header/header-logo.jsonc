@@ -1,12 +1,9 @@
 {
-    "header-row#header__middle": {
+    "header-row#header__logo": {
         "title": "Secciones",
         "children": [
             "header-force-center#header__middle"
-        ],
-        "props": {
-            "sticky": true
-        }
+        ]
     },
     "header-force-center#header__middle": {
         "title": "Contenido de las secciones",
@@ -23,8 +20,8 @@
             "url": "assets/img/LogoMattelsa.svg",
             "width": 95,
             "height": 40,
-            "mobileWidth": 0,
-            "mobileHeight": 0
+            "mobileWidth": 95,
+            "mobileHeight": 40
         }
     }
 }
