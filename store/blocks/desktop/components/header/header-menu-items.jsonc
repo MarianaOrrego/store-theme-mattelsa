@@ -88,5 +88,35 @@
                 "text": "sale"
             }
         }
+    },
+    "menu-item#hombre2": {
+        "props": {
+            "id": "menu-item-sale",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item--hover",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "hombre",
+                "text": "hombre"
+            }
+        }
+    },
+    "menu-item#mujer2": {
+        "props": {
+            "id": "menu-item-sale",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "menu__item--hover",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "mujer",
+                "text": "mujer"
+            }
+        }
     }
 }

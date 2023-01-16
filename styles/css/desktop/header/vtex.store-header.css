@@ -7,3 +7,7 @@
     background-color: #f5f5f5;
     transition      : all .3s;
 }
+
+.headerStickyRow--header__top{
+    height: 0px;
+}

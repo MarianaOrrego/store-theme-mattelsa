@@ -3,7 +3,10 @@
     "title": "Header mobile with mega menu",
     "children": [
       "drawer#header__mobile--menu",
-      "header-row#header__logo"
+      "header-row#header__logo",
+      "header-spacer",
+      "icon#search__icon",
+      "minicart.v2"
     ],
     "props": {
       "sticky": true,
@@ -64,6 +67,12 @@
       "verticalAlign": "middle",
       "horizontalAlign": "left",
       "paddingLeft": 4
+    }
+  },
+  "icon#search__icon": {
+    "props": {
+      "id": "hpa-search",
+      "size": 25
     }
   }
 }

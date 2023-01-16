@@ -17,3 +17,11 @@
     border-right : 1px solid #484848;
     transition   : all .3s;
 }
+
+.menuItem--menu__item--hover {
+    opacity: 0;
+}
+
+.menuItem--menu__item--sale:hover .menuItem--menu__item--hover {
+    opacity: 1;
+}

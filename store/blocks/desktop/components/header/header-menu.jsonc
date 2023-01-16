@@ -22,7 +22,9 @@
             "menu-item#cosas",
             "menu-item#tiendas",
             "menu-item#activismo",
-            "menu-item#sale"
+            "menu-item#sale",
+            "menu-item#hombre2",
+            "menu-item#mujer2"
         ],
         "props": {
             "blockClass": "header__menu--categorias"
