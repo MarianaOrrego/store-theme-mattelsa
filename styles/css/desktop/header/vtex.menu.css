@@ -1,9 +1,14 @@
+.menuContainerNav--header__menu--categorias {
+    height: 60px;
+}
+
 .styledLink--menu__item {
     font-weight: bold;
 }
 
-.menuItem--menu__item:hover {
+.styledLinkContent--menu__item:hover {
     border-bottom: 4px solid #484848;
+    height       : 40px;
     transition   : all .3s;
 }
 
@@ -12,10 +17,12 @@
     font-weight: bold;
 }
 
-.menuItem--menu__item--sale:hover {
+.styledLinkContent--menu__item--sale:hover {
     border-bottom: 4px solid #19CD8C;
     border-right : 1px solid #484848;
+    height       : 40px;
     transition   : all .3s;
+    width        : min-content;
 }
 
 .menuItem--menu__item--hover {
@@ -24,4 +31,52 @@
 
 .menuItem--menu__item--sale:hover .menuItem--menu__item--hover {
     opacity: 1;
+}
+
+
+.styledLinkContent--menu__item--hover {
+    font-size: 10px;
+}
+
+.styledLinkContent--menu__item--hover:hover {
+    font-weight: bold;
+}
+
+.submenuContainer {
+    margin-left     : 100%;
+    margin-top      : -75%;
+    background-color: transparent;
+    border-color    : transparent;
+}
+
+.submenuContainer .submenuWrapper--isOpen {
+    background-color: transparent;
+    border-color    : transparent;
+}
+
+.styledLinkContainer--menu__item {
+    margin-left : 1rem;
+    margin-right: 1rem;
+}
+
+:global(.vtex-store-icons-0-x-cartIcon) {
+    height: 24px;
+    width : 24px;
+}
+
+:global(.vtex-login-2-x-profileIcon) {
+    height: 24px;
+    width : 24px;
+}
+
+.vtex-login-2-x-container {
+    max-width: 40px;
+}
+
+:global(.vtex-overlay-layout-0-x-trigger){
+    border-left: 1px solid;
+    height: 28px;
+    margin: 1%;
+    padding-left: 5px;
+    text-align: center;
 }

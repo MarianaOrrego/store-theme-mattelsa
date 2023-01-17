@@ -381,8 +381,8 @@
       },
       "mini": {
         "fontFamily": "Montserrat, arial, sans-serif",
-        "fontWeight": "normal",
-        "fontSize": "0.75rem",
+        "fontWeight": "bold",
+        "fontSize": "0.60rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

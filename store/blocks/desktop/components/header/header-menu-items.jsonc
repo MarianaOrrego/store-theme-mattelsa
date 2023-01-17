@@ -87,7 +87,14 @@
                 "tagTitle": "sale",
                 "text": "sale"
             }
-        }
+        },
+        "blocks":["vtex.menu@2.x:submenu#sale"]
+    },
+    "vtex.menu@2.x:submenu#sale":{
+        "children":[
+            "menu-item#hombre2",
+            "menu-item#mujer2"
+        ]
     },
     "menu-item#hombre2": {
         "props": {

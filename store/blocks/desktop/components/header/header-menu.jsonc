@@ -6,7 +6,10 @@
             "header-spacer",
             "vtex.menu@2.x:menu#websites",
             "header-spacer",
-            "login"
+            "login",
+            "modal-trigger#search",
+            "minicart.v2",
+            "overlay-trigger"
         ],
         "props": {
             "blockClass": "header__top",
@@ -28,6 +31,39 @@
         ],
         "props": {
             "blockClass": "header__menu--categorias"
+        }
+    },
+    "overlay-trigger": {
+        "children": [
+          "image#colombia",
+          "rich-text#cop",
+          "overlay-layout"    
+        ]
+      },
+    "image#colombia": {
+        "title": "Bandera Colombia",
+        "props": {
+            "src": "assets/img/Colombia.svg"
+        }
+    },
+    "rich-text#cop": {
+        "title": "COP Colombia",
+        "props": {
+            "text": "COP",
+            "blockClass":"cop__colombia",
+            "font": "t-mini",
+            "textPosition": "CENTER"
+        }
+    },
+    "overlay-layout": {
+        "children":[
+            "rich-text#usd"
+        ]
+    },
+    "rich-text#usd":{
+        "title": "USD United State",
+        "props": {
+            "text": "Worldwide | USD"
         }
     }
 }

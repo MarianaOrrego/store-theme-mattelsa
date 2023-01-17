@@ -1,6 +1,6 @@
 .headerRowBackground--header__top {
     background-color: transparent;
-    padding         : 1%;
+    height          : 57px;
 }
 
 .headerRowBackground--header__top:hover {
@@ -8,6 +8,6 @@
     transition      : all .3s;
 }
 
-.headerStickyRow--header__top{
+.headerStickyRow--header__top {
     height: 0px;
 }

@@ -1,0 +1,43 @@
+{
+    "modal-trigger#search": {
+        "title": "Modal search desktop",
+        "children": [
+            "icon#search__icon--desktop",
+            "modal-layout#search"
+        ]
+    },
+    "icon#search__icon--desktop": {
+        "title": "icono buscador",
+        "props": {
+            "id": "hpa-search",
+            "size": 20
+        }
+    },
+    "modal-layout#search": {
+        "title": "Modal search",
+        "children": [
+            "modal-header#close__search",
+            "search-bar#header__search--icon"
+        ],
+        "props": {
+            "fullScreen": true,
+            "scroll": "content",
+            "blockClass": "modal__search--icon"
+        }
+    },
+    "modal-header#close__search": {
+        "title": "Modal close",
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 15
+        }
+    },
+    "search-bar#header__search--icon": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    }
+}

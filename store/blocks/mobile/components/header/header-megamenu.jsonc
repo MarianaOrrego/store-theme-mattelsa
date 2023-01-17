@@ -5,12 +5,12 @@
       "drawer#header__mobile--menu",
       "header-row#header__logo",
       "header-spacer",
-      "icon#search__icon",
+      "modal-trigger#example",
       "minicart.v2"
     ],
     "props": {
       "sticky": true,
-      "blockClass":"mega__menu"
+      "blockClass": "mega__menu"
     }
   },
   "drawer#header__mobile--menu": {
@@ -28,7 +28,7 @@
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
       "openOnly": "vertical",
-      "blockClass":"mega__menu--styles"
+      "blockClass": "mega__menu--styles"
     }
   },
   "drawer-header#my-drawer": {
@@ -69,10 +69,39 @@
       "paddingLeft": 4
     }
   },
+  "modal-trigger#example": {
+    "children": [
+      "icon#search__icon",
+      "modal-layout#example"
+    ]
+  },
   "icon#search__icon": {
     "props": {
       "id": "hpa-search",
       "size": 25
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "modal-header#close",
+      "search-bar#header__search"
+    ],
+    "props": {
+      "fullScreen": true
+    }
+  },
+  "modal-header#close":{
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 15
+    }
+  },
+  "search-bar#header__search": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true
     }
   }
 }
