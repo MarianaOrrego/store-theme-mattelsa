@@ -1,6 +1,6 @@
 {
   "responsive-layout.mobile#phone__and__tablet": {
-    "title": "Home Section 1 Desktop",
+    "title": "Home Section 1 mobile",
     "children": [
       "flex-layout.row#mobile__home--buttons",
       "flex-layout.row#mobile__home--image1",

@@ -1,0 +1,61 @@
+{
+    "minicart.v2": {
+        "props": {
+            "MinicartIcon": "icon-cart",
+            "variation": "drawer",
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "minicart-base-content": {
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children":[
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer"
+        ]
+    },
+    "minicart-empty-state":{
+        "title":"Minicart vacío",
+        "children":[
+            "flex-layout.row#minicart__empty"
+        ]
+    },
+    "flex-layout.row#minicart__empty":{
+        "title": "Carrito vacío",
+        "children": [
+            "flex-layout.col#minicart__empty"
+        ]
+    },
+    "flex-layout.col#minicart__empty":{
+        "title": "Carrito vacío contenido",
+        "children": [
+            "icon-cart#minicart__empty--icon",
+            "rich-text#bag"
+        ]
+    },
+    "icon-cart#minicart__empty--icon":{
+        "props":{
+            "size": 100
+        }
+    },
+    "rich-text#bag":{
+        "title": "Texto de la bolsa",
+        "props": {
+            "text": "No hay productos en tu bolsa",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#minicart__footer":{
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ]
+    }
+
+}

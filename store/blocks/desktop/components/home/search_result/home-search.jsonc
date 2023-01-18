@@ -1,0 +1,12 @@
+{
+    "search-result-layout.desktop": {
+        "children":[
+            "rich-text#test"
+        ]
+    },
+    "rich-text#test": {
+        "props": {
+            "text": "Texto prueba"
+        }
+    }
+}
