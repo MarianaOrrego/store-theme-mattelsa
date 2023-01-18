@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#drawer-header": {
+        "children": [
+            "flex-layout.col#mega-menu-go-back-btn",
+            "flex-layout.col#drawer-close-button"
+        ],
+        "props": {
+            "blockClass": "drawer-header",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#drawer-close-button": {
+        "title": "Boton cerrar",
+        "children": [
+            "drawer-close-button"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right"
+        }
+    },
+    "flex-layout.col#mega-menu-go-back-btn": {
+        "title": "mega menu boton regresar",
+        "children": [
+            "mega-menu-go-back-btn"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "left",
+            "paddingLeft": 4
+        }
+    }
+}

@@ -1,0 +1,21 @@
+:global(.vtex-overlay-layout-0-x-container--overlay__worldwide) {
+    background: #484848;
+    border    : #484848;
+    display   : flex;
+    position  : absolute;
+    top       : 9px;
+    width     : 180px;
+    right     : -20px;
+    padding   : 8px 20px;
+}
+
+:global(.vtex-overlay-layout-0-x-arrow--overlay__worldwide) {
+    color: #484848;
+    left : 70px !important;
+}
+
+.imageElement--image__globe {
+    position: absolute;
+    left    : 10px;
+    top     : 20px;
+}

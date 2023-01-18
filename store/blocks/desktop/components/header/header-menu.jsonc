@@ -32,38 +32,5 @@
         "props": {
             "blockClass": "header__menu--categorias"
         }
-    },
-    "overlay-trigger": {
-        "children": [
-          "image#colombia",
-          "rich-text#cop",
-          "overlay-layout"    
-        ]
-      },
-    "image#colombia": {
-        "title": "Bandera Colombia",
-        "props": {
-            "src": "assets/img/Colombia.svg"
-        }
-    },
-    "rich-text#cop": {
-        "title": "COP Colombia",
-        "props": {
-            "text": "COP",
-            "blockClass":"cop__colombia",
-            "font": "t-mini",
-            "textPosition": "CENTER"
-        }
-    },
-    "overlay-layout": {
-        "children":[
-            "rich-text#usd"
-        ]
-    },
-    "rich-text#usd":{
-        "title": "USD United State",
-        "props": {
-            "text": "Worldwide | USD"
-        }
     }
 }

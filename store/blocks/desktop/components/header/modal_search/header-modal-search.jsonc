@@ -16,8 +16,7 @@
     "modal-layout#search": {
         "title": "Modal search",
         "children": [
-            "modal-header#close__search",
-            "search-bar#header__search--icon"
+            "modal-header#close__search"
         ],
         "props": {
             "fullScreen": true,
@@ -30,7 +29,10 @@
         "props": {
             "showCloseButton": true,
             "iconCloseSize": 15
-        }
+        },
+        "children":[
+            "search-bar#header__search--icon"
+        ]
     },
     "search-bar#header__search--icon": {
         "blocks": [
