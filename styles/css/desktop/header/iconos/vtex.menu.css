@@ -1,0 +1,21 @@
+:global(.vtex-store-icons-0-x-cartIcon) {
+    height: 24px;
+    width : 24px;
+}
+
+:global(.vtex-login-2-x-profileIcon) {
+    height: 24px;
+    width : 24px;
+}
+
+.vtex-login-2-x-container {
+    max-width: 40px;
+}
+
+:global(.vtex-overlay-layout-0-x-trigger) {
+    border-left : 1px solid;
+    height      : 28px;
+    margin      : 1%;
+    padding-left: 5px;
+    text-align  : center;
+}

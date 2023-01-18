@@ -1,0 +1,3 @@
+.searchBarInnerContainer--search:global(.vtex-input){
+    border-color: transparent;
+}

@@ -1,0 +1,16 @@
+{
+  "header-row#mega__menu--mobile": {
+    "title": "Header mobile with mega menu",
+    "children": [
+      "drawer#header__mobile--menu",
+      "header-row#header__logo",
+      "header-spacer",
+      "modal-trigger#example",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "mega__menu"
+    }
+  }
+}

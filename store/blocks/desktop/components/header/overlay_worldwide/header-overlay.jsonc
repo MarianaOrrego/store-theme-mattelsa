@@ -1,0 +1,59 @@
+{
+    "overlay-trigger": {
+        "children": [
+            "image#colombia",
+            "rich-text#cop",
+            "overlay-layout"
+        ],
+        "props": {
+            "trigger": "click"
+        }
+    },
+    "image#colombia": {
+        "title": "Bandera Colombia",
+        "props": {
+            "src": "assets/img/Colombia.svg"
+        }
+    },
+    "rich-text#cop": {
+        "title": "COP Colombia",
+        "props": {
+            "text": "COP",
+            "blockClass": "cop__colombia",
+            "font": "t-mini",
+            "textPosition": "CENTER"
+        }
+    },
+    "overlay-layout": {
+        "title": "Contenedor cambio de idioma",
+        "children": [
+            "image#globe",
+            "rich-text#usd"
+        ],
+        "props": {
+            "showArrow": true,
+            "offsets": {
+                "skidding": 0,
+                "distance": 20
+            },
+            "blockClass":"overlay__worldwide"
+        }
+    },
+    "rich-text#usd": {
+        "title": "USD United State",
+        "props": {
+            "text": "Worldwide | USD",
+            "blockClass":"text__world",
+            "font": "t-small"
+        }
+    },
+    "image#globe": {
+        "title": "Imagen globe",
+        "props": {
+            "src": "assets/img/globe.svg",
+            "blockClass":"image__globe",
+            "maxWidth": 15,
+            "maxHeight": 15
+        }
+    }
+}

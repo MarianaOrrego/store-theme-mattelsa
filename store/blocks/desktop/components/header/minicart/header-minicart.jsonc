@@ -1,0 +1,10 @@
+{
+    "minicart.v2": {
+        "props": {
+            "MinicartIcon": "icon-cart",
+            "variation": "drawer",
+            "itemCountMode": "total",
+            "quantityDisplay": "not-empty"
+        }
+    }
+}

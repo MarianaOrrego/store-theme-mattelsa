@@ -1,0 +1,7 @@
+.headerRowBackground--mega__menu {
+    background-color: transparent;
+}
+
+.headerStickyRow--mega__menu{
+    height: 0px;
+}

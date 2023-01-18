@@ -1,0 +1,26 @@
+{
+  "drawer#header__mobile--menu": {
+    "title": "Header drawer",
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+  "mega-menu#mobile": {
+    "title": "Mega menu",
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical",
+      "blockClass": "mega__menu--styles"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "title": "Drawer header",
+    "children": [
+      "flex-layout.row#drawer-header"
+    ]
+  }
+}
