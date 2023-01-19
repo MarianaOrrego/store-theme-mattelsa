@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#text__product": {
+        "title": "Texto sección productos",
+        "children": [
+            "rich-text#products"
+        ]
+    } ,
+    "rich-text#products": {
+        "title": "Titulo 'nuestros productos'",
+        "props": {
+            "text": "Nuestros productos",
+            "font": "t-heading-6",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":"nuestros__productos"
+        }
+    } 
+}

@@ -1,5 +1,6 @@
 {
     "search-result-layout.customQuery#home__search": {
+        "title":"Search-result customQuery",
         "props": {
             "querySchema": {
                 "skusFilter": "ALL_AVAILABLE",
@@ -8,7 +9,6 @@
         },
         "blocks": [
             "search-result-layout.desktop",
-            "search-result-layout.mobile",
             "search-not-found-layout"
         ]
     }

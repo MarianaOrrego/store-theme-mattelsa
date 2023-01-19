@@ -4,7 +4,7 @@
             "MinicartIcon": "icon-cart",
             "variation": "drawer",
             "itemCountMode": "total",
-            "quantityDisplay": "always"
+            "quantityDisplay": "never"
         },
         "children": [
             "minicart-base-content"
@@ -16,7 +16,8 @@
         ],
         "children":[
             "minicart-product-list",
-            "flex-layout.row#minicart__footer"
+            "flex-layout.row#minicart__footer",
+            "flex-layout.row#minicart__footer2"
         ]
     },
     "minicart-empty-state":{
@@ -36,7 +37,10 @@
         "children": [
             "icon-cart#minicart__empty--icon",
             "rich-text#bag"
-        ]
+        ],
+        "props": {
+            "blockClass":"minicart__svg"
+        }
     },
     "icon-cart#minicart__empty--icon":{
         "props":{
@@ -52,10 +56,33 @@
         }
     },
     "flex-layout.row#minicart__footer":{
+        "title": "Sumatoria carrito subtotal/total",
         "children": [
-            "minicart-summary",
+            "flex-layout.col#minicart_summary"
+        ],
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },
+    "flex-layout.col#minicart_summary": {
+        "title": "Sumatoria carrito hijo",
+        "children": [
+            "minicart-summary"
+        ]
+    },
+    "flex-layout.row#minicart__footer2":{
+        "title": "Boton checkout",
+        "children": [
+            "flex-layout.col#minicart_checkout"
+        ],
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },
+    "flex-layout.col#minicart_checkout": {
+        "title": "Boton checkout hijo",
+        "children": [
             "minicart-checkout-button"
         ]
     }
-
 }

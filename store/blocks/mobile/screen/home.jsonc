@@ -6,7 +6,9 @@
       "flex-layout.row#mobile__home--image1",
       "flex-layout.row#mobile__home--image2",
       "flex-layout.row#mobile__home--image3",
-      "flex-layout.row#mobile__home--slider"
+      "flex-layout.row#mobile__home--slider",
+      "flex-layout.row#text__product--mobile",
+      "flex-layout.row#home__products--mobile"
     ]
   }
 }

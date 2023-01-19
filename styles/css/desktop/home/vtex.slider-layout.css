@@ -2,7 +2,15 @@
     margin: 10px;
 }
 
-.sliderLayoutContainer--home__slider {
+.sliderLayoutContainer--home__slider,
+.sliderLayoutContainer--home__slider--products {
     margin   : auto 50px;
     max-width: 1100px;
+}
+
+.slide--home__slider--products :global(.vtex-button) {
+    background-color: #484848;
+    border-color    : #484848;
+    width           : 70%;
+    font-size       : 12px;
 }

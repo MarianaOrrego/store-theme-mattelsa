@@ -1,0 +1,13 @@
+.flexCol--minicart__svg {
+    align-items: center;
+}
+
+.flexColChild--minicart__svg :global(.vtex-store-icons-0-x-cartIcon) {
+    width : 100px;
+    height: 100px;
+}
+
+.flexRowContent--minicart__footer :global(.vtex-button) {
+    background-color: #484848;
+    border-color    : #484848;
+}

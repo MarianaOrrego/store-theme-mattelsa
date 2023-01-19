@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#vitrina": {
+        "title": "Vitrina",
+        "children": [
+            "list-context.product-list"
+        ]
+    },
+    "list-context.product-list":{
+        "title": "Lista de productos",
+        "blocks":[
+            "product-summary.shelf#home__products--shelf"
+        ],
+        "children": [
+            "slider-layout#products"
+        ]
+    }
+}

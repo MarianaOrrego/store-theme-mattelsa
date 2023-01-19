@@ -4,7 +4,9 @@
     "children": [
       "flex-layout.row#desktop__home--buttons",
       "flex-layout.row#desktop__home--images",
-      "flex-layout.row#desktop__home--slider"
+      "flex-layout.row#desktop__home--slider",
+      "flex-layout.row#text__product",
+      "flex-layout.row#vitrina"
     ]
   }
 }

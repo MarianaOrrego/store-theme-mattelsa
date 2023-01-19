@@ -3,8 +3,7 @@
     "title": "Store home",
     "blocks": [
       "responsive-layout.desktop#home__section-1",
-      "responsive-layout.mobile#phone__and__tablet",
-      "search-result-layout.customQuery#home__search"
+      "responsive-layout.mobile#phone__and__tablet"
     ]
   }
 }
