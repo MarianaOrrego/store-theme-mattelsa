@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#home__products--mobile": {
+        "title": "Productos mobile",
+        "children": [
+            "flex-layout.col#home__products--mobile"
+        ]
+    },
+    "flex-layout.col#home__products--mobile": {
+        "title": "Productos mobile hijo",
+        "children": [
+            "flex-layout.row#home__slider--mobile"
+        ]
+    },
+    "flex-layout.row#home__slider--mobile": {
+        "title": "Lista de productos",
+        "children": [
+            "list-context.product-list#slider__mobile--products"
+        ],
+        "props": {
+            "blockClass": "slider__mobile--products"
+        }
+    },
+    "list-context.product-list#slider__mobile--products": {
+        "title": "Lista de productos",
+        "blocks": [
+            "product-summary.shelf#slider__mobile--products"
+        ],
+        "children": [
+            "slider-layout#slider__mobile--products"
+        ]
+    },
+    "product-summary.shelf#slider__mobile--products": {
+        "title": "Productos",
+        "children": [
+            "product-summary-image",
+            "product-summary-space",
+            "product-summary-name",
+            "product-selling-price",
+            "add-to-cart-button"
+        ]
+    }
+}

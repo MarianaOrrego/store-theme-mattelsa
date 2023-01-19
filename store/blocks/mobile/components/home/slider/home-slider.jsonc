@@ -48,7 +48,7 @@
         "title": "Slider con lista",
         "props": {
             "itemsPerPage": {
-                "mobile": 4
+                "mobile": 2
             },
             "infinite": false,
             "blockClass": "home__slider",

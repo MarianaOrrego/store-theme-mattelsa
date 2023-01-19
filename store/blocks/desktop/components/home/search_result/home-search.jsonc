@@ -1,0 +1,49 @@
+{
+    "search-result-layout.desktop": {
+        "title":"Search layout",
+        "children": [
+            "flex-layout.row#home__results"
+        ]
+    },
+    "flex-layout.row#home__results": {
+        "title": "Home resultados",
+        "children": [
+            "flex-layout.col#home__results--search"
+        ]
+    },
+    "flex-layout.col#home__results--search": {
+        "title": "Home resultados hijo",
+        "children": [
+            "search-content#home__results--search"
+        ]
+    },
+    "search-content#home__results--search": {
+        "title":"Search content",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "gallery": {
+        "blocks": [
+            "product-summary.shelf#home__products--shelf"
+        ]
+    },
+    "product-summary.shelf#home__products--shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-selling-price",
+            "add-to-cart-button"
+        ],
+        "props": {
+            "blockClass":"product__sumary--list"
+        }
+    },
+    "add-to-cart-button": {
+        "props": {
+            "text": "Agregar a la bolsa",
+            "blockClass":"button__cart--mattelsa"
+        }
+    }
+}
