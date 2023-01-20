@@ -1,0 +1,62 @@
+{
+    "vtex.menu@2.x:menu#contacto": {
+        "title": "Menu para contacto",
+        "children": [
+            "menu-item#numero",
+            "menu-item#pbx",
+            "menu-item#escribenos"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__contacto"
+        }
+    },
+    "menu-item#numero": {
+        "props": {
+            "id": "menu-contacto-numero",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "numero",
+                "text": "300 507 10 00"
+            },
+            "blockClass": "menu__contacto",
+            "iconPosition": "left",
+            "iconProps": {
+                "id": "icon-whatsapp",
+                "isActive":true,
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "whatsapp",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+    "menu-item#pbx": {
+        "props": {
+            "id": "menu-contacto-pbx",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "pbx",
+                "text": "PBX: 01 8000 41 37 57"
+            },
+            "blockClass": "menu__contacto"
+        }
+    },
+    "menu-item#escribenos": {
+        "props": {
+            "id": "menu-contacto-escribenos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "escribenos",
+                "text": "Escribenos"
+            },
+            "blockClass": "menu__contacto"
+        }
+    }
+}

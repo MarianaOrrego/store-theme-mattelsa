@@ -1,0 +1,14 @@
+.trigger {
+    background-color: transparent;
+    border-bottom   : 1px solid #e4e4e4 !important;
+    border-color    : transparent;
+    cursor          : pointer;
+    height          : 40px;
+    width           : 100%;
+}
+
+.trigger--contacto__trigger--visible,
+.trigger--quienes__trigger--visible,
+.trigger--ayuda__richtext--visible {
+    border-bottom: 1px solid transparent !important;
+}

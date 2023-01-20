@@ -1,0 +1,17 @@
+.flexRowContent--menu__footer--desktop {
+    margin-top: 5%;
+}
+
+.flexCol--columna__desktop {
+    margin-left: 21%;
+}
+
+.flexColChild--columna__desktop {
+    height: min-content !important;
+}
+
+.flexColChild--copy__desktop {
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+}

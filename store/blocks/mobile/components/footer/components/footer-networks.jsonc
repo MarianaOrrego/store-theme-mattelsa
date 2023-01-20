@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#networks__mobile": {
+        "title": "Redes sociales mobile",
+        "children": [
+            "vtex.menu@2.x:menu#networks"
+        ],
+        "props": {
+            "blockClass": "networks__mobile"
+        }
+    }
+}

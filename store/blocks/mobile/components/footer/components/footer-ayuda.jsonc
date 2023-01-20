@@ -1,0 +1,31 @@
+{
+    "disclosure-layout#ayuda": {
+        "title": "Ayuda",
+        "children": [
+            "disclosure-trigger#ayuda",
+            "disclosure-content#ayuda"
+        ]
+    },
+    "disclosure-trigger#ayuda": {
+        "title": "Ayuda",
+        "children": [
+            "rich-text#ayuda"
+        ],
+        "props": {
+            "blockClass":"ayuda__richtext"
+        }
+    },
+    "disclosure-content#ayuda": {
+        "children": [
+            "vtex.menu@2.x:menu#ayuda"
+        ]
+    },
+    "rich-text#ayuda": {
+        "title": "texto ayuda",
+        "props": {
+            "text": "AYUDA",
+            "blockClass":"fuente__footer"
+        }
+    }
+
+}
