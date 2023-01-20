@@ -1,6 +1,4 @@
-@media (min-width: 1024px) {
-    
-    .socialNetworksContainer{
-        margin-left: 7%;
-    }
-}
+/* Example desktop:
+.flexCol--footer__main--column2{
+    padding-bottom: 80px;
+} */
