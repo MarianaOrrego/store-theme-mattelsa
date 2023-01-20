@@ -1,0 +1,9 @@
+{
+    "header-layout.mobile": {
+        "title": "Header mobile",
+        "children": [
+            "header-row#header__notificationmobile",
+            "header-row#mega__menu--mobile"
+        ]
+    }
+}

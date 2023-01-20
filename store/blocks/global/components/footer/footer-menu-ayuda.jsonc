@@ -1,0 +1,53 @@
+{
+    "vtex.menu@2.x:menu#ayuda": {
+        "title": "Menu para ayuda",
+        "children": [
+            "menu-item#envios",
+            "menu-item#cambios",
+            "menu-item#preguntas"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__ayuda"
+        }
+    },
+    "menu-item#envios": {
+        "props": {
+            "id": "menu-ayuda-envios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "envios",
+                "text": "Envíos"
+            },
+            "blockClass": "menu__ayuda"
+        }
+    },
+    "menu-item#cambios": {
+        "props": {
+            "id": "menu-ayuda-cambios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "cambios",
+                "text": "Cambios y garantías"
+            },
+            "blockClass": "menu__ayuda"
+        }
+    },
+    "menu-item#preguntas": {
+        "props": {
+            "id": "menu-ayuda-preguntas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "preguntas",
+                "text": "Preguntas frecuentes"
+            },
+            "blockClass": "menu__ayuda"
+        }
+    }
+}

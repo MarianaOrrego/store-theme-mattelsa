@@ -1,0 +1,10 @@
+{
+    "disclosure-layout-group#footer__menu--group": {
+        "title": "Grupo disclosure",
+        "children": [
+            "disclosure-layout#contacto",
+            "disclosure-layout#quienessomos",
+            "disclosure-layout#ayuda"
+        ]
+    }
+}

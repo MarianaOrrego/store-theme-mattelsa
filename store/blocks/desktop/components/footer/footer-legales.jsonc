@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#seccion__legales":{
+        "children": [
+            "flex-layout.col#img__rabbit",
+            "flex-layout.col#menu__legales",
+            "flex-layout.col#copy"
+        ],
+        "props": {
+            "blockClass": "seccion__legales--desktop"
+        }
+    },
+    "flex-layout.col#menu__legales": {
+        "title": "Menu temas legales",
+        "children": [
+            "vtex.menu@2.x:menu#legales__desktop"
+        ],
+        "props": {
+            "blockClass":"menu__legales--desktop"
+        }
+    },
+    "flex-layout.col#img__rabbit": {
+        "title": "Contenedor conejo mattelsa",
+        "children": [
+            "image#rabbit__desktop"
+        ],
+        "props": {
+            "blockClass": "img__conejo--desktop"
+        }
+    },
+    "image#rabbit__desktop": {
+        "title": "Imagen conejo mattelsa",
+        "props": {
+            "src": "assets/img/RabbitLogo.svg"
+        }
+    },
+    "flex-layout.col#copy": {
+        "title": "Texto copyright",
+        "children": [
+            "rich-text#copy__desktop"
+        ],
+        "props": {
+            "blockClass":"copy__desktop"
+        }
+    },
+    "rich-text#copy__desktop":{
+        "title": "copyright",
+        "props": {
+            "text": " © 2023 Mattelsa S.A.S",
+            "font": "t-mini"
+        }
+    }
+}

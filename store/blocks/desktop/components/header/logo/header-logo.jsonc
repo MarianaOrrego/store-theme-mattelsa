@@ -1,0 +1,13 @@
+{
+    "logo#header__top--logo": {
+        "title": "Logo Mattelsa",
+        "props": {
+            "url": "assets/img/LogoMattelsa.svg",
+            "width": 100,
+            "height": 30,
+            "mobileWidth": 0,
+            "mobileHeight": 0,
+            "href": "/"
+        }
+    }
+}

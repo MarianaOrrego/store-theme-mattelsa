@@ -1,0 +1,39 @@
+{
+    "footer-layout.desktop": {
+        "title": "Footer en desktop",
+        "children": [
+            "flex-layout.row#menu__footer",
+            "flex-layout.row#legales"
+        ]
+    },
+    "flex-layout.row#menu__footer": {
+        "title": "Menu para footer",
+        "children": [
+            "flex-layout.col#menu__contacto",
+            "flex-layout.col#menu__quienes--somos",
+            "flex-layout.col#ayuda",
+            "flex-layout.col#redes"
+        ],
+        "props": {
+            "blockClass": "menu__footer--desktop"
+        }
+    },
+    "flex-layout.row#legales": {
+        "title": "Sección legales",
+        "children": [
+            "flex-layout.col#secciones__legales"
+        ],
+        "props": {
+            "blockClass": "seccion__legales--desktop"
+        }
+    },
+    "flex-layout.col#secciones__legales": {
+        "title": "Hijo sección legales",
+        "children": [
+            "flex-layout.row#seccion__legales"
+        ],
+        "props": {
+            "blockClass": "seccion__legales--desktop"
+        }
+    }
+}

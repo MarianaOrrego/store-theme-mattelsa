@@ -1,0 +1,20 @@
+{
+  "image#desktop__imagen--1": {
+    "title": "imagen camisa mujer",
+    "props": {
+      "src": "assets/img/camisasmujer.jpg"
+    }
+  },
+  "image#desktop__imagen--2": {
+    "title": "imagen 50% de descuento",
+    "props": {
+      "src": "assets/img/50percent.jpg"
+    }
+  },
+  "image#desktop__imagen--3": {
+    "title": "imagen pantalonetas",
+    "props": {
+      "src": "assets/img/pantalonetas.jpg"
+    }
+  }
+}

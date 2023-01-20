@@ -1,0 +1,64 @@
+.menuContainerNav--header__menu--categorias {
+    height: 60px;
+}
+
+.styledLink--menu__item {
+    font-weight: bold;
+}
+
+.styledLinkContent--menu__item:hover {
+    border-bottom: 4px solid #484848;
+    height       : 40px;
+    transition   : all .3s;
+}
+
+.styledLinkContent--menu__item--sale {
+    color      : #19CD8C;
+    font-weight: bold;
+}
+
+.styledLinkContainer--menu__item--sale:hover {
+    border-bottom: 4px solid #19CD8C;
+    height       : 55px;
+    transition   : all .3s;
+    width        : min-content;
+}
+
+.styledLinkContent--menu__item--sale :hover {
+    border-right: 1px solid #484848;
+
+}
+
+.menuItem--menu__item--hover {
+    opacity: 0;
+}
+
+.menuItem--menu__item--sale:hover .menuItem--menu__item--hover {
+    opacity: 1;
+}
+
+
+.styledLinkContent--menu__item--hover {
+    font-size: 10px;
+}
+
+.styledLinkContent--menu__item--hover:hover {
+    font-weight: bold;
+}
+
+.submenuContainer {
+    margin-left     : 100%;
+    margin-top      : -75%;
+    background-color: transparent;
+    border-color    : transparent;
+}
+
+.submenuContainer .submenuWrapper--isOpen {
+    background-color: transparent;
+    border-color    : transparent;
+}
+
+.styledLinkContainer--menu__item {
+    margin-left : 1rem;
+    margin-right: 1rem;
+}

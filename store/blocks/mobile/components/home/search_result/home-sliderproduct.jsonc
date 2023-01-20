@@ -1,0 +1,17 @@
+{
+    "slider-layout#slider__mobile--products":{
+        "title": "Slider de productos",
+        "props": {
+            "itemsPerPage": {
+                "tablet": 3,
+                "phone": 1
+            },
+            "blockClass":"slider__products--mobile",
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "infinite": false,
+            "usePagination": false,
+            "showNavigationArrows":"desktopOnly"
+        }
+    }
+}

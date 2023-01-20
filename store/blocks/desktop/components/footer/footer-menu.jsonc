@@ -1,0 +1,42 @@
+{
+    "flex-layout.col#menu__contacto": {
+        "title": "Menu contacto desktop",
+        "children": [
+            "rich-text#text__contacto",
+            "vtex.menu@2.x:menu#contacto"
+        ],
+        "props": {
+            "blockClass": "columna__desktop"
+        }
+    },
+    "flex-layout.col#menu__quienes--somos": {
+        "title": "Menu quienes somos desktop",
+        "children": [
+            "rich-text#text__qn--somos",
+            "vtex.menu@2.x:menu#quienes__somos"
+        ],
+        "props": {
+            "blockClass": "columna__desktop"
+        }
+    },
+    "flex-layout.col#ayuda": {
+        "title": "Menu ayuda desktop",
+        "children": [
+            "rich-text#text__ayuda",
+            "vtex.menu@2.x:menu#ayuda"
+        ],
+        "props": {
+            "blockClass": "columna__desktop"
+        }
+    },
+    "flex-layout.col#redes": {
+        "title": "Redes sociales",
+        "children": [
+            "rich-text#text__siguenos",
+            "vtex.menu@2.x:menu#networks"
+        ],
+        "props": {
+            "blockClass": "columna__desktop"
+        }
+    }
+}

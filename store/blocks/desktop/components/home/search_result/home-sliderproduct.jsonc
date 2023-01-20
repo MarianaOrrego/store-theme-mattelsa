@@ -1,0 +1,12 @@
+{
+    "slider-layout#products": {
+        "title": "Slider de productos",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4
+            },
+            "blockClass": "home__slider--products",
+            "showPaginationDots": "never"
+        }
+    }
+}

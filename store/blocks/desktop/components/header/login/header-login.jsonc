@@ -1,0 +1,9 @@
+{
+    "login": {
+        "props": {
+            "optionsTitle":"Ingresa",
+            "showIconProfile": true,
+            "hideIconLabel": true
+        }
+    }
+}

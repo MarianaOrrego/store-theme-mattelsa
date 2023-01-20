@@ -1,0 +1,88 @@
+{
+    "minicart.v2": {
+        "props": {
+            "MinicartIcon": "icon-cart",
+            "variation": "drawer",
+            "itemCountMode": "total",
+            "quantityDisplay": "never"
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "minicart-base-content": {
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children":[
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer",
+            "flex-layout.row#minicart__footer2"
+        ]
+    },
+    "minicart-empty-state":{
+        "title":"Minicart vacío",
+        "children":[
+            "flex-layout.row#minicart__empty"
+        ]
+    },
+    "flex-layout.row#minicart__empty":{
+        "title": "Carrito vacío",
+        "children": [
+            "flex-layout.col#minicart__empty"
+        ]
+    },
+    "flex-layout.col#minicart__empty":{
+        "title": "Carrito vacío contenido",
+        "children": [
+            "icon-cart#minicart__empty--icon",
+            "rich-text#bag"
+        ],
+        "props": {
+            "blockClass":"minicart__svg"
+        }
+    },
+    "icon-cart#minicart__empty--icon":{
+        "props":{
+            "size": 100
+        }
+    },
+    "rich-text#bag":{
+        "title": "Texto de la bolsa",
+        "props": {
+            "text": "No hay productos en tu bolsa",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#minicart__footer":{
+        "title": "Sumatoria carrito subtotal/total",
+        "children": [
+            "flex-layout.col#minicart_summary"
+        ],
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },
+    "flex-layout.col#minicart_summary": {
+        "title": "Sumatoria carrito hijo",
+        "children": [
+            "minicart-summary"
+        ]
+    },
+    "flex-layout.row#minicart__footer2":{
+        "title": "Boton checkout",
+        "children": [
+            "flex-layout.col#minicart_checkout"
+        ],
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },
+    "flex-layout.col#minicart_checkout": {
+        "title": "Boton checkout hijo",
+        "children": [
+            "minicart-checkout-button"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "header-row#header__notificationmobile": {
+        "title": "Notificación políticas de envío",
+        "children": [
+            "header-border",
+            "notification.bar#home__mobile"
+        ],
+        "props": {
+            "fullWidth": "true",
+            "sticky": true
+        }
+    },
+    "notification.bar#home__mobile": {
+        "title": "Texto notificación",
+        "props": {
+            "content": "Clic acá para conocer nuestras políticas de envío",
+            "blockClass": "texto_politicas"
+        }
+    }
+}
