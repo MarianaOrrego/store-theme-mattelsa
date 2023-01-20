@@ -1,0 +1,31 @@
+{
+    "disclosure-layout#quienessomos": {
+        "title": "Quienes somos",
+        "children": [
+            "disclosure-trigger#quienes__somos",
+            "disclosure-content#quienes__somos"
+        ],
+        "props": {}
+    },
+    "disclosure-trigger#quienes__somos": {
+        "title": "Quienes somos trigger",
+        "children": [
+            "rich-text#quienes__somos"
+        ],
+        "props": {
+            "blockClass":"quienes__trigger"
+        }
+    },
+    "disclosure-content#quienes__somos": {
+        "children": [
+            "vtex.menu@2.x:menu#quienes__somos"
+        ]
+    },
+    "rich-text#quienes__somos": {
+        "title": "texto quienes somos",
+        "props": {
+            "text": "QUIENES SOMOS",
+            "blockClass":"fuente__footer"
+        }
+    }
+}

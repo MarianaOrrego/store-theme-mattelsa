@@ -9,6 +9,11 @@
 }
 
 @font-face{
-    font-family: "SpicyRice-Regular";
-    src: url(assets/fonts/SpicyRice-Regular.ttf); 
+    font-family: "Montserrat-Regular";
+    src: url(assets/fonts/Montserrat-Regular.ttf); 
+}
+
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url(assets/fonts/Montserrat-Medium.ttf); 
 }

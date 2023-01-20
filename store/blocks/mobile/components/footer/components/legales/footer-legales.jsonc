@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#footer__legales": {
+        "title": "Menu temas legales",
+        "children": [
+            "vtex.menu@2.x:menu#legales"
+        ]
+    },
+    "vtex.menu@2.x:menu#legales": {
+        "title": "Menu para legales",
+        "children": [
+            "menu-item#terminos__condiciones",
+            "menu-item#politicas",
+            "menu-item#superintendencia"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__legales"
+        }
+    },
+    "menu-item#terminos__condiciones": {
+        "props": {
+            "id": "menu-terminos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "terminos",
+                "text": "Términos y Condiciones"
+            },
+            "blockClass": "menu__legales"
+        }
+    },
+    "menu-item#politicas": {
+        "props": {
+            "id": "menu-politicas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "politicas",
+                "text": "Política de Privacidad"
+            },
+            "blockClass": "menu__legales"
+        }
+    },
+    "menu-item#superintendencia": {
+        "props": {
+            "id": "menu-superintendencia",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "superintendencia",
+                "text": "Superintendencia de Industria y Comercio"
+            },
+            "blockClass": "menu__legales"
+        }
+    }
+}

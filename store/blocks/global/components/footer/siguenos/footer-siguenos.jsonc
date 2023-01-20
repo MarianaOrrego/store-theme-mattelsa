@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "rich-text#siguenos"
+        ]
+    },
+    "rich-text#siguenos":{
+        "title": "Texto siguenos",
+        "props": {
+            "text": "SÍGUENOS",
+            "blockClass":"fuente__footer--siguenos"
+        }
+    },
+    "flex-layout.row#footer-mobile--social": {
+        "title": "Redes sociales footer",
+        "children": [
+            "social-networks"
+        ],
+        "props": {
+            "blockClass": "social__media"
+        }
+    }
+}

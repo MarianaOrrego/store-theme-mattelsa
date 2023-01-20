@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+
+    .menuContainer--menu__contacto,
+    .menuContainer--menu__quienes--somos,
+    .menuContainer--menu__ayuda {
+        align-items  : center;
+        border-bottom: 1px solid #e4e4e4 !important;
+    }
+
+    .menuContainer--menu__legales {
+        align-items: center;
+    }
+    .styledLinkContent--menu__contacto,
+    .styledLinkContent--menu__ayuda,
+    .styledLinkContent--menu__quienes--somos,
+    .styledLinkContent--menu__legales {
+        color: #787878;
+        font : normal normal normal 12px/13px Montserrat;
+    }
+
+    .menuContainer--menu__networks{
+        justify-content: center;
+    }
+}
+
+
+.menuItem--menu__ayuda,
+.menuItem--menu__contacto,
+.menuItem--menu__quienes--somos,
+.menuItem--menu__legales {
+    margin: 5px 0px 5px 0px;
+}

@@ -1,0 +1,7 @@
+.footerLayout :global(.vtex-disclosure-layout-1-x-trigger){
+    width: 100%;
+}
+
+.socialNetworkLink{
+    margin: 5px;
+}

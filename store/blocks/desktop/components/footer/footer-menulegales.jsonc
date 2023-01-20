@@ -1,0 +1,53 @@
+{
+    "vtex.menu@2.x:menu#legales__desktop": {
+        "title": "Menu para legales",
+        "children": [
+            "menu-item#terminos__condiciones--desktop",
+            "menu-item#politicas--desktop",
+            "menu-item#superintendencia--desktop"
+        ],
+        "props": {
+            "orientation": "horizontal",
+            "blockClass": "menu__legales--desktop"
+        }
+    },
+    "menu-item#terminos__condiciones--desktop": {
+        "props": {
+            "id": "menu-terminos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "terminos",
+                "text": "Términos y Condiciones"
+            },
+            "blockClass": "menu__legales--desktop"
+        }
+    },
+    "menu-item#politicas--desktop": {
+        "props": {
+            "id": "menu-politicas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "politicas",
+                "text": "Política de Privacidad"
+            },
+            "blockClass": "menu__legales--desktop"
+        }
+    },
+    "menu-item#superintendencia--desktop": {
+        "props": {
+            "id": "menu-superintendencia",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "superintendencia",
+                "text": "Superintendencia de Industria y Comercio"
+            },
+            "blockClass": "menu__legales--desktop"
+        }
+    }
+}

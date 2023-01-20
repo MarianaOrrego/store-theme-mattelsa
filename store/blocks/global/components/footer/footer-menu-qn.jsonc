@@ -1,0 +1,67 @@
+{
+    "vtex.menu@2.x:menu#quienes__somos": {
+        "title": "Menu para quienes somos",
+        "children": [
+            "menu-item#cultura",
+            "menu-item#trabaja",
+            "menu-item#vidamattelsa",
+            "menu-item#art"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__quienes--somos"
+        }
+    },
+    "menu-item#cultura": {
+        "props": {
+            "id": "menu-qn-cultura",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "cultura",
+                "text": "Cultura"
+            },
+            "blockClass": "menu__quienes--somos"
+        }
+    },
+    "menu-item#trabaja": {
+        "props": {
+            "id": "menu-qn-trabaja",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "trabaja",
+                "text": "Trabaja aquí"
+            },
+            "blockClass": "menu__quienes--somos"
+        }
+    },
+    "menu-item#vidamattelsa": {
+        "props": {
+            "id": "menu-qn-vidamattelsa",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "vidamattelsa",
+                "text": "La vida en Mattelsa"
+            },
+            "blockClass": "menu__quienes--somos"
+        }
+    },
+    "menu-item#art":{
+        "props": {
+            "id": "menu-qn-art",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "art",
+                "text": "Art Series & Friends"
+            },
+            "blockClass": "menu__quienes--somos"
+        }
+    }
+}
