@@ -1,0 +1,72 @@
+{
+    "modal-trigger#global__quick-view": {
+        "title": "Modal vista rapida",
+        "children": [
+            "rich-text#global__quick-view",
+            "modal-layout#global__quick-view"
+        ],
+        "props": {
+            "blockClass":"modal__quick--view"
+        }
+    },
+    "rich-text#global__quick-view": {
+        "title": "Texto 'vista rapida'",
+        "props": {
+            "text": "vista rapida",
+            "font": "t-link",
+            "blockClass": "global__quick-trigger"
+        }
+    },
+    "modal-layout#global__quick-view": {
+        "title": "Configuración modal vista rapida",
+        "children": [
+            "flex-layout.row#global__quick-view"
+        ],
+        "props": {
+            "blockClass":"modal__quick--view"
+        }
+    },
+    "flex-layout.row#global__quick-view": {
+        "title": "Información a mostrar en el modal",
+        "children": [
+            "flex-layout.col#global__quick--modal-image",
+            "flex-layout.col#global__quick--modal-info"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#global__quick--modal-image": {
+        "title": "Imagen del producto",
+        "children": [
+            "product-images"
+        ],
+        "props": {
+            "width": "55%",
+            "blockClass":"modal__image"
+        }
+    },
+    "flex-layout.col#global__quick--modal-info": {
+        "title": "Información del producto",
+        "children": [
+            "modal-header",
+            "product-summary-name#departament-grid",
+            "product-summary-brand",
+            "product-summary-description",
+            "product-summary-price",
+            "product-summary-quantity",
+            "add-to-cart-button"
+        ],
+        "props": {
+            "width": "45%",
+            "blockClass":"modal__info"
+        }
+    },
+    "modal-header": {
+        "props": {
+            "iconCloseSize": 15,
+            "showCloseButton": true,
+            "blockClass":"button__close"
+        }
+    }
+}

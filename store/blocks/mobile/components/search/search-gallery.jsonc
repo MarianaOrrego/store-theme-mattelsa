@@ -1,0 +1,32 @@
+{
+    "search-content#phone": {
+        "title": " search phone ",
+        "blocks": [
+            "gallery#department_mobile",
+            "not-found"
+        ]
+    },
+    "gallery#department_mobile": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "mobile": 1,
+                        "tablet": 2
+                    }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": {
+                        "mobile": 1
+                    }
+                }
+            ],
+            "ListSummary": "product-summary.shelf#list",
+            "GridSummary": "product-summary.shelf#grid"
+        }
+    }
+}

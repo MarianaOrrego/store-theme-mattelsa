@@ -1,0 +1,32 @@
+{
+    "search-content#desktop": {
+        "title": "Search desktop",
+        "blocks": [
+            "gallery#department",
+            "not-found"
+        ]
+    },
+    "gallery#department": {
+        "title":"Gallery department desktop",
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "desktop": 3
+                    }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": {
+                        "desktop": 1
+                    }
+                }
+            ],
+            "ListSummary": "product-summary.shelf#list",
+            "GridSummary": "product-summary.shelf#grid"
+        }
+    }
+}

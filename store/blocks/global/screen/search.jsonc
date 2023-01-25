@@ -1,0 +1,34 @@
+{
+    "store.search": {
+        "blocks": [
+            "search-result-layout"
+        ]
+    },
+    "store.search#department": {
+        "blocks": [
+            "search-result-layout"
+        ]
+    },
+    "store.search#category": {
+        "blocks": [
+            "search-result-layout"
+        ]
+    },
+    "store.search#subcategory": {
+        "blocks": [
+            "search-result-layout"
+        ]
+    },
+    "store.search#brand": {
+        "blocks": [
+            "search-result-layout"
+        ]
+    },
+    "search-result-layout": {
+        "blocks": [
+            "search-result-layout.desktop#department",
+            "search-result-layout.mobile#department",
+            "search-not-found-layout"
+        ]
+    }
+}

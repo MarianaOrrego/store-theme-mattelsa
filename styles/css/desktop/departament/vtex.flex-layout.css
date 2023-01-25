@@ -1,0 +1,19 @@
+.flexCol--modal__info {
+    padding: 15px;
+}
+
+.flexRow--list__summary {
+    width: 100%;
+}
+
+@media (min-width:640px) {
+    
+    .flexCol--list__summary--info {
+        align-items: flex-start;
+        display    : flex;
+    }
+}
+
+.flexColChild--list__summary--info{
+    text-align: justify;
+}

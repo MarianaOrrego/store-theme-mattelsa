@@ -1,0 +1,13 @@
+.containerNormal--grid__summary .imageNormal {
+    height: 280px;
+    width : 100%;
+}
+
+.containerNormal--list__summary {
+    max-width: 100% !important;
+}
+
+.containerNormal--list__summary .imageNormal {
+    height: 220px;
+    width : 100%;
+}
