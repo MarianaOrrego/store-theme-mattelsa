@@ -3,7 +3,10 @@
         "title": "Search result departament desktop",
         "children": [
             "flex-layout.row#products"
-        ]
+        ],
+        "props": {
+            "defaultGalleryLayout": "grid"
+        }
     },
     "flex-layout.row#products": {
         "title": "Breadcrumb, filtros y resultados de busqueda",
@@ -25,7 +28,8 @@
         ],
         "props": {
             "blockClass": "department__breadcrumb--filter",
-            "width": "21%"
+            "width": "21%",
+            "preventVerticalStretch": true
         }
     },
     "flex-layout.row#department__bradcrumb": {
@@ -43,10 +47,24 @@
     "flex-layout.col#department__results": {
         "title": "Resultado de busqueda",
         "children": [
+            "flex-layout.row#searchinfo",
             "search-content#desktop"
         ],
         "props": {
-            "width": "79%"
+            "width": "79%",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#searchinfo":{
+        "children": [
+            "order-by.v2",
+            "gallery-layout-switcher"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true,
+            "blockClass": "orderByAndSwitcher",
+            "colGap":3
         }
     }
 }

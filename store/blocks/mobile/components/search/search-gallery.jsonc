@@ -1,27 +1,27 @@
 {
-    "search-content#desktop": {
-        "title": "Search desktop",
+    "search-content#phone": {
+        "title": " search phone ",
         "blocks": [
-            "gallery#department",
+            "gallery#department_mobile",
             "not-found"
         ]
     },
-    "gallery#department": {
-        "title":"Gallery department desktop",
+    "gallery#department_mobile": {
         "props": {
             "layouts": [
                 {
                     "name": "grid",
                     "component": "GridSummary",
                     "itemsPerRow": {
-                        "desktop": 3
+                        "mobile": 1,
+                        "tablet": 2
                     }
                 },
                 {
                     "name": "list",
                     "component": "ListSummary",
                     "itemsPerRow": {
-                        "desktop": 1
+                        "mobile": 1
                     }
                 }
             ],

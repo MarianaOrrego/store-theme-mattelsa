@@ -1,44 +1,69 @@
 {
     "search-result-layout.mobile#department": {
         "children": [
+            "flex-layout.row#products__mobile"
+        ],
+        "props": {
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#products__mobile": {
+        "children": [
+            "flex-layout.col#products__mobile"
+        ]
+    },
+    "flex-layout.col#products__mobile": {
+        "children": [
             "flex-layout.row#filter",
             "flex-layout.row#department__results-mobile"
         ]
     },
     "flex-layout.row#filter": {
         "children": [
+            "flex-layout.col#filter__mobile",
+            "flex-layout.col#searchinfo__mobile"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "marginBottom": 3,
+            "marginTop": 7
+        }
+    },
+    "flex-layout.col#filter__mobile": {
+        "children": [
             "filter-navigator.v3"
         ],
         "props": {
-            "marginBottom": 3,
-            "marginTop": 7
+            "width": "40%",
+            "blockClass":"filtros__mobile"
+        }
+    },
+    "flex-layout.col#searchinfo__mobile": {
+        "children": [
+            "flex-layout.row#searchinfo__mobile"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true,
+            "blockClass": "orderByAndSwitcher",
+            "colGap": 3,
+            "width": "60%"
+        }
+    },
+    "flex-layout.row#searchinfo__mobile": {
+        "children": [
+            "order-by.v2"
+        ]
+    },
+    "order-by.v2": {
+        "props": {
+            "message": "Ordenar",
+            "showOrderTitle": false
         }
     },
     "flex-layout.row#department__results-mobile": {
         "children": [
             "search-content#phone"
         ]
-    },
-    "search-content#phone": {
-        "title": " search phone ",
-        "blocks": [
-            "gallery#department_mobile",
-            "not-found"
-        ]
-    },
-    "gallery#department_mobile": {
-        "props": {
-            "layouts": [
-                {
-                    "name": "general-grid",
-                    "component": "GeneralGrid",
-                    "itemsPerRow": {
-                        "tablet": 2,
-                        "phone": 2
-                    }
-                }
-            ],
-            "GeneralGrid": "product-summary.shelf#search-departament"
-        }
     }
 }
