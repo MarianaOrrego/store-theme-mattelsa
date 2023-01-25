@@ -1,0 +1,47 @@
+{
+    "modal-trigger#global__quick-view": {
+        "title": "Modal vista rapida",
+        "children": [
+            "rich-text#global__quick-view",
+            "modal-layout#global__quick-view"
+        ]
+    },
+    "rich-text#global__quick-view": {
+        "title": "Texto 'vista rapida'",
+        "props": {
+            "text": "vista rapida",
+            "font": "t-link",
+            "blockClass": "global__quick-trigger"
+        }
+    },
+    "modal-layout#global__quick-view": {
+        "title": "Configuración modal vista rapida",
+        "children": [
+            "flex-layout.row#global__quick-view"
+        ]
+    },
+    "flex-layout.row#global__quick-view": {
+        "title": "Información a mostrar en el modal",
+        "children": [
+            "flex-layout.col#global__quick--modal-image",
+            "flex-layout.col#global__quick--modal-info"
+        ]
+    },
+    "flex-layout.col#global__quick--modal-image": {
+        "title": "Imagen del producto",
+        "children": [
+            "product-images"
+        ]
+    },
+    "flex-layout.col#global__quick--modal-info": {
+        "title": "Información del producto",
+        "children": [
+            "product-summary-name#departament",
+            "product-summary-brand",
+            "product-summary-description",
+            "product-summary-price",
+            "product-summary-quantity",
+            "add-to-cart-button"
+        ]
+    }
+}

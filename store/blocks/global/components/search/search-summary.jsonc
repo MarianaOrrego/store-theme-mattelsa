@@ -1,0 +1,18 @@
+{
+    "product-summary.shelf#search-departament": {
+        "title": "Product summary para search department",
+        "children": [
+            "product-summary-image",
+            "product-summary-name#departament",
+            "product-list-price",
+            "product-selling-price",
+            "modal-trigger#global__quick-view"
+        ]
+    },
+    "product-summary-name#departament": {
+        "title": "Nombre del producto",
+        "props": {
+            "tag": "h3"
+        }
+    }
+}
