@@ -10,7 +10,8 @@
     "disclosure-trigger#contacto": {
         "title": "Contacto",
         "children": [
-            "rich-text#contacto"
+            "rich-text#contacto",
+            "disclosure-state-indicator"
         ],
         "props": {
             "blockClass":"contacto__trigger"

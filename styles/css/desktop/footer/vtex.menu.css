@@ -13,23 +13,42 @@
     .styledLinkContent--menu__contacto,
     .styledLinkContent--menu__ayuda,
     .styledLinkContent--menu__quienes--somos,
-    .styledLinkContent--menu__legales--desktop {
+    .styledLinkContent--menu__legales--desktop,
+    .styledLinkContent--menu__legales--desktop-politicas {
         align-items    : center;
-        color          : #484848;
+        color          : #787878;
         font           : normal normal normal 13px/13px Montserrat-Medium;
         justify-content: start;
+    }
+
+    .styledLinkContent--menu__contacto:hover,
+    .styledLinkContent--menu__ayuda:hover,
+    .styledLinkContent--menu__quienes--somos:hover,
+    .styledLinkContent--menu__legales--desktop:hover {
+        color: #484848;
     }
 
     .styledLinkIcon--menu__contacto {
         margin-left: 0rem;
         margin-top : 2px;
     }
+
     .styledLinkIcon--menu__networks {
         opacity: 0.75;
     }
-    
+
     .styledLinkIcon--menu__networks:hover {
         opacity: 1;
+    }
+
+    .styledLinkContent--menu__legales--desktop-politicas {
+        border-left : 1px solid #787878;
+        border-right: 1px solid #787878;
+        padding     : 0px 10px;
+    }
+
+    .menuContainer--menu__networks {
+        margin-left: 5%;
     }
 }
 
@@ -37,7 +56,8 @@
 .menuItem--menu__ayuda,
 .menuItem--menu__contacto,
 .menuItem--menu__quienes--somos,
-.menuItem--menu__legales--desktop {
+.menuItem--menu__legales--desktop,
+.menuItem--menu__legales--desktop-politicas {
     margin: 5px 0px 5px 0px;
 }
 
@@ -47,6 +67,3 @@
     margin-right: 0.40rem;
 }
 
-.menuContainer--menu__networks {
-    margin-left: 5%;
-}
