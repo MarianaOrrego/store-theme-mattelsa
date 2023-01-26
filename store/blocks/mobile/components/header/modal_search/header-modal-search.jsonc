@@ -33,7 +33,9 @@
             "autocomplete-result-list.v2"
         ],
         "props": {
-            "openAutocompleteOnFocus": true
+            "blockClass": "search__mobile",
+            "openAutocompleteOnFocus": true,
+            "hasIconLeft": true
         }
     }
 }

@@ -1,0 +1,23 @@
+.autoCompleteOuterContainer--search__desktop {
+    height            : 30px;
+    color             : #f5f5f5;
+    box-shadow        : unset;
+    -webkit-box-shadow: unset;
+    border-radius     : unset;
+    border            : none;
+    font-size         : 1.1em;
+    letter-spacing    : 0.6px;
+    background-color  : transparent;
+    transition        : color .25s ease;
+    z-index           : 114;
+    text-transform    : initial;
+    width             : 700px;
+}
+
+.suffixWrapper--search__desktop {
+    display: none;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: transparent;
+}
