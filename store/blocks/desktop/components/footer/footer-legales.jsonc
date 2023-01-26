@@ -6,7 +6,8 @@
             "flex-layout.col#copy"
         ],
         "props": {
-            "blockClass": "seccion__legales--desktop"
+            "blockClass": "seccion__legales--desktop",
+            "colSizing": "auto"
         }
     },
     "flex-layout.col#menu__legales": {
@@ -24,7 +25,8 @@
             "image#rabbit__desktop"
         ],
         "props": {
-            "blockClass": "img__conejo--desktop"
+            "blockClass": "img__conejo--desktop",
+            "width": "20%"
         }
     },
     "image#rabbit__desktop": {
@@ -39,7 +41,8 @@
             "rich-text#copy__desktop"
         ],
         "props": {
-            "blockClass":"copy__desktop"
+            "blockClass":"copy__desktop",
+            "width": "20%"
         }
     },
     "rich-text#copy__desktop":{

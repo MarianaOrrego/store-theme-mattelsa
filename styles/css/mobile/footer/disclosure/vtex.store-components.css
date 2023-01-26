@@ -1,0 +1,13 @@
+.imageElement--arrow__up {
+    position  : absolute;
+    right     : 20px;
+    transform : rotate(180deg);
+    margin-top: -7px;
+}
+
+.imageElement--arrow__down {
+    position  : absolute;
+    right     : 20px;
+    transform : rotate(0deg);
+    margin-top: -7px;
+}
