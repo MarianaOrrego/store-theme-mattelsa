@@ -1,0 +1,10 @@
+{
+    "disclosure-layout-group#info__adicional--cuidados": {
+        "title": "Información de la ropa",
+        "children": [
+            "disclosure-layout#composicion",
+            "disclosure-layout#envios",
+            "disclosure-layout#cambios"
+        ]
+    }
+}

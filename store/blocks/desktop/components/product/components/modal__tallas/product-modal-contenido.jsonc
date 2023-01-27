@@ -1,0 +1,72 @@
+{
+    "modal-content#guia__tallas": {
+        "title": "Contenido del modal guia de tallas",
+        "children": [
+            "flex-layout.row#contenido__tallas",
+            "flex-layout.row#contenido__tabla",
+            "flex-layout.row#contenido__medidas"
+        ]
+    },
+    "flex-layout.row#contenido__tallas": {
+        "title": "Contenido guia de tallas",
+        "children": [
+            "flex-layout.col#titulo__tallas",
+            "flex-layout.col#boton__tallas"
+        ]
+    },
+    "flex-layout.col#titulo__tallas": {
+        "title": "Titutlo para tabla de tallas",
+        "children": [
+            "rich-text#superior__hombre"
+        ]
+    },
+    "flex-layout.col#boton__tallas": {
+        "title": "Botones para cambiar tabla",
+        "children": [
+            "rich-text#cm",
+            "rich-text#in"
+        ]
+    },
+    "rich-text#superior__hombre": {
+        "title": "Superio hombre 'talla'",
+        "props": {
+            "text": "Superior hombre (Centímetros)",
+            "font": "t-heading-5",
+            "blockClass": "titulo__superio--talla"
+        }
+    },  
+    "flex-layout.row#contenido__tabla": {
+        "title": "Sección tabla de tallas",
+        "children": [
+            "rich-text#aclaracion"
+        ]
+    },
+    "rich-text#aclaracion": {
+        "title": "Texto de aclaración para tabla de medidas",
+        "props": {
+            "text": "&ast; Las medidas de la tabla son aproximadas y pueden variar entre prendas.",
+            "font": "t-small"
+        }
+    },
+    "flex-layout.row#contenido__medidas": {
+        "title": "Sección explicativa 'Como tomar medidas'",
+        "children": [
+            "flex-layout.col#tomar__medidas--text",
+            "flex-layout.col#tomar__medidas--imagen"
+        ]
+    },
+    "flex-layout.col#tomar__medidas--text": {
+        "title": "Texto explicativo para toma de medidas",
+        "children": [
+            "rich-text#tomar__medidas--title",
+            "rich-text#tomar__medidas--estatura",
+            "rich-text#tomar__medidas--estatura-texto",
+            "rich-text#tomar__medidas--pecho",
+            "rich-text#tomar__medidas--pecho-texto",
+            "rich-text#tomar__medidas--cintura",
+            "rich-text#tomar__medidas--cintura-texto",
+            "rich-text#tomar__medidas--cadera",
+            "rich-text#tomar__medidas--cadera-texto"
+        ]
+    }
+}

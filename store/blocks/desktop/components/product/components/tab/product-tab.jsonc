@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#product__tabs": {
+        "title": "Información adicional",
+        "children": [
+            "tab-layout#product__tabs"
+        ]
+    },
+    "tab-layout#product__tabs": {
+        "title": "Tabla de productos",
+        "children": [
+            "tab-list#product__tabs",
+            "tab-content#product__tabs"
+        ]
+    }
+}

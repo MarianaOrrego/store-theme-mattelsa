@@ -1,0 +1,24 @@
+{
+    "disclosure-layout#cambios": {
+        "title": "cambios layout",
+        "children": [
+            "disclosure-trigger#cambios",
+            "disclosure-content#cambios"
+        ]
+    },
+    "disclosure-trigger#cambios": {
+        "title": "Envios trigger",
+        "children": [
+            "rich-text#info__adicional--cuidados",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "ayuda__richtext"
+        }
+    },
+    "disclosure-content#cambios": {
+        "children": [
+            "rich-text#info__cuidados"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "disclosure-layout#composicion": {
+        "title": "Composicion layout",
+        "children": [
+            "disclosure-trigger#composicion",
+            "disclosure-content#composicion"
+        ]
+    },
+    "disclosure-trigger#composicion": {
+        "title": "Composicion trigger",
+        "children": [
+            "rich-text#info__adicional--cuidados",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "ayuda__richtext"
+        }
+    },
+    "disclosure-content#composicion": {
+        "children": [
+            "rich-text#info__cuidados"
+        ]
+    }
+}

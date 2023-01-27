@@ -1,0 +1,23 @@
+{
+    "modal-layout#guia__tallas": {
+        "title": "Modal para la guia de tallas contenido",
+        "children": [
+            "modal-header#guia__tallas",
+            "modal-content#guia__tallas"
+        ],
+        "props": {
+            "fullScreen": false,
+            "scroll": "content"
+        }
+    },
+    "modal-header#guia__tallas": {
+        "title": "Titulo guia de tallas y boton cerrar",
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 15
+        },
+        "children": [
+            "rich-text#titulo__guia--tallas"
+        ]
+    }
+}
