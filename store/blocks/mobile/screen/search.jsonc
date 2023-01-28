@@ -1,0 +1,13 @@
+{
+    "search-result-layout.mobile": {
+        "children": [
+            "rich-text#mobile"
+        ]
+    },
+    "rich-text#mobile": {
+        "props": {
+            "text": "Mobile search",
+            "font": "t-heading-1"
+        }
+    }
+}

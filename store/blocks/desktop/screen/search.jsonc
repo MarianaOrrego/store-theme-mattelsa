@@ -1,0 +1,13 @@
+{
+    "search-result-layout.desktop#search": {
+        "children": [
+            "rich-text#desktop"
+        ]
+    },
+    "rich-text#desktop": {
+        "props": {
+            "text": "Desktop search",
+            "font": "t-heading-1"
+        }
+    }
+}

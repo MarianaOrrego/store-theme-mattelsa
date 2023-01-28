@@ -6,5 +6,26 @@
             "disclosure-layout#quienessomos",
             "disclosure-layout#ayuda"
         ]
+    },
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "image#down",
+            "Hide": "image#up",
+            "blockClass":"icon__arrow"
+        }
+    },
+    "image#down": {
+        "props": {
+            "src": "assets/img/Arrow-Down.svg",
+            "sizes": "16",
+            "blockClass":"arrow__down"
+        }
+    },
+    "image#up": {
+        "props": {
+            "src": "assets/img/Arrow-Down.svg",
+            "sizes": "16",
+            "blockClass":"arrow__up"
+        }
     }
 }

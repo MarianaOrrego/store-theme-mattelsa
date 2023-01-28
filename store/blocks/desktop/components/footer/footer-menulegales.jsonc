@@ -34,7 +34,7 @@
                 "tagTitle": "politicas",
                 "text": "Política de Privacidad"
             },
-            "blockClass": "menu__legales--desktop"
+            "blockClass": "menu__legales--desktop-politicas"
         }
     },
     "menu-item#superintendencia--desktop": {

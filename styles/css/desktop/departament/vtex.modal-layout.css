@@ -1,4 +1,12 @@
-/* Example desktop:
-.paperNotFullScreen {
-    width: 70%;
-} */
+.paper--modal__quick--view {
+    width: 50%;
+}
+
+.headerContainer--button__close {
+    border-color: transparent;
+    height      : 10px;
+}
+
+.closeButtonContainer--button__close {
+    z-index: 1;
+}

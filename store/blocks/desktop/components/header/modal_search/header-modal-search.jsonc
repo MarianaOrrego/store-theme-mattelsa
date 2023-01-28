@@ -28,9 +28,10 @@
         "title": "Modal close",
         "props": {
             "showCloseButton": true,
-            "iconCloseSize": 15
+            "iconCloseSize": 15,
+            "blockClass":"input__search"
         },
-        "children":[
+        "children": [
             "search-bar#header__search--icon"
         ]
     },
@@ -39,7 +40,9 @@
             "autocomplete-result-list.v2"
         ],
         "props": {
-            "openAutocompleteOnFocus": true
+            "openAutocompleteOnFocus": true,
+            "blockClass": "search__desktop",
+            "hasIconLeft": true
         }
     }
 }

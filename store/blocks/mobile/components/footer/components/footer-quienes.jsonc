@@ -10,7 +10,8 @@
     "disclosure-trigger#quienes__somos": {
         "title": "Quienes somos trigger",
         "children": [
-            "rich-text#quienes__somos"
+            "rich-text#quienes__somos",
+            "disclosure-state-indicator"
         ],
         "props": {
             "blockClass":"quienes__trigger"

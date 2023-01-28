@@ -9,7 +9,8 @@
     "disclosure-trigger#ayuda": {
         "title": "Ayuda",
         "children": [
-            "rich-text#ayuda"
+            "rich-text#ayuda",
+            "disclosure-state-indicator"
         ],
         "props": {
             "blockClass":"ayuda__richtext"
