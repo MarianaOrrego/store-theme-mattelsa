@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+
+    .container--disclosure__opciones,
+    .container--otros__compraron {
+        justify-content: start !important;
+    }
+}
+
+.container--otros__compraron{
+    margin: 5% 1% 3%;
+}
+
+.wrapper--otros__compraron {
+    color      : #484848;
+    font-size  : 18px;
+    font-weight: bold;
+}
+

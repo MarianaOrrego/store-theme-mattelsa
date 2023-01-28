@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#product__info--quantity-mobile": {
+        "title": "Cantidad de producto y guía de tallas",
+        "children": [
+            "flex-layout.col#product__quantity",
+            "flex-layout.col#modal__tallas--modal"
+        ],
+        "props": {
+            "blockClass": "product__info--quantity-modal"
+        }
+    },
+    "flex-layout.row#product__info--additional-mobile": {
+        "title": "Información adicional",
+        "children": [
+            "flex-layout.col#product__info--additional-mobile"
+        ]
+    },
+    "flex-layout.col#product__info--additional-mobile": {
+        "title": "Información adicional de los productos mobile",
+        "children": [
+            "flex-layout.row#modal__disponibilidad--mobile",
+            "flex-layout.row#pago__efectivo--mobile",
+            "flex-layout.row#disclosure__info"
+        ]
+    },
+    "flex-layout.row#pago__efectivo--mobile": {
+        "title": "Pago en efectivo",
+        "children": [
+            "flex-layout.col#check__pago--mobile",
+            "flex-layout.col#efectivo--mobile"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "pago__efectivo"
+        }
+    },
+    "flex-layout.col#check__pago--mobile": {
+        "title": "Icono check",
+        "children": [
+            "icon#check"
+        ],
+        "props": {
+            "width": "40%"
+        }
+    },
+    "flex-layout.col#efectivo--mobile": {
+        "title": "Mensaje pago en efectivo mobile",
+        "children": [
+            "rich-text#pago__efectivo"
+        ],
+        "props": {
+            "width": "60%",
+            "blockClass": "efectivo"
+        }
+    }
+}

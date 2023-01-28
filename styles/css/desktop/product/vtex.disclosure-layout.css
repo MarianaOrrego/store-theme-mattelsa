@@ -1,0 +1,11 @@
+.trigger--ayuda__richtext--visible :global(.vtex-rich-text-0-x-paragraph) {
+    font-weight: bold;
+}
+
+.content--contenido__disclosure--visible {
+    margin: 2%;
+}
+
+.trigger--ayuda__richtext {
+    border-top: 1px solid #bbb !important;
+}

@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#product__text--vitrina": {
+        "title": "Texto y productos de vitrina",
+        "children": [
+            "flex-layout.col#product__text--vitrina"
+        ]
+    },
+    "flex-layout.col#product__text--vitrina": {
+        "title": "Organización para texto y vitrina",
+        "children": [
+            "flex-layout.row#product__text--mobile",
+            "flex-layout.row#product__vitrina--mobile"
+        ]
+    },
+    "flex-layout.row#product__text--mobile": {
+        "title": "Texto de presentación a productos",
+        "children": [
+            "rich-text#otros__mobile"
+        ]
+    },
+    "rich-text#otros__mobile":{
+        "title": "Otros han comprados mobile",
+        "props": {
+            "text": "Otrxs han comprado",
+            "blockClass":"otros__compraron"
+        }
+    },
+    "flex-layout.row#product__vitrina--mobile": {
+        "title": "Vitrina de productos traida desde el home mobile",
+        "children": [
+            "flex-layout.col#product__vitrina--mobile"
+        ]
+    },
+    "flex-layout.col#product__vitrina--mobile":{
+        "title": "Vitrina mobile",
+        "children": [
+            "flex-layout.row#home__products--mobile"
+        ]
+    }
+}

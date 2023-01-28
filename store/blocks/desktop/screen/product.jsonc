@@ -1,10 +1,12 @@
 {
-    "store.product": {
-        "children": [
+    "responsive-layout.desktop#product":{
+        "title":"PDP en versión desktop",
+        "children":[
             "flex-layout.row#product__breadcrumb",
             "flex-layout.row#product__info",
             "flex-layout.row#recomendaciones",
             "flex-layout.row#product__tabs"
         ]
     }
+
 }

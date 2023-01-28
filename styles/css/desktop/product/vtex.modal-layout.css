@@ -1,0 +1,9 @@
+@media (min-width: 1024px) {
+    .paper--modal__tallas {
+        height  : 600px;
+        overflow: auto;
+        padding : 20px 40px 40px 40px;
+        position: relative;
+        width   : 960px;
+    }
+}

@@ -1,0 +1,6 @@
+@media (max-width: 1024px) {
+    .imageElement--img_medidas {
+        height: 501px;
+        width : 350px;
+    }
+}

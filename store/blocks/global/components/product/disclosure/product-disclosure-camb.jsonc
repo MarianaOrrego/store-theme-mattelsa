@@ -1,0 +1,51 @@
+{
+    "disclosure-layout#cambios": {
+        "title": "cambios layout",
+        "children": [
+            "disclosure-trigger#cambios",
+            "disclosure-content#cambios"
+        ]
+    },
+    "disclosure-trigger#cambios": {
+        "title": "Envios trigger",
+        "children": [
+            "rich-text#cambios",
+            "disclosure-state-indicator"
+        ],
+        "props": {
+            "blockClass": "ayuda__richtext"
+        }
+    },
+    "disclosure-content#cambios": {
+        "children": [
+            "rich-text#info__cambios",
+            "link.product#link__cambios"
+        ],
+        "props":{
+            "blockClass":"contenido__disclosure"
+        }
+    },
+    "rich-text#cambios":{
+        "title": "Cambios y garantías",
+        "props": {
+            "text": "Cambios y garantías",
+            "blockClass": "disclosure__opciones"
+        }
+    },
+    "rich-text#info__cambios": {
+        "title": "Información cambios y garantías",
+        "props": {
+            "text": "Nosotros te recogemos gratis si el lugar de recogida es Bogotá, Medellín, Cali, Barranquilla y Bucaramanga y si tu ropa NO tiene descuento. <br/><br/> **Cambios:** Tienes **30 días** desde que llega tu ropa para hacer el cambio. <br/><br/> **Garantías:** Tienes **60 días** desde que llega tu ropa para hacer la garantía. <br/><br/> El cambio o devolución **no aplica** si la ropa no está nueva o si es un Body o Vestido de baño por ser ropa interior. <br/><br/> **Las medias, pañoletas, toallas y panties no tienen cambio, pero sí garantía.**",
+            "blockClass":"info__envios"
+        }
+    },
+    "link.product#link__cambios":{
+        "title": "Más información para cambios",
+        "props": {
+            "target": "__blank",
+            "label": "Más información",
+            "href": "#",
+            "blockClass":"link__mas"
+        }
+    }
+}

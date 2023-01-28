@@ -1,0 +1,74 @@
+.flexRowContent--disclosure__info .stretchChildrenWidth {
+    flex-direction: column;
+}
+
+
+.flexColChild--informacion__producto :global(.vtex-store-components-3-x-sellingPrice) {
+    margin: 3% 0%;
+}
+
+.flexColChild--informacion__producto :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    display: none;
+}
+
+.flexRow--product__info--quantity-modal {
+    margin: 5% 0%;
+}
+
+.flexColChild--info__tallas {
+    align-items    : end;
+    display        : flex;
+    justify-content: end;
+}
+
+.flexRowContent--pago__efectivo .flexColChild {
+    align-items    : end;
+    display        : flex;
+    justify-content: end;
+}
+
+.flexColChild--efectivo {
+    justify-content: start !important;
+}
+
+.flexRow--pago__efectivo {
+    margin: 7% 0%;
+}
+
+.flexColChild--text__informacion,
+.flexColChild--img__informacion {
+    align-items: center;
+    display    : flex;
+}
+
+.flexRow--info__lavado {
+    margin-bottom: 10px;
+}
+
+.flexColChild--imagen__medidas--hombre {
+    display        : flex;
+    justify-content: end;
+}
+
+.flexRowContent--botones__medidas {
+    display        : flex;
+    justify-content: end;
+}
+
+.flexCol--botone__medidas {
+    align-items  : center;
+    border       : 1px solid #b4b4b4;
+    border-radius: 0;
+    box-shadow   : none;
+    cursor       : pointer;
+    font         : normal normal normal 12px/18px Montserrat-Medium;
+    height       : 30px;
+    padding      : 2px;
+    text-align   : center;
+    width        : 60px !important;
+}
+
+.flexCol--botone__medidas:active {
+    background-color: #484848;
+    color           : #f5f5f5;
+}
