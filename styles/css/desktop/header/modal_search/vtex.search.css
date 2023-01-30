@@ -2,3 +2,15 @@
     box-shadow: none;
     background: transparent;
 }
+
+.itemList--suggestion {
+    display: none;
+}
+
+.tileListTitle{
+    display: none;
+}
+
+.close-btn{
+    display: none;
+}

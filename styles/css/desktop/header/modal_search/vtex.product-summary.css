@@ -1,0 +1,15 @@
+.nameContainer {
+    justify-content: start;
+    height         : auto !important;
+    text-align     : justify;
+    padding        : 0px;
+}
+
+.productBrand {
+    font-weight   : bold;
+    text-transform: capitalize;
+}
+
+.sellingPrice--hasUnitMultiplier {
+    height: auto;
+}

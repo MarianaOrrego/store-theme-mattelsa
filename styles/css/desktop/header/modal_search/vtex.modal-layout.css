@@ -5,3 +5,11 @@
 .closeButtonContainer {
     margin-top: 10px;
 }
+
+.headerContent--input__search {
+    width: -webkit-fill-available;
+}
+
+.triggerContainer--modal__search--desktop {
+    cursor: pointer;
+}
