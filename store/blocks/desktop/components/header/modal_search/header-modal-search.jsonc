@@ -4,13 +4,17 @@
         "children": [
             "icon#search__icon--desktop",
             "modal-layout#search"
-        ]
+        ],
+        "props": {
+            "blockClass": "modal__search--desktop"
+        }
     },
     "icon#search__icon--desktop": {
         "title": "icono buscador",
         "props": {
             "id": "hpa-search",
-            "size": 20
+            "size": 20,
+            "blockClass":"search__icon--desktop"
         }
     },
     "modal-layout#search": {
@@ -29,13 +33,14 @@
         "props": {
             "showCloseButton": true,
             "iconCloseSize": 15,
-            "blockClass":"input__search"
+            "blockClass": "input__search"
         },
         "children": [
             "search-bar#header__search--icon"
         ]
     },
     "search-bar#header__search--icon": {
+        "title":"search bar",
         "blocks": [
             "autocomplete-result-list.v2"
         ],
@@ -43,6 +48,47 @@
             "openAutocompleteOnFocus": true,
             "blockClass": "search__desktop",
             "hasIconLeft": true
+        }
+    },
+    "autocomplete-result-list.v2": {
+        "title": "Autocompletar",
+        "blocks": [
+            "product-summary.shelf#autocomplete"
+        ]
+    },
+    "product-summary.shelf#autocomplete": {
+        "title": "Productos del buscador",
+        "children": [
+            "flex-layout.row#autocomplete__search"
+        ]
+    },
+    "flex-layout.row#autocomplete__search": {
+        "title": "Productos de search header",
+        "children": [
+            "flex-layout.col#image__search",
+            "flex-layout.col#info__search"
+        ],
+        "props": {
+            "blockClass": "autocomplete__search"
+        }
+    },
+    "flex-layout.col#image__search": {
+        "title": "Imagen del producto search header",
+        "children": [
+            "product-summary-image"
+        ],
+        "props": {
+            "blockClass": "image__search--desktop"
+        }
+    },
+    "flex-layout.col#info__search": {
+        "title": "Información del producto search header",
+        "children": [
+            "product-summary-name",
+            "product-selling-price"
+        ],
+        "props": {
+            "blockClass":"info__search--desktop"
         }
     }
 }

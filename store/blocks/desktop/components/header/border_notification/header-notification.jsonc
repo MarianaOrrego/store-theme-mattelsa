@@ -1,5 +1,6 @@
 {
     "header-row#header__notification": {
+        "title":"Notificación del header",
         "children": [
             "header-border",
             "notification.bar#home"
@@ -10,6 +11,7 @@
         }
     },
     "notification.bar#home": {
+        "title":"Notificación del header sección",
         "props": {
             "content": "Clic acá para conocer nuestras políticas de envío",
             "blockClass": "texto_politicas"

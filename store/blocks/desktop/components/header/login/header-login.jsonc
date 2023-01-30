@@ -1,5 +1,6 @@
 {
     "login": {
+        "title":"Login",
         "props": {
             "optionsTitle":"Ingresa",
             "showIconProfile": true,

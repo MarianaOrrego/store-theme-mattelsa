@@ -1,3 +1,14 @@
 .suffixWrapper--search__mobile {
     display: none;
 }
+
+.portalContainer--search__mobile,
+.portalWrapper--search__mobile {
+    width: 100%;
+}
+
+.portalWrapper--search__mobile :first-child {
+    justify-content: start !important;
+    left           : 0px !important;
+    margin-bottom  : 2%;
+}

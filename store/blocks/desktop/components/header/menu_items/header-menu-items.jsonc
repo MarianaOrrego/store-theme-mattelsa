@@ -1,5 +1,6 @@
 {
     "menu-item#hombre": {
+        "title":"menu item hombre",
         "props": {
             "id": "menu-item-hombre",
             "type": "custom",
@@ -15,6 +16,7 @@
         }
     },
     "menu-item#mujer": {
+        "title":"menu item mujer",
         "props": {
             "id": "menu-item-mujer",
             "type": "custom",
@@ -30,6 +32,7 @@
         }
     },
     "menu-item#cosas": {
+        "title":"menu item cosas",
         "props": {
             "id": "menu-item-cosas",
             "type": "custom",
@@ -45,6 +48,7 @@
         }
     },
     "menu-item#tiendas": {
+        "title":"menu item tiendas",
         "props": {
             "id": "menu-item-tiendas",
             "type": "custom",
@@ -60,6 +64,7 @@
         }
     },
     "menu-item#activismo": {
+        "title":"menu item activismo",
         "props": {
             "id": "menu-item-activismo",
             "type": "custom",
@@ -75,6 +80,7 @@
         }
     },
     "menu-item#sale": {
+        "title":"menu item sale",
         "props": {
             "id": "menu-item-sale",
             "type": "custom",
@@ -91,12 +97,14 @@
         "blocks":["vtex.menu@2.x:submenu#sale"]
     },
     "vtex.menu@2.x:submenu#sale":{
+        "title":"submenu sale",
         "children":[
             "menu-item#hombre2",
             "menu-item#mujer2"
         ]
     },
     "menu-item#hombre2": {
+        "title":"submenu sale hombre",
         "props": {
             "id": "menu-item-sale",
             "type": "custom",
@@ -112,6 +120,7 @@
         }
     },
     "menu-item#mujer2": {
+        "title":"submenu sale mujer",
         "props": {
             "id": "menu-item-sale",
             "type": "custom",

@@ -1,0 +1,13 @@
+.flexCol--info__search--desktop {
+    height         : min-content;
+    justify-content: center;
+    margin-left    : 15px;
+}
+
+.flexColChild--info__search--desktop {
+    height: min-content;
+}
+
+.flexRowContent--autocomplete__search {
+    align-items: center;
+}
