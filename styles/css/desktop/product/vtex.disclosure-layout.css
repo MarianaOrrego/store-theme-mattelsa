@@ -8,4 +8,5 @@
 
 .trigger--ayuda__richtext {
     border-top: 1px solid #bbb !important;
+    position  : relative;
 }

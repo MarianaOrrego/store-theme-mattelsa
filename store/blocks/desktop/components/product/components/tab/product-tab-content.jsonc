@@ -28,10 +28,11 @@
     "tab-content.item#tabs__list--questions": {
         "title": "Contenido del tab en lista de preguntas",
         "props": {
-            "tabId": "list--questions"
+            "tabId": "list--questions",
+            "blockClass":"questions__answers"
         },
         "children": [
-            "product-questions-and-answers"
+            "questions-and-answers"
         ]
     }
 }

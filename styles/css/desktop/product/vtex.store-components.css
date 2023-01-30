@@ -26,6 +26,11 @@
     width: 22px;
 }
 
+.imageElement--img_medidas {
+    height: 400px;
+    width : 265px;
+}
+
 @media (max-width: 1024px) {
     .imageElement--img_medidas {
         height: 501px;
@@ -50,14 +55,14 @@
 @media (min-width: 1024px) {
     .imageElement--arrow__up--desktop {
         position  : absolute;
-        right     : 65px;
+        right     : 10px;
         transform : rotate(180deg);
         margin-top: -15px;
     }
 
     .imageElement--arrow__down--desktop {
         position  : absolute;
-        right     : 65px;
+        right     : 10px;
         transform : rotate(0deg);
         margin-top: -15px;
     }
