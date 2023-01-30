@@ -1,0 +1,40 @@
+.menuItem--tiendas__nacionales {
+    width: 100%;
+}
+
+.styledLinkContainer--tiendas__nacionales {
+    border-bottom: 1px #bbb solid;
+    height       : 50px;
+}
+
+.styledLinkContent--tiendas__nacionales {
+    font: normal normal normal 14px/30px Montserrat;
+}
+
+.submenuContainer--submenu__tiendas {
+    margin-left: 0% !important;
+    margin-top : 0% !important;
+    position   : relative;
+}
+
+.submenuContainer--submenu__tiendas .submenuWrapper--isOpen {
+    background-color: #f5f5f5 !important;
+    box-shadow      : 0px 2px 6px #00000026;
+    left            : 4%;
+    max-height      : 207px;
+    overflow-y      : auto;
+    padding-bottom  : 10px;
+    position        : absolute;
+    width           : 92%;
+    z-index         : 1;
+}
+
+.submenu--submenu__tiendas {
+    justify-content: start;
+}
+
+.styledLinkIcon--tiendas__nacionales {
+    left    : 93%;
+    position: absolute;
+    top     : 43px;
+}

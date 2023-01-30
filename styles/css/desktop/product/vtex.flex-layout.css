@@ -21,6 +21,14 @@
     justify-content: end;
 }
 
+.flexRow--modal__disponibilidad {
+    width: 100%;
+}
+
+.flexRow--dipo__tienda--img {
+    margin-top: 15%;
+}
+
 .flexRowContent--pago__efectivo .flexColChild {
     align-items    : end;
     display        : flex;

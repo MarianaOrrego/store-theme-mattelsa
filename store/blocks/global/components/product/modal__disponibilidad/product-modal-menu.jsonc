@@ -3,11 +3,15 @@
         "title": "Menu opciones de tiendas a nivel nacional",
         "children": [
             "menu-item#tiendas__nacionales"
-        ]
+        ],
+        "props": {
+            "blockClass": "tiendas__nacionales"
+        }
     },
     "menu-item#tiendas__nacionales": {
         "title": "Opciones tiendas a nivel nacional",
         "props": {
+            "blockClass": "tiendas__nacionales",
             "type": "custom",
             "highlight": false,
             "itemProps": {
@@ -16,6 +20,10 @@
                 "noFollow": false,
                 "tagTitle": "tiendas__nacionales",
                 "text": "Ingrese una ciudad"
+            },
+            "iconProps":{
+                "id":"arrow-down",
+                "size":16
             }
         },
         "blocks": [

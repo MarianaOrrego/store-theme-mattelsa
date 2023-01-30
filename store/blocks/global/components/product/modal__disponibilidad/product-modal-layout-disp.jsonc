@@ -7,7 +7,9 @@
         ],
         "props": {
             "fullScreen": false,
-            "scroll": "content"
+            "scroll": "content",
+            "blockClass":"modal__disp"
+
         }
     },
     "modal-header#disponibilidad__tienda":{
@@ -17,13 +19,14 @@
         ],
         "props": {
             "showCloseButton": true,
-            "iconCloseSize": 15
+            "iconCloseSize": 15,
+            "blockClass":"modal__pdp"
         }
     },
     "rich-text#titulo__disponibilidad--tienda":{
         "title": "Titulo modal disponibilidad en tienda",
         "props": {
-            "text": "Disponibilidad en tienda",
+            "text": "**Disponibilidad en tienda**",
             "font": "t-heading-4",
             "blockClass": "titulo__guia--tallas"
         }

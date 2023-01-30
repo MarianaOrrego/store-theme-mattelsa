@@ -1,4 +1,9 @@
 @media (min-width: 1024px) {
+
+    .headerContainer--modal__pdp {
+        border-bottom: transparent;
+    }
+
     .paper--modal__tallas {
         height  : 600px;
         overflow: auto;
@@ -6,4 +11,15 @@
         position: relative;
         width   : 960px;
     }
+
+    .paper--modal__disp {
+        height  : 600px;
+        overflow: hidden;
+        padding : 20px 40px 40px 40px;
+        width   : 960px;
+    }
+}
+
+.contentContainer--modal__disponibilidad {
+    height: 100%;
 }

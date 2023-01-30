@@ -15,7 +15,8 @@
         "title": "Titulo guia de tallas y boton cerrar",
         "props": {
             "showCloseButton": true,
-            "iconCloseSize": 15
+            "iconCloseSize": 15,
+            "blockClass":"modal__pdp"
         },
         "children": [
             "rich-text#titulo__guia--tallas"

@@ -23,9 +23,15 @@
         "props": {
             "zoomMode": "open-modal",
             "ModalZoom": "modal-trigger#product__image",
+            "showNavigationArrows":false,
+            "showPaginationDots": false,
+            "thumbnailVisibility": "hidden",
             "aspectRatio": {
                 "desktop": "auto",
                 "mobile": "16:9"
+            },
+            "itemsPerPage": {
+                "desktop": 2
             }
         }
     },
@@ -143,8 +149,7 @@
             "modal-trigger#disponibilidad__tienda"
         ],
         "props": {
-            "fullWidth": true,
-            "preventHorizontalStretch": true
+            "blockClass": "modal__disponibilidad"
         }
     },
     "flex-layout.row#pago__efectivo": {
@@ -164,7 +169,7 @@
             "icon#check"
         ],
         "props": {
-            "width": "30%"
+            "width": "35%"
         }
     },
     "flex-layout.col#efectivo": {
@@ -173,7 +178,7 @@
             "rich-text#pago__efectivo"
         ],
         "props": {
-            "width": "70%",
+            "width": "65%",
             "blockClass":"efectivo"
         }
     },
