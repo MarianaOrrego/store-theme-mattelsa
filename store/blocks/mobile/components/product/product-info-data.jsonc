@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#product__info--data-mobile": {
+        "title": "Información producto mobile",
+        "children": [
+            "flex-layout.col#product__info--data-mobile"
+        ]
+    },
+    "flex-layout.col#product__info--data-mobile": {
+        "title": "Organización de la información del producto mobile",
+        "children": [
+            "flex-layout.row#brand",
+            "flex-layout.row#name",
+            "flex-layout.row#rating",
+            "flex-layout.row#price",
+            "flex-layout.row#description",
+            "flex-layout.row#product__info--quantity-mobile",
+            "add-to-cart-button",
+            "flex-layout.row#product__info--additional-mobile"
+        ]
+    },
+    "flex-layout.row#brand": {
+        "title": "Brand del producto mobile",
+        "children": [
+            "vtex.store-components:product-brand"
+        ]
+    },
+    "flex-layout.row#name": {
+        "title": "Nombre del producto mobile",
+        "children": [
+            "vtex.store-components:product-name"
+        ]
+    },
+    "flex-layout.row#rating":{
+        "title": "Rating del producto mobile",
+        "children": [
+            "product-rating-inline"
+        ]
+    },
+    "flex-layout.row#price":{
+        "title": "Precio del producto mobile",
+        "children": [
+            "product-price"
+        ]
+    },
+    "flex-layout.row#description":{
+        "title": "Descripción del producto mobile",
+        "children": [
+            "product-description"
+        ],
+        "props": {
+            "blockClass": "descrip__mobile"
+        }
+    }
+}

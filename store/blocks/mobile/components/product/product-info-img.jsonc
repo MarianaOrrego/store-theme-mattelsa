@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#product__info--image-mobile": {
+        "title": "Imagen del producto mobile",
+        "children": [
+            "product-images#product__info--image-mobile"
+        ]
+    },
+    "product-images#product__info--image-mobile": {
+        "title": "Configuración imagenes mobile",
+        "props": {
+            "aspectRatio": {
+                "mobile": "16:9"
+            }
+        }
+    }
+}

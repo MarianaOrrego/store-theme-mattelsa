@@ -1,0 +1,11 @@
+.quantitySelectorContainer {
+    margin: 0;
+}
+
+.quantitySelectorTitle {
+    color         : #484848;
+    font-family   : 'Montserrat';
+    text-transform: initial;
+    font-size     : 14px;
+    font-weight   : bold;
+}

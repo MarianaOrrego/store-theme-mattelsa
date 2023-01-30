@@ -1,0 +1,34 @@
+{
+    "tab-list#product__tabs": {
+        "title": "Lista de productos",
+        "children": [
+            "tab-list.item#tabs__list--reviews-and-ratings",
+            "tab-list.item#tabs__list--product-expecification",
+            "tab-list.item#tabs__list--questions"
+        ]
+    },
+    "tab-list.item#tabs__list--reviews-and-ratings": {
+        "title": "Lista para reviews and ratings",
+        "props": {
+            "tabId": "reviews-and-ratings",
+            "label": "Reviciones y calificaciones",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#tabs__list--product-expecification": {
+        "title": "Lista especificaciones del producto",
+        "props": {
+            "tabId": "product-expecification",
+            "label": "Especificaciones de producto",
+            "defaultActiveTab": false
+        }
+    },
+    "tab-list.item#tabs__list--questions": {
+        "title": "Lista del tab en lista de preguntas",
+        "props": {
+            "tabId": "list--questions",
+            "label": "Preguntas y respuestas",
+            "defaultActiveTab": false
+        }
+    }
+}

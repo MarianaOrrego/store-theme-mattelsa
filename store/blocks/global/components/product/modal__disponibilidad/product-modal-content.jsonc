@@ -1,0 +1,84 @@
+{
+    "modal-content#disponibilidad__tienda": {
+        "title": "Contenido modal disponibilidad",
+        "children": [
+            "flex-layout.row#disponibilidad__tienda"
+        ],
+        "props":{
+            "blockClass":"modal__disponibilidad"
+        }
+    },
+    "flex-layout.row#disponibilidad__tienda": {
+        "title": "Contenido modal disponibilidad",
+        "children": [
+            "flex-layout.col#disponibilidad__tienda--product",
+            "flex-layout.col#disponibilidad__tienda--ubication"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "dispo__tienda",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#disponibilidad__tienda--product": {
+        "title": "Producto elegido",
+        "children": [
+            "product-images",
+            "vtex.store-components:product-name",
+            "product-price"
+        ],
+        "props": {
+            "width":"30%"
+        }
+    },
+    "flex-layout.col#disponibilidad__tienda--ubication": {
+        "title": "Sección para ubicación en tienda e información",
+        "children": [
+            "flex-layout.row#disponibilidad__tienda--menu",
+            "flex-layout.row#disponibilidad__tienda--img",
+            "flex-layout.row#disponibilidad__tienda--txt"
+        ],
+        "props": {
+            "width":"70%",
+            "paddingLeft": 5
+        }
+    },
+    "flex-layout.row#disponibilidad__tienda--menu": {
+        "title": "Contenido para seleccionar tienda",
+        "children": [
+            "vtex.menu@2.x:menu#tiendas__nacionales"
+        ]
+    },
+    "flex-layout.row#disponibilidad__tienda--img": {
+        "title": "Contenido para seleccionar tienda",
+        "children": [
+            "image#tienda"
+        ],
+        "props": {
+            "blockClass": "dipo__tienda--img"
+        }
+    },
+    "flex-layout.row#disponibilidad__tienda--txt": {
+        "title": "Texto encuentra tu tienda",
+        "children": [
+            "rich-text#encuentra"
+        ],
+        "props": {
+            "blockClass": "text__encuentra"
+        }
+    },
+    "image#tienda": {
+        "title": "Imagen tienda",
+        "props": {
+            "src": "assets/img/Tienda-ico.svg"
+        }
+    },
+    "rich-text#encuentra": {
+        "title": "Encuentra tu tienda",
+        "props": {
+            "text": "Encuentra tu tienda más cercana",
+            "font": "t-small",
+            "blockClass":"text__encuentra"
+        }
+    }
+}

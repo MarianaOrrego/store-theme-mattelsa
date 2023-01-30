@@ -1,0 +1,10 @@
+{
+    "responsive-layout.mobile#product": {
+        "title": "PDP en versión mobile",
+        "children": [
+            "flex-layout.row#product__info--image-mobile",
+            "flex-layout.row#product__info--data-mobile",
+            "flex-layout.row#product__text--vitrina"
+        ]
+    }
+}

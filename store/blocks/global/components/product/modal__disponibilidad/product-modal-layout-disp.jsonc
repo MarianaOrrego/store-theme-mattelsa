@@ -1,0 +1,34 @@
+{
+    "modal-layout#disponibilidad__tienda": {
+        "title": "Modal disponibilidad",
+        "children": [
+            "modal-header#disponibilidad__tienda",
+            "modal-content#disponibilidad__tienda"
+        ],
+        "props": {
+            "fullScreen": false,
+            "scroll": "content",
+            "blockClass":"modal__disp"
+
+        }
+    },
+    "modal-header#disponibilidad__tienda":{
+        "title": "Header modal disponibilidad",
+        "children":[
+            "rich-text#titulo__disponibilidad--tienda"
+        ],
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 15,
+            "blockClass":"modal__pdp"
+        }
+    },
+    "rich-text#titulo__disponibilidad--tienda":{
+        "title": "Titulo modal disponibilidad en tienda",
+        "props": {
+            "text": "**Disponibilidad en tienda**",
+            "font": "t-heading-4",
+            "blockClass": "titulo__guia--tallas"
+        }
+    }
+}
