@@ -1,3 +1,8 @@
+.flexRow--product__info--dektop,
+.flexRow--recomendaciones__desktop {
+    margin: 0px 40px;
+}
+
 .flexRowContent--disclosure__info .stretchChildrenWidth {
     flex-direction: column;
 }
@@ -29,14 +34,24 @@
     margin-top: 15%;
 }
 
-.flexRowContent--pago__efectivo .flexColChild {
-    align-items    : end;
+.flexRowContent--pago__efectivo {
+    width          : 100%;
     display        : flex;
-    justify-content: end;
+    flex-wrap      : wrap;
+    font-family    : 'MontserratMedium';
+    color          : #484848;
+    font-style     : normal;
+    font-size      : 12px;
+    padding-top    : 10px;
+    justify-content: center;
 }
 
 .flexColChild--efectivo {
     justify-content: start !important;
+}
+
+.flexCol--pago__efectivo--check {
+    margin-top: 8px;
 }
 
 .flexRow--pago__efectivo {

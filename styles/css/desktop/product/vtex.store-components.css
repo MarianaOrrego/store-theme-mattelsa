@@ -19,23 +19,46 @@
 .imageElement--img__regla {
     margin-top: 23%;
     transform : rotate(90deg);
-    width     : 25px;
+    width     : 30px;
 }
 
 .imageElement--comp__img {
     width: 22px;
 }
 
-@media (min-width: 1024px) {
-    .imageElement--img_medidas {
-        height: 401px;
-        width : 280px;
-    }
-}
-
 @media (max-width: 1024px) {
     .imageElement--img_medidas {
         height: 501px;
         width : 350px;
+    }
+
+    .imageElement--arrow__up--desktop {
+        position  : absolute;
+        right     : 30px;
+        transform : rotate(180deg);
+        margin-top: -15px;
+    }
+
+    .imageElement--arrow__down--desktop {
+        position  : absolute;
+        right     : 30px;
+        transform : rotate(0deg);
+        margin-top: -15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imageElement--arrow__up--desktop {
+        position  : absolute;
+        right     : 65px;
+        transform : rotate(180deg);
+        margin-top: -15px;
+    }
+
+    .imageElement--arrow__down--desktop {
+        position  : absolute;
+        right     : 65px;
+        transform : rotate(0deg);
+        margin-top: -15px;
     }
 }

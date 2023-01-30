@@ -11,7 +11,7 @@
     "flex-layout.row#guia__tallas--mobile": {
         "title": "Guia de tallas modal e imagen mobile",
         "children": [
-            "flex-layout.col#img__regla",
+            "flex-layout.col#icon__regla",
             "flex-layout.col#modal__regla--mobile"
         ],
         "props": {
@@ -23,10 +23,7 @@
         "title": "Modal para ver guía de tallas",
         "children": [
             "modal-trigger#guia__tallas--mobile"
-        ],
-        "props": {
-            "width": "85%"
-        }
+        ]
     },
     "modal-trigger#guia__tallas--mobile": {
         "title": "Modal guía de tallas",

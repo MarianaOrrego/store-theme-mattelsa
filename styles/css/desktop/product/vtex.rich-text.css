@@ -1,5 +1,6 @@
 .wrapper--text__guia--talla .paragraph {
-    cursor: pointer;
+    cursor   : pointer;
+    font-size: 13px;
 }
 
 .container--disponibilidad__tienda {
@@ -39,7 +40,7 @@
     font-weight: 600;
 }
 
-.strong--pago__efectivo{
+.strong--pago__efectivo {
     font-size: 13px;
 }
 

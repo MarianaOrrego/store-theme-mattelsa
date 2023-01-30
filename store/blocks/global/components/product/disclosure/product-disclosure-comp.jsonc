@@ -10,7 +10,7 @@
         "title": "Composicion trigger",
         "children": [
             "rich-text#composicion",
-            "disclosure-state-indicator"
+            "disclosure-state-indicator#desktop"
         ],
         "props": {
             "blockClass": "ayuda__richtext"

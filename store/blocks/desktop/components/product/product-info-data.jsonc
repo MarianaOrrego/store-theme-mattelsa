@@ -6,7 +6,8 @@
             "flex-layout.col#product__info--data"
         ],
         "props": {
-            "colSizing": "auto"
+            "colSizing": "auto",
+            "blockClass": "product__info--dektop"
         }
     },
     "flex-layout.col#product__info--image": {
@@ -60,7 +61,8 @@
             "flex-layout.col#modal__tallas"
         ],
         "props": {
-            "blockClass": "product__info--quantity-modal"
+            "blockClass": "product__info--quantity-modal",
+            "colSizing": "auto"
         }
     },
     "flex-layout.col#product__quantity": {
@@ -81,7 +83,7 @@
     "flex-layout.row#guia__tallas": {
         "title": "Guia de tallas modal e imagen",
         "children": [
-            "flex-layout.col#img__regla",
+            "flex-layout.col#icon__regla",
             "flex-layout.col#modal__regla"
         ],
         "props": {
@@ -89,31 +91,24 @@
             "colSizing": "auto"
         }
     },
-    "flex-layout.col#img__regla": {
+    "flex-layout.col#icon__regla": {
         "title": "Imagen de regla guia de tallas",
         "children": [
-            "image#rule"
-        ],
-        "props": {
-            "width": "15%",
-            "marginRight": 2
-        }
+            "icon#rule"
+        ]
     },
-    "image#rule": {
+    "icon#rule": {
         "title": "Imagen regla",
         "props": {
-            "src": "assets/img/rule.png",
-            "blockClass": "img__regla"
+            "id": "rule",
+            "size": 16
         }
     },
     "flex-layout.col#modal__regla": {
         "title": "Modal para ver guía de tallas",
         "children": [
             "modal-trigger#guia__tallas"
-        ],
-        "props": {
-            "width": "85%"
-        }
+        ]
     },
     "modal-trigger#guia__tallas": {
         "title": "Modal guía de tallas",
@@ -169,7 +164,7 @@
             "icon#check"
         ],
         "props": {
-            "width": "35%"
+            "blockClass": "pago__efectivo--check"
         }
     },
     "flex-layout.col#efectivo": {
@@ -178,8 +173,7 @@
             "rich-text#pago__efectivo"
         ],
         "props": {
-            "width": "65%",
-            "blockClass":"efectivo"
+            "blockClass": "pago__efectivo--txt"
         }
     },
     "rich-text#pago__efectivo": {
@@ -227,7 +221,10 @@
         "title": "Recomendaciones de compras",
         "children": [
             "flex-layout.col#recomendaciones"
-        ]
+        ],
+        "props": {
+            "blockClass":"recomendaciones__desktop"
+        }
     },
     "flex-layout.col#recomendaciones": {
         "title": "Organización para recomendacioens de compras",

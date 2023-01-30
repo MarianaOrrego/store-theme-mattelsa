@@ -6,7 +6,10 @@
             "flex-layout.row#product__info",
             "flex-layout.row#recomendaciones",
             "flex-layout.row#product__tabs"
-        ]
+        ],
+        "props":{
+            "blockClass":"responsive__product--desktop"
+        }
     }
 
 }

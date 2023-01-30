@@ -10,7 +10,7 @@
         "title": "Envios trigger",
         "children": [
             "rich-text#envios",
-            "disclosure-state-indicator"
+            "disclosure-state-indicator#desktop"
         ],
         "props": {
             "blockClass": "ayuda__richtext"
