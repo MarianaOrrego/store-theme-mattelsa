@@ -3,3 +3,13 @@
    --primary-color-rgba : rgba(12, 35, 64, 0.502);
    --secondary-color    : #f5f5f5;
  }
+
+ :global(.vtex-rich-text-0-x-container--standard-maxwidth),
+ :global(.vtex-flex-layout-0-x-flexRowContent--standard-maxwidth),
+ :global(.vtex-flex-layout-0-x-flexRow--standard-maxwidth),
+ :global(.vtex-flex-layout-0-x-flexCol--standard-maxwidth),
+ :global(.vtex-store-header-2-x-headerRowBackground--standard-maxwidth),
+ :global(.vtex-slider-layout-0-x-sliderLayoutContainer--standard-maxwidth) {
+   margin: auto;
+   max-width: 1440px;
+ }

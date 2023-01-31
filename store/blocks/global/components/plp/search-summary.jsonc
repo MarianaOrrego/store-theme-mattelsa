@@ -57,7 +57,9 @@
         "props": {
             "blockClass": "list__summary--info",
             "width": "70%",
-            "paddingRight": 5
+            "paddingRight": 5,
+            "preventVerticalStretch": true,
+            "rowGap": 2
         }
     },
     "product-summary-name#departament-list": {

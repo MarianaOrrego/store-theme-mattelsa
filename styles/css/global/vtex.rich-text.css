@@ -2,7 +2,9 @@
     margin: 0px;
 }
 
-.paragraph--global__quick-trigger:hover {
+.paragraph--global__quick-trigger {
     color      : #484848;
+    font-size  : 10px;
     font-weight: bold;
+    width      : 65px;
 }

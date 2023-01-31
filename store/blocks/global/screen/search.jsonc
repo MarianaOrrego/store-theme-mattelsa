@@ -1,30 +1,36 @@
 {
     "store.search": {
+        "title":"Search",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#department": {
+        "title":"Search departament",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#category": {
+        "title":"Search category",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#subcategory": {
+        "title":"Search subcategory",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#brand": {
+        "title":"Search brand",
         "blocks": [
             "search-result-layout"
         ]
     },
     "search-result-layout": {
+        "title":"Search result",
         "blocks": [
             "search-result-layout.desktop#department",
             "search-result-layout.mobile#department",

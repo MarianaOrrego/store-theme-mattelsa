@@ -1,5 +1,6 @@
 .paper--modal__quick--view {
-    width: 50%;
+    height: 450px;
+    width : 850px;
 }
 
 .headerContainer--button__close {
@@ -9,4 +10,15 @@
 
 .closeButtonContainer--button__close {
     z-index: 1;
+}
+
+.contentContainer--modal__quick--view-content :global(.vtex-button) {
+    bottom  : 14px;
+    width   : 40%;
+    position: absolute;
+}
+
+.triggerContainer--modal__quick--view {
+    position: absolute;
+    right   : 38px;
 }

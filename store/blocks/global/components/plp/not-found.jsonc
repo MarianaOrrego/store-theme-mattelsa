@@ -1,5 +1,5 @@
 {
-    "store.not-found#product": {
+    "search-not-found-layout": {
         "blocks": ["rich-text#not-found"]
       },
     "rich-text#not-found": {
