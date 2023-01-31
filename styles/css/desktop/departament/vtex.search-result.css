@@ -1,0 +1,50 @@
+.orderByButton {
+    border-color: transparent;
+}
+
+.orderByText {
+    text-transform: initial;
+}
+
+.orderByOptionsContainer {
+    border-color: transparent;
+    box-shadow  : none;
+    min-width   : 150px;
+    margin-top  : 56px;
+}
+
+.orderByOptionItem {
+    color    : #484848;
+    font     : normal normal normal 11px Montserrat-Medium;
+    min-width: 150px;
+    padding  : 6px;
+}
+
+.filterMessage {
+    display: none;
+}
+
+.filter__container--selectedFilters {
+    display: none;
+}
+
+.filterTitleSpan {
+    color: #484848;
+    font : normal normal bold 14px Montserrat-Medium;
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+    color: #484848;
+    font : normal normal normal 13px Montserrat-Medium;
+}
+
+.filter__container--title,
+.filter__container--brand,
+.filter__container--ingredientes,
+.filter__container--priceRange {
+    border-bottom-style: none;
+}
+
+.flexRowContent--products {
+    border-top: 1px #e4e4e4 solid;
+}
