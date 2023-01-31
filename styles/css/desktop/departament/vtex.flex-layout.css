@@ -1,3 +1,8 @@
+.flexRow--products{
+    border-top: #cdcdcd 1px solid;
+    margin-top: 5%;
+}
+
 .flexRow--filter__navigator--desktop {
     padding: 10%;
 }
