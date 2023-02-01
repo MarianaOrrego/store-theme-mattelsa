@@ -1,4 +1,4 @@
-.flexRow--products{
+.flexRow--products {
     border-top: #cdcdcd 1px solid;
     margin-top: 5%;
 }
@@ -58,4 +58,9 @@
 
 .flexColChild--list__summary--info :global(.vtex-product-price-1-x-sellingPrice) {
     font-weight: bold;
+}
+
+.flexRowContent--botones__medidas :global(.vtex-button) {
+    font-size     : 13px;
+    text-transform: inherit;
 }

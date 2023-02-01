@@ -12,13 +12,29 @@
     z-index: 1;
 }
 
-.contentContainer--modal__quick--view-content :global(.vtex-button) {
-    bottom  : 14px;
-    width   : 40%;
-    position: absolute;
+@media (min-width:1024px) {
+    .contentContainer--modal__quick--view-content :global(.vtex-button) {
+        bottom  : 14px;
+        width   : 40%;
+        position: absolute;
+    }
+
+    .triggerContainer--modal__quick--view {
+        position: absolute;
+        right   : 38px;
+    }
+
 }
 
-.triggerContainer--modal__quick--view {
-    position: absolute;
-    right   : 38px;
+@media (max-width:1024px) {
+    .contentContainer--modal__quick--view-content :global(.vtex-button) {
+        width: 100%;
+    }
+
+    .triggerContainer--modal__quick--view {
+        position: absolute;
+        right   : 30px;
+        top     : 20px;
+    }
+
 }
