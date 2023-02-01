@@ -29,31 +29,18 @@
     "flex-layout.row#botones__tallas": {
         "title": "Sección botonera",
         "children": [
-            "flex-layout.col#cm",
-            "flex-layout.col#in"
+            "flex-layout.col#cm__in"
         ],
         "props": {
             "blockClass": "botones__medidas",
             "colSizing": "auto"
         }
     },
-    "flex-layout.col#cm": {
-        "title": "Boton centimetros",
+    "flex-layout.col#cm__in": {
+        "title": "Tab con tallas en in y cm",
         "children": [
-            "rich-text#cm"
-        ],
-        "props": {
-            "blockClass":"botone__medidas"
-        }
-    },
-    "flex-layout.col#in": {
-        "title": "Boton pulgadas",
-        "children": [
-            "rich-text#in"
-        ],
-        "props": {
-            "blockClass":"botone__medidas"
-        }
+            "tab-layout#botones"
+        ]
     },
     "rich-text#superior__hombre": {
         "title": "Superio hombre 'talla'",

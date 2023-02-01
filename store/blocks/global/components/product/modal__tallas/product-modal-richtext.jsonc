@@ -7,20 +7,6 @@
             "blockClass": "titulo__guia--tallas"
         }
     },
-    "rich-text#cm": {
-        "title": "Texto talla en centimetros",
-        "props": {
-            "text": "cm",
-            "blockClass": "talla__cm"
-        }
-    },
-    "rich-text#in": {
-        "title": "Texto talla en pulgadas",
-        "props": {
-            "text": "in",
-            "blockClass": "talla__in"
-        }
-    },
     "rich-text#tomar__medidas--title": {
         "title": "Titulo sección toma de medidas",
         "props": {

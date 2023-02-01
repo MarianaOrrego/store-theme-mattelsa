@@ -16,21 +16,18 @@
             "product-images#product__info--image"
         ],
         "props": {
-            "width": "65%"
+            "width": "60%",
+            "blockClass":"image__info"
         }
     },
     "product-images#product__info--image": {
         "title": "Configuración imagenes desktop",
         "props": {
+            "blockClass":"image__info",
             "zoomMode": "open-modal",
             "ModalZoom": "modal-trigger#product__image",
-            "showNavigationArrows":false,
             "showPaginationDots": false,
-            "thumbnailVisibility": "hidden",
-            "aspectRatio": {
-                "desktop": "auto",
-                "mobile": "16:9"
-            },
+            "aspectRatio":"3:3.5",
             "itemsPerPage": {
                 "desktop": 2
             }
@@ -121,7 +118,7 @@
         "title": "Texto guia de tallas",
         "props": {
             "text": "Guia de tallas",
-            "blockClass":"text__guia--talla"
+            "blockClass": "text__guia--talla"
         }
     },
     "flex-layout.row#product__info--additional": {
@@ -207,7 +204,7 @@
             "modal-layout#disponibilidad__tienda"
         ],
         "props": {
-            "blockClass":"disponibilidad__tienda"
+            "blockClass": "disponibilidad__tienda"
         }
     },
     "rich-text#disponibilidad__tienda": {
@@ -223,7 +220,7 @@
             "flex-layout.col#recomendaciones"
         ],
         "props": {
-            "blockClass":"recomendaciones__desktop"
+            "blockClass": "recomendaciones__desktop"
         }
     },
     "flex-layout.col#recomendaciones": {

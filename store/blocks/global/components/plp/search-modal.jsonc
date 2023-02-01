@@ -88,10 +88,7 @@
             "showNavigationArrows":true,
             "showPaginationDots": false,
             "thumbnailVisibility": "hidden",
-            "aspectRatio": {
-                "desktop": "auto",
-                "mobile": "16:9"
-            },
+            "aspectRatio":"3:3",
             "itemsPerPage": {
                 "desktop": 2
             }

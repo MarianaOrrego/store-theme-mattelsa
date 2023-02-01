@@ -8,3 +8,9 @@
     font-weight: bold;
     width      : 65px;
 }
+
+@media (max-width:1024px) {
+    .container--global__quick-trigger{
+        display: none;
+    }
+}
