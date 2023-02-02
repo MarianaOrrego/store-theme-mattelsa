@@ -48,3 +48,7 @@
 .flexRowContent--products {
     border-top: 1px #e4e4e4 solid;
 }
+
+.notFound--layout {
+    margin-top: 15%;
+}
