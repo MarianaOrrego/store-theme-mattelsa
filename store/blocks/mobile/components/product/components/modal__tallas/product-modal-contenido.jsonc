@@ -1,0 +1,36 @@
+{
+    "modal-content#guia__tallas--mobile": {
+        "title": "Contenido del modal guia de tallas",
+        "children": [
+            "flex-layout.row#contenido__tallas--mobile",
+            "flex-layout.row#botones__tallas--mobile",
+            "flex-layout.row#contenido__tabla",
+            "flex-layout.row#contenido__medidas"
+        ]
+    },
+    "flex-layout.row#contenido__tallas--mobile": {
+        "title": "Contenido guia de tallas",
+        "children": [
+            "flex-layout.col#titulo__tallas"
+        ]
+    },
+    "flex-layout.row#botones__tallas--mobile": {
+        "title": "Sección botonera",
+        "children": [
+            "flex-layout.col#cm__in--mobile"
+        ],
+        "props": {
+            "blockClass": "botones__medidas--mobile",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#cm__in--mobile": {
+        "title": "Tab con tallas en in y cm",
+        "children": [
+            "tab-layout#botones--mobile"
+        ],
+        "props": {
+            "blockClass": "botones__mobile"
+        }
+    }
+}
