@@ -1,12 +1,14 @@
-.contentContainer--content__btn {
-    height  : 240px;
-    position: relative;
-}
-
-.contentContainer--content__btn :global(.vtex-tab-layout-0-x-contentItem) {
-    left    : -710px;
-    position: absolute;
-    width   : 840px;
+@media (min-width:1024px) {
+    .contentContainer--content__btn {
+        height  : 240px;
+        position: relative;
+    }
+    
+    .contentContainer--content__btn :global(.vtex-tab-layout-0-x-contentItem) {
+        left    : -710px;
+        position: absolute;
+        width   : 840px;
+    }
 }
 
 .listItem--boton__in,

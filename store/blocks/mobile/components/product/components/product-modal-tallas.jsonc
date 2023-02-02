@@ -31,17 +31,5 @@
             "rich-text#guia__tallas",
             "modal-layout#guia__tallas--mobile"
         ]
-    },
-    "modal-layout#guia__tallas--mobile": {
-        "title": "Modal para la guia de tallas contenido",
-        "children": [
-            "modal-header#guia__tallas",
-            "modal-content#guia__tallas"
-        ],
-        "props": {
-            "fullScreen": true,
-            "scroll": "content",
-            "blockClass":"modal__tallas"
-        }
     }
 }

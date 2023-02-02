@@ -41,10 +41,10 @@
     "autocomplete-result-list.v2#mobile": {
         "title": "Autocompletar",
         "blocks": [
-            "product-summary.shelf#autocomplete"
+            "product-summary.shelf#autocomplete--mobile"
         ]
     },
-    "product-summary.shelf#autocomplete": {
+    "product-summary.shelf#autocomplete--mobile": {
         "title": "Productos del buscador",
         "children": [
             "flex-layout.row#autocomplete__search--mobile"
@@ -53,15 +53,15 @@
     "flex-layout.row#autocomplete__search--mobile": {
         "title": "Productos de search header",
         "children": [
-            "flex-layout.col#image__search",
-            "flex-layout.col#info__search"
+            "flex-layout.col#image__search--mobile",
+            "flex-layout.col#info__search--mobile"
         ],
         "props": {
             "blockClass": "autocomplete__search--mobile",
             "colSizing": "auto"
         }
     },
-    "flex-layout.col#image__search": {
+    "flex-layout.col#image__search--mobile": {
         "title": "Imagen del producto search header",
         "children": [
             "product-summary-image"
@@ -71,7 +71,7 @@
             "width":"50%"
         }
     },
-    "flex-layout.col#info__search": {
+    "flex-layout.col#info__search--mobile": {
         "title": "Información del producto search header",
         "children": [
             "product-summary-name",
