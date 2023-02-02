@@ -40,7 +40,7 @@
         ],
         "props": {
             "blockClass": "preguntas__frecuentes--compras",
-            "marginTop":5
+            "marginTop": 5
         }
     },
     "flex-layout.row#preguntas__frecuentes--envios": {
@@ -50,7 +50,7 @@
         ],
         "props": {
             "blockClass": "preguntas__frecuentes--envios",
-            "marginTop":5
+            "marginTop": 5
         }
     },
     "flex-layout.row#preguntas__frecuentes--pagos": {
@@ -60,9 +60,27 @@
         ],
         "props": {
             "blockClass": "preguntas__frecuentes--pagos",
-            "marginTop":5
+            "marginTop": 5
         }
     },
-    "flex-layout.row#preguntas__frecuentes--generales": {},
-    "flex-layout.row#preguntas__frecuentes--notas": {}
+    "flex-layout.row#preguntas__frecuentes--generales": {
+        "title": "Contenido para GENERALES",
+        "children": [
+            "rich-text#preguntas__frecuentes--generales"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes--generales",
+            "marginTop": 5
+        }
+    },
+    "flex-layout.row#preguntas__frecuentes--notas": {
+        "title": "Contenido para NOTA",
+        "children": [
+            "rich-text#preguntas__frecuentes--nota"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes--nota",
+            "marginTop": 5
+        }
+    }
 }
