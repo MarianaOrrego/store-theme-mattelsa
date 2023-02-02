@@ -1,0 +1,68 @@
+{
+    "flex-layout.row#preguntas__frecuentes": {
+        "title": "Preguntas prefuentes",
+        "children": [
+            "flex-layout.col#preguntas__frecuentes"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes",
+            "marginTop": 8
+        }
+    },
+    "flex-layout.col#preguntas__frecuentes": {
+        "title": "Organización contenido preguntas frecuentes",
+        "children": [
+            "flex-layout.row#preguntas__frecuentes--title",
+            "flex-layout.row#preguntas__frecuentes--compras",
+            "flex-layout.row#preguntas__frecuentes--envios",
+            "flex-layout.row#preguntas__frecuentes--pagos",
+            "flex-layout.row#preguntas__frecuentes--generales",
+            "flex-layout.row#preguntas__frecuentes--notas"
+        ],
+        "props": {
+            "blockClass": "contenido__preguntas--frecuentes",
+            "marginLeft": 5
+        }
+    },
+    "flex-layout.row#preguntas__frecuentes--title": {
+        "title": "Sección titulo preguntas frecuentes",
+        "children": [
+            "rich-text#preguntas__frecuentes--title"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes--title"
+        }
+    },
+    "flex-layout.row#preguntas__frecuentes--compras": {
+        "title": "Contenido para COMPRAS",
+        "children": [
+            "rich-text#preguntas__frecuentes--compras"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes--compras",
+            "marginTop":5
+        }
+    },
+    "flex-layout.row#preguntas__frecuentes--envios": {
+        "title": "Contenido para ENVIOS",
+        "children": [
+            "rich-text#preguntas__frecuentes--envios"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes--envios",
+            "marginTop":5
+        }
+    },
+    "flex-layout.row#preguntas__frecuentes--pagos": {
+        "title": "Contenido para PAGOS",
+        "children": [
+            "rich-text#preguntas__frecuentes--pagos"
+        ],
+        "props": {
+            "blockClass": "preguntas__frecuentes--pagos",
+            "marginTop":5
+        }
+    },
+    "flex-layout.row#preguntas__frecuentes--generales": {},
+    "flex-layout.row#preguntas__frecuentes--notas": {}
+}

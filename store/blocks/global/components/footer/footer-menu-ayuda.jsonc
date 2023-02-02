@@ -43,7 +43,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/preguntasfrecuentes",
                 "tagTitle": "preguntas",
                 "text": "Preguntas frecuentes"
             },
