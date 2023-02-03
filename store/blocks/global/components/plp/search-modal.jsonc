@@ -1,0 +1,114 @@
+{
+    "modal-trigger#global__quick-view": {
+        "title": "Modal vista rapida",
+        "children": [
+            "flex-layout.row#quick__view",
+            "modal-layout#global__quick-view"
+        ],
+        "props": {
+            "blockClass": "modal__quick--view"
+        }
+    },
+    "flex-layout.row#quick__view": {
+        "title": "Quick view organización",
+        "children": [
+            "image#quick__view",
+            "rich-text#global__quick-view"
+        ],
+        "props": {
+            "blockClass": "quick__view--desktop"
+        }
+    },
+    "image#quick__view": {
+        "title": "Icon quick view",
+        "props": {
+            "src": "assets/img/icon-eye.svg",
+            "maxWidth": "16px",
+            "blockClass": "quick__view"
+        }
+    },
+    "rich-text#global__quick-view": {
+        "title": "Texto 'vista rapida'",
+        "props": {
+            "text": "vista rapida",
+            "font": "t-link",
+            "blockClass": "global__quick-trigger"
+        }
+    },
+    "modal-layout#global__quick-view": {
+        "title": "Configuración modal vista rapida",
+        "children": [
+            "modal-header#global__quick-view",
+            "modal-content#global__quick-view"
+        ],
+        "props": {
+            "blockClass": "modal__quick--view"
+        }
+    },
+    "modal-header#global__quick-view": {
+        "title": "Modal header boton de cerrar",
+        "props": {
+            "iconCloseSize": 15,
+            "showCloseButton": true,
+            "blockClass": "button__close"
+        }
+    },
+    "modal-content#global__quick-view": {
+        "title":"Contenido del modal quick view",
+        "children":[
+            "flex-layout.row#global__quick-view"
+        ],
+        "props":{
+            "blockClass":"modal__quick--view-content"
+        }
+    },
+    "flex-layout.row#global__quick-view": {
+        "title": "Información a mostrar en el modal",
+        "children": [
+            "flex-layout.col#global__quick--modal-image",
+            "flex-layout.col#global__quick--modal-info"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#global__quick--modal-image": {
+        "title": "Imagen del producto",
+        "children": [
+            "product-images#modal__img--plp"
+        ],
+        "props": {
+            "width": "55%",
+            "blockClass": "modal__image"
+        }
+    },
+    "product-images#modal__img--plp": {
+        "title": "Configuración imagenes desktop",
+        "props": {
+            "showNavigationArrows":true,
+            "showPaginationDots": false,
+            "thumbnailVisibility": "hidden",
+            "aspectRatio":"3:3",
+            "itemsPerPage": {
+                "desktop": 2
+            }
+        }
+    },
+    "flex-layout.col#global__quick--modal-info": {
+        "title": "Información del producto",
+        "children": [
+            "product-summary-brand",
+            "product-summary-name#departament-grid",
+            "product-summary-description",
+            "product-summary-price",
+            "product-summary-quantity",
+            "add-to-cart-button"
+        ],
+        "props": {
+            "width": "45%",
+            "blockClass": "modal__info",
+            "preventVerticalStretch":true,
+            "rowGap": 2
+        }
+    }
+}

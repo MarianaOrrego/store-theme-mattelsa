@@ -1,0 +1,421 @@
+{
+    "disclosure-layout#composicion": {
+        "title": "Composicion layout",
+        "children": [
+            "disclosure-trigger#composicion",
+            "disclosure-content#composicion"
+        ]
+    },
+    "disclosure-trigger#composicion": {
+        "title": "Composicion trigger",
+        "children": [
+            "rich-text#composicion",
+            "disclosure-state-indicator#desktop"
+        ],
+        "props": {
+            "blockClass": "ayuda__richtext"
+        }
+    },
+    "disclosure-content#composicion": {
+        "title": "Contenido disclosure",
+        "children": [
+            "flex-layout.row#composicion__info",
+            "flex-layout.row#composicion__cuidados",
+            "flex-layout.row#comoposicion__conoce"
+        ],
+        "props":{
+            "blockClass":"contenido__disclosure"
+        }
+    },
+    "rich-text#composicion": {
+        "title": "Texto opción composición y cuidados",
+        "props": {
+            "text": "Composición y cuidados",
+            "blockClass": "disclosure__opciones"
+        }
+    },
+    "flex-layout.row#composicion__info": {
+        "title": "Información titulo principal",
+        "children": [
+            "flex-layout.col#composicion__info"
+        ]
+    },
+    "flex-layout.col#composicion__info": {
+        "title": "Organización de información",
+        "children": [
+            "flex-layout.row#tela__principal",
+            "flex-layout.row#algodon"
+        ]
+    },
+    "flex-layout.row#tela__principal": {
+        "title": "Tela principal",
+        "children": [
+            "rich-text#tela__principal"
+        ]
+    },
+    "rich-text#tela__principal": {
+        "title": "Texto tela principal",
+        "props": {
+            "text": "**Tela principal / Main fabric**",
+            "blockClass": "titulo__disclosure"
+        }
+    },
+    "flex-layout.row#algodon": {
+        "title": "Tela principal",
+        "children": [
+            "rich-text#algodon"
+        ]
+    },
+    "rich-text#algodon": {
+        "title": "Composicion",
+        "props": {
+            "text": "100% algodon/cotton",
+            "blockClass": "contenido__disclosure"
+        }
+    },
+    "flex-layout.row#composicion__cuidados": {
+        "title": "Información de lavado",
+        "children": [
+            "flex-layout.col#composicion__cuidados--parte-1",
+            "flex-layout.col#composicion__cuidados--parte-2"
+        ]
+    },
+    "flex-layout.col#composicion__cuidados--parte-1": {
+        "title": "Información de lavado parte 1",
+        "children": [
+            "flex-layout.row#lavadora",
+            "flex-layout.row#blanqueador",
+            "flex-layout.row#retorcer",
+            "flex-layout.row#sombra"
+        ]
+    },
+    "flex-layout.col#composicion__cuidados--parte-2": {
+        "title": "Información de lavado parte 2",
+        "children": [
+            "flex-layout.row#secadora",
+            "flex-layout.row#plancha",
+            "flex-layout.row#seco"
+        ]
+    },
+    "flex-layout.row#lavadora": {
+        "title": "Información de lavado lavadora",
+        "children": [
+            "flex-layout.col#img__lavadora",
+            "flex-layout.col#informacion__lavadora"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__lavadora": {
+        "title": "Imagen lavadora",
+        "children": [
+            "image#lavadora"
+        ],
+        "props": {
+            "width": "14%",
+            "blockClass":"img__informacion"
+        }
+    },
+    "image#lavadora": {
+        "title": "Imagen lavadora",
+        "props": {
+            "src": "assets/img/Lavadora_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__lavadora": {
+        "title":"Información lavadora",
+        "children":[
+            "rich-text#info__lavadora"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__lavadora":{
+        "title": "Información lavadora",
+        "props": {
+            "text": "Use lavadora en ciclo delicado y agua fría",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#blanqueador": {
+        "title": "Información de blanqueador",
+        "children": [
+            "flex-layout.col#img__blanqueador",
+            "flex-layout.col#informacion__blanqueador"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__blanqueador":{
+        "title": "Imagen blanqueador",
+        "children": [
+            "image#blanqueador"
+        ],
+        "props": {
+            "blockClass":"img__informacion"
+        }
+    },
+    "image#blanqueador": {
+        "title": "Imagen blanqueador",
+        "props": {
+            "src": "assets/img/Blanqueador_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__blanqueador": {
+        "title":"Información blanqueador",
+        "children":[
+            "rich-text#info__blanqueador"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__blanqueador":{
+        "title": "Información blanqueador",
+        "props": {
+            "text": "No uses blanqueador",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#retorcer": {
+        "title": "Información de retorcer",
+        "children": [
+            "flex-layout.col#img__retorcer",
+            "flex-layout.col#informacion__retorcer"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__retorcer":{
+        "title": "Imagen retorcer",
+        "children": [
+            "image#retorcer"
+        ],
+        "props": {
+            "blockClass":"img__informacion"
+        }
+    },
+    "image#retorcer": {
+        "title": "Imagen retorcer",
+        "props": {
+            "src": "assets/img/Retorcer_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__retorcer": {
+        "title":"Información retorcer",
+        "children":[
+            "rich-text#info__retorcer"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__retorcer":{
+        "title": "Información blanqueador",
+        "props": {
+            "text": "No la retuerzas",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#sombra": {
+        "title": "Información de sombra",
+        "children": [
+            "flex-layout.col#img__sombra",
+            "flex-layout.col#informacion__sombra"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__sombra":{
+        "title": "Imagen sombra",
+        "children": [
+            "image#sombra"
+        ],
+        "props": {
+            "blockClass":"img__informacion"
+        }
+    },
+    "image#sombra": {
+        "title": "Imagen sombra",
+        "props": {
+            "src": "assets/img/Sombra_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__sombra": {
+        "title":"Información sombra",
+        "children":[
+            "rich-text#info__sombra"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__sombra":{
+        "title": "Información blasombra",
+        "props": {
+            "text": "Seca a la sombra",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#secadora": {
+        "title": "Información de secadora",
+        "children": [
+            "flex-layout.col#img__secadora",
+            "flex-layout.col#informacion__secadora"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__secadora":{
+        "title": "Imagen secadora",
+        "children": [
+            "image#secadora"
+        ],
+        "props": {
+            "blockClass":"img__informacion"
+        }
+    },
+    "image#secadora": {
+        "title": "Imagen secadora",
+        "props": {
+            "src": "assets/img/Secadora_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__secadora": {
+        "title":"Información secadora",
+        "children":[
+            "rich-text#info__secadora"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__secadora":{
+        "title": "Información secadora",
+        "props": {
+            "text": "No uses secadora",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#plancha": {
+        "title": "Información de plancha",
+        "children": [
+            "flex-layout.col#img__plancha",
+            "flex-layout.col#informacion__plancha"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__plancha":{
+        "title": "Imagen plancha",
+        "children": [
+            "image#plancha"
+        ],
+        "props": {
+            "blockClass":"img__informacion"
+        }
+    },
+    "image#plancha": {
+        "title": "Imagen plancha",
+        "props": {
+            "src": "assets/img/Planchar_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__plancha": {
+        "title":"Información plancha",
+        "children":[
+            "rich-text#info__plancha"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__plancha":{
+        "title": "Información plancha",
+        "props": {
+            "text": "Planchar a temperatura baja. No planches el estampado",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#seco": {
+        "title": "Información de seco",
+        "children": [
+            "flex-layout.col#img__seco",
+            "flex-layout.col#informacion__seco"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass":"info__lavado"
+        }
+    },
+    "flex-layout.col#img__seco":{
+        "title": "Imagen seco",
+        "children": [
+            "image#seco"
+        ]
+    },
+    "image#seco": {
+        "title": "Imagen seco",
+        "props": {
+            "src": "assets/img/Lavar_en_seco_2x.png",
+            "blockClass":"comp__img"
+        }
+    },
+    "flex-layout.col#informacion__seco": {
+        "title":"Información seco",
+        "children":[
+            "rich-text#info__seco"
+        ],
+        "props":{
+            "width":"86%",
+            "blockClass":"text__informacion"
+        }
+    },
+    "rich-text#info__seco":{
+        "title": "Información seco",
+        "props": {
+            "text": "No laves en seco",
+            "blockClass":"texto__informacion"
+        }
+    },
+    "flex-layout.row#comoposicion__conoce": {
+        "title": "Conoce mas información sección",
+        "children": [
+            "link.product#conoce__mas"
+        ]
+    },
+    "link.product#conoce__mas":{
+        "title": "Mensaje conoce mas",
+        "props": {
+            "label": "Conoce más acerca de cómo cuidar tu ropa.",
+            "href": "https://www.instagram.com/tv/B9etzpKliCg/",
+            "target": "__blank",
+            "blockClass":"link__mas"
+        }
+    }
+}

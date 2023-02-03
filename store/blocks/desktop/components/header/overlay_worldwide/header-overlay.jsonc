@@ -1,5 +1,6 @@
 {
     "overlay-trigger": {
+        "title":"overlay trigger",
         "children": [
             "image#colombia",
             "rich-text#cop",

@@ -113,7 +113,7 @@
       "muted-5": "#f2f4f5"
     },
     "active-background": {
-      "action-primary": "#0c389f",
+      "action-primary": "#484848",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -129,7 +129,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#484848",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
       "emphasis": "#f71963",

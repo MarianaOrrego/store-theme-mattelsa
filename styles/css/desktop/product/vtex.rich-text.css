@@ -1,0 +1,93 @@
+.wrapper--text__guia--talla .paragraph {
+    cursor   : pointer;
+    font-size: 13px;
+}
+
+.container--disponibilidad__tienda {
+    width: 100%;
+}
+
+.container--disponibilidad__tienda {
+    align-items        : center;
+    background         : none;
+    border             : solid #3C3C3C 1px;
+    border-bottom-color: #3C3C3C;
+    border-radius      : 0;
+    color              : #484848;
+    cursor             : pointer;
+    height             : 48px;
+    justify-content    : center;
+    line-height        : 30px;
+    letter-spacing     : 0px;
+    margin-top         : 10px;
+    padding            : 6px 12px;
+    text-decoration    : none;
+    text-transform     : initial;
+    width              : 100%;
+}
+
+.container--text__encuentra {
+    color          : #787878;
+    font           : normal normal 14px/38px Montserrat-Medium;
+    justify-content: center;
+    letter-spacing : 0px;
+    opacity        : 1;
+}
+
+.paragraph--disponibilidad__tienda {
+    font-family: "Montserrat-Medium";
+    font-size  : 14px;
+    font-weight: 600;
+}
+
+.strong--pago__efectivo {
+    font-size: 13px;
+}
+
+.paragraph--titulo__disclosure {
+    font-size: 12px;
+}
+
+.paragraph--contenido__disclosure {
+    font-size: 11px;
+    padding  : 0px 20px 15px;
+}
+
+.paragraph--texto__informacion {
+    font-size: 10px;
+}
+
+.paragraph--info__envios {
+    font: normal normal normal 13px/18px Montserrat;
+}
+
+.paragraph--titulo__superio--talla {
+    font: normal normal bold 15px/18px Montserrat;
+}
+
+.paragraph--text__aclaracion {
+    color: #484848;
+    font : normal normal normal 12px/17px Montserrat-Medium;
+}
+
+.container--titulo__superio--talla,
+.container--text__aclaracion,
+.container--tomar__medidas--titulo {
+    justify-content: start !important;
+}
+
+.container--tomar__medidas--titulo {
+    margin-bottom: 7%;
+}
+
+.paragraph--tomar__medidas--titulo {
+    color: #484848;
+    font : normal normal bold 16px/15px Montserrat;
+}
+
+.paragraph--tomar__medidas {
+    color      : #484848;
+    font       : normal normal normal 13px/19px Montserrat-Medium;
+    line-height: 16px;
+    margin-left: 4%;
+}

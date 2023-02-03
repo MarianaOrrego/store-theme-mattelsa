@@ -1,0 +1,252 @@
+{
+    "flex-layout.row#product__info": {
+        "title": "Información general",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "product__info--dektop"
+        }
+    },
+    "flex-layout.col#product__info--image": {
+        "title": "Imagenes de producto",
+        "children": [
+            "product-images#product__info--image"
+        ],
+        "props": {
+            "width": "60%",
+            "blockClass":"image__info"
+        }
+    },
+    "product-images#product__info--image": {
+        "title": "Configuración imagenes desktop",
+        "props": {
+            "blockClass":"image__info",
+            "zoomMode": "open-modal",
+            "ModalZoom": "modal-trigger#product__image",
+            "showPaginationDots": false,
+            "aspectRatio":"3:3.5",
+            "itemsPerPage": {
+                "desktop": 2
+            }
+        }
+    },
+    "flex-layout.col#product__info--data": {
+        "title": "Información producto desktop",
+        "children": [
+            "vtex.store-components:product-brand",
+            "vtex.store-components:product-name",
+            "product-rating-inline",
+            "product-price",
+            "product-description",
+            "flex-layout.row#product__info--quantity-modal",
+            "add-to-cart-button",
+            "flex-layout.row#product__info--additional"
+        ],
+        "props": {
+            "width": "35%",
+            "blockClass": "informacion__producto",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#product__info--quantity-modal": {
+        "title": "Cantidad de producto y guía de tallas",
+        "children": [
+            "flex-layout.col#product__quantity",
+            "flex-layout.col#modal__tallas"
+        ],
+        "props": {
+            "blockClass": "product__info--quantity-modal",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#product__quantity": {
+        "title": "Cantidad de producto",
+        "children": [
+            "product-quantity"
+        ]
+    },
+    "flex-layout.col#modal__tallas": {
+        "title": "Guía de tallas",
+        "children": [
+            "flex-layout.row#guia__tallas"
+        ],
+        "props": {
+            "blockClass": "info__tallas"
+        }
+    },
+    "flex-layout.row#guia__tallas": {
+        "title": "Guia de tallas modal e imagen",
+        "children": [
+            "flex-layout.col#icon__regla",
+            "flex-layout.col#modal__regla"
+        ],
+        "props": {
+            "blockClass": "guia__tallas",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#icon__regla": {
+        "title": "Imagen de regla guia de tallas",
+        "children": [
+            "icon#rule"
+        ]
+    },
+    "icon#rule": {
+        "title": "Imagen regla",
+        "props": {
+            "id": "rule",
+            "size": 16
+        }
+    },
+    "flex-layout.col#modal__regla": {
+        "title": "Modal para ver guía de tallas",
+        "children": [
+            "modal-trigger#guia__tallas"
+        ]
+    },
+    "modal-trigger#guia__tallas": {
+        "title": "Modal guía de tallas",
+        "children": [
+            "rich-text#guia__tallas",
+            "modal-layout#guia__tallas"
+        ]
+    },
+    "rich-text#guia__tallas": {
+        "title": "Texto guia de tallas",
+        "props": {
+            "text": "Guia de tallas",
+            "blockClass": "text__guia--talla"
+        }
+    },
+    "flex-layout.row#product__info--additional": {
+        "title": "Información adicional",
+        "children": [
+            "flex-layout.col#product__info--additional"
+        ]
+    },
+    "flex-layout.col#product__info--additional": {
+        "title": "Información adicional de los productos",
+        "children": [
+            "flex-layout.row#modal__disponibilidad",
+            "flex-layout.row#pago__efectivo",
+            "flex-layout.row#disclosure__info"
+        ]
+    },
+    "flex-layout.row#modal__disponibilidad": {
+        "title": "Modal disponibilidad en tienda",
+        "children": [
+            "modal-trigger#disponibilidad__tienda"
+        ],
+        "props": {
+            "blockClass": "modal__disponibilidad"
+        }
+    },
+    "flex-layout.row#pago__efectivo": {
+        "title": "Pago en efectivo",
+        "children": [
+            "flex-layout.col#check__pago",
+            "flex-layout.col#efectivo"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "pago__efectivo"
+        }
+    },
+    "flex-layout.col#check__pago": {
+        "title": "Icono check",
+        "children": [
+            "icon#check"
+        ],
+        "props": {
+            "blockClass": "pago__efectivo--check"
+        }
+    },
+    "flex-layout.col#efectivo": {
+        "title": "Mensaje pago en efectivo",
+        "children": [
+            "rich-text#pago__efectivo"
+        ],
+        "props": {
+            "blockClass": "pago__efectivo--txt"
+        }
+    },
+    "rich-text#pago__efectivo": {
+        "title": "Texto disponibilidad en tienda",
+        "props": {
+            "text": "**Pago en efectivo**",
+            "blockClass": "pago__efectivo"
+        }
+    },
+    "icon#check": {
+        "props": {
+            "isActive": true,
+            "activeClassName": "Pago en efectivo",
+            "id": "check-green",
+            "size": 16
+        }
+    },
+    "flex-layout.row#disclosure__info": {
+        "title": "Composición y cuidados",
+        "children": [
+            "disclosure-layout-group#info__adicional--cuidados"
+        ],
+        "props": {
+            "blockClass": "disclosure__info"
+        }
+    },
+    "modal-trigger#disponibilidad__tienda": {
+        "title": "Modal disponibilidad",
+        "children": [
+            "rich-text#disponibilidad__tienda",
+            "modal-layout#disponibilidad__tienda"
+        ],
+        "props": {
+            "blockClass": "disponibilidad__tienda"
+        }
+    },
+    "rich-text#disponibilidad__tienda": {
+        "title": "Texto disponibilidad en tienda",
+        "props": {
+            "text": "Ver disponibilidad en tienda",
+            "blockClass": "disponibilidad__tienda"
+        }
+    },
+    "flex-layout.row#recomendaciones": {
+        "title": "Recomendaciones de compras",
+        "children": [
+            "flex-layout.col#recomendaciones"
+        ],
+        "props": {
+            "blockClass": "recomendaciones__desktop"
+        }
+    },
+    "flex-layout.col#recomendaciones": {
+        "title": "Organización para recomendacioens de compras",
+        "children": [
+            "flex-layout.row#text__recomendaciones",
+            "flex-layout.row#vitrina__recomendaciones"
+        ]
+    },
+    "flex-layout.row#text__recomendaciones": {
+        "title": "Texto de recomendaciones",
+        "children": [
+            "rich-text#recomendaciones__compras"
+        ]
+    },
+    "rich-text#recomendaciones__compras": {
+        "title": "recomendaciones de compras",
+        "props": {
+            "text": "**Otrxs han comprado**",
+            "font": "t-heading-3"
+        }
+    },
+    "flex-layout.row#vitrina__recomendaciones": {
+        "title": "Vitrina de productos",
+        "children": [
+            "flex-layout.row#vitrina"
+        ]
+    }
+}

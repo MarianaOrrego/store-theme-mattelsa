@@ -1,0 +1,94 @@
+{
+    "search-result-layout.mobile#department": {
+        "children": [
+            "flex-layout.row#products__mobile"
+        ],
+        "props": {
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#products__mobile": {
+        "children": [
+            "flex-layout.col#products__mobile"
+        ]
+    },
+    "flex-layout.col#products__mobile": {
+        "children": [
+            "flex-layout.row#filter",
+            "flex-layout.row#department__results-mobile"
+        ]
+    },
+    "flex-layout.row#filter": {
+        "children": [
+            "flex-layout.col#filter__mobile",
+            "flex-layout.col#searchinfo__mobile"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "marginBottom": 3,
+            "marginTop": 7
+        }
+    },
+    "flex-layout.col#filter__mobile": {
+        "children": [
+            "flex-layout.row#filter__mobile--content"
+        ],
+        "props": {
+            "width": "40%",
+            "blockClass": "filtros__mobile"
+        }
+    },
+    "flex-layout.row#filter__mobile--content": {
+        "title": "Contenedor filter navigator",
+        "children": [
+            "filter-navigator.v3#mobile"
+        ],
+        "props": {
+            "blockClass": "filter__mobile--content"
+        }
+    },
+    "filter-navigator.v3#mobile": {
+        "title": "Filtros en mobile",
+        "blocks": [
+            "sidebar-close-button#filter"
+        ],
+        "props": {
+            "showClearByFilter": true
+        }
+    },
+    "sidebar-close-button#filter":{
+        "title":"Botón cerrar",
+        "props":{
+            "size":15,
+            "blockClass":"sidebar__close--btn"
+        }
+    },
+    "flex-layout.col#searchinfo__mobile": {
+        "children": [
+            "flex-layout.row#searchinfo__mobile"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true,
+            "blockClass": "orderByAndSwitcher",
+            "colGap": 3,
+            "width": "60%"
+        }
+    },
+    "flex-layout.row#searchinfo__mobile": {
+        "children": [
+            "order-by.v2#mobile__order"
+        ]
+    },
+    "order-by.v2#mobile__order": {
+        "props": {
+            "message": "Ordenar",
+            "showOrderTitle": false
+        }
+    },
+    "flex-layout.row#department__results-mobile": {
+        "children": [
+            "search-content#phone"
+        ]
+    }
+}

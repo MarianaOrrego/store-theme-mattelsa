@@ -1,0 +1,45 @@
+{
+    "rich-text#preguntas__frecuentes--title":{
+        "title": "Titulo sección Preguntas frecuentes",
+        "props": {
+            "blockClass":"preguntas__frecuentes--title",
+            "text": "Preguntas frecuentes",
+            "font": "t-heading-1"
+        }
+    },
+    "rich-text#preguntas__frecuentes--compras":{
+        "title": "Texto para COMPRAS",
+        "props": {
+            "blockClass":"preguntas__frecuentes--compras",
+            "text": "**COMPRAS** <br/><br/> **1. ¿Cómo comprar en el sitio web?** <br/><br/> Si aún no tienes una cuenta, primero debes registrarte, luego activas tu cuenta dando clic en el correo que te llegó, después eliges los ítems que te gustaron, llenas tus datos de envío, luego eliges el método de pago y por último finalizas tu pedido. Puedes ver el paso a paso [aquí](https://www.instagram.com/tv/B_X5rS_lba1/) <br/><br/> **2. ¿Cuáles métodos de pago puedo usar para la compra por el sitio web?** <br/><br/> Puedes pagar con tarjeta de crédito, débito con PSE, Nequi o Daviplata, Rappipay, en efectivo con Efecty o pagando contra entrega (si aplica en tu ciudad o municipio). <br/><br/> **3. ¿Qué pasa si no realizo el pago con Efecty en 48 horas?** <br/><br/> Si no realizas el pago de tu pedido en 48 horas, se cancelará automáticamente. <br/><br/> **4. ¿Puedo cambiar el método de pago de mi pedido?** <br/><br/> No es posible cambiar el método de pago de un pedido, pero si elegiste pago en efectivo con Efecty o contra entrega, nos puedes escribir al WhatsApp 300 507 1000 para cancelar el pedido y que puedas hacer uno nuevo con el método de pago que prefieras. <br/><br/> **5. ¿Puedo pagar con tarjeta regalo?** <br/><br/>Las tarjetas regalo solo se pueden redimir en las tiendas físicas, por lo que no es posible usarlas como método de pago en el sitio web."
+        }
+    },
+    "rich-text#preguntas__frecuentes--envios":{
+        "title": "Texto para ENVIOS",
+        "props": {
+            "blockClass":"preguntas__frecuentes--envios",
+            "text": "**ENVÍOS** <br/><br/> **1. ¿Todos los envíos son gratis?** <br/><br/> No, los ítems con descuentos o de la categoría COSAS sí tienen costo de envío. Si compras items sin decuento y el envío es para una ciudad diferente a Medellín, Bogotá, Cali, Barranquilla o Bucaramanga también tendrá costo. <br/><br/> **2. ¿Cuánto vale el envío a mi dirección?** <br/><br/> Si compras solo ropa con descuento, solo de la categoría COSAS o sin descuento y el envío es para una ciudad diferente a Medellín, Bogotá, Cali, Barranquilla o Bucaramanga, puedes ver el valor del envío a cada ciudad o municipio **aquí** <br/><br/> **3. ¿Cuánto tiempo tarda el envío a mi dirección?** <br/><br/>  El tiempo que puede tardar el envío depende de la ciudad o municipio en el que estés, **aquí puedes ver los días hábiles para cada lugar** <br/><br/> **4. ¿Tienen envíos el mismo día?** <br/><br/> Ya no tenemos domicilios o entregas el mismo día, **aquí puedes ver cuánto tarda el envío** o escríbenos al WhatsApp 300 507 1000 y te contamos si tenemos una tienda en tu ciudad.  <br/><br/> **5. ¿A qué ciudades llegan los pedidos?** <br/><br/>Tenemos envíos a varias ciudades y municipios del país, puedes verlos **aquí** <br/><br/> **6. ¿Cuál transportadora traerá mi pedido?** <br/><br/> Tu pedido lo enviaremos por TCC o Coordinadora dependiendo de la ciudad o municipio en el que estés. <br/><br/> **7. Si llega mi pedido y no estoy en la dirección, ¿qué puedo hacer?** <br/><br/> Puedes escribirnos al WhatsApp 300 507 1000 y te ayudamos a programar una nueva entrega para tu pedido <br/><br/> **8. ¿Cómo puedo saber el número de guía de mi pedido y cómo rastrearlo?** <br/><br/> Al correo te llegará el número de guía una vez enviemos tu pedido, si la guía inicia por 13 lo enviamos por TCC y puedes hacer el rastreo dando Click [aquí](https://tcc.com.co/courier/mensajeria/productos-y-servicios/rastrear-envio/) <br/><br/> Si la guía inicia por 16 lo enviamos por Coordinadora y puedes hacer el rastreo dando click [aquí](https://www.coordinadora.com/portafolio-de-servicios/servicios-en-linea/rastrear-guias/)" 
+        }
+    },
+    "rich-text#preguntas__frecuentes--pagos":{
+        "title": "Texto para PAGOS",
+        "props": {
+            "blockClass":"preguntas__frecuentes--pagos",
+            "text": "**MÉTODO DE PAGO - ADDI** <br/><br/> **1. ¿Cuáles son los requisitos para hacer mi pedido con ADDI?** <br/><br/>  Solo necesitas tu cédula en físico, WhatsApp y correo electrónico para el proceso de verificación.  <br/><br/> **2. ¿Cuál es el monto máximo y en cuánto tiempo puedo pagarlo?** <br/><br/> Aplica para compras entre $50.000 y $600.000 y puedes pagarlo en 3 meses. <br/><br/> **3. ¿Cuál es la tasa de interés?** <br/><br/>   No tienes que pagar intereses por tu compra. <br/><br/> **4. ¿Puedo cancelar mi pedido si lo hice con ADDI?** <br/><br/> Luego de hacer tu pedido tienes hasta 2 horas para cancelarlo, porfa escríbenos al Whatsapp 300 5071000 para ayudarte.  <br/><br/> **5. ¿Cuánto tiempo tarda en actualizarse mi saldo en ADDI cuando cancelo el pedido?** <br/><br/> Hasta 5 días hábiles.  <br/><br/> **6. ¿Qué hago si no me aprueban la compra con Addi?** <br/><br/> Debes contactarte con el Soporte de Addi dando [clic aquí](https://api.whatsapp.com/send?phone=5715140346) <br/><br/> **7. ¿Puedo pagar antes del plazo?** <br/><br/> Sí, puedes hacerlo. <br/><br/> **8. ¿Cuánto tiempo tarda la aprobación de ADDI para la compra?** <br/><br/> Aproximadamente 10 minutos <br/><br/> **9. ¿Puedo cambiar la ropa de mi pedido antes de que me lo envíen?** <br/><br/> No, en este caso debes esperar a que te llegue para solicitar el cambio." 
+        }
+    },
+    "rich-text#preguntas__frecuentes--generales":{
+        "title": "Texto para COMPRAS",
+        "props": {
+            "blockClass":"preguntas__frecuentes--generales",
+            "text": "**GENERALES** <br/><br/> **1. ¿Cómo puedo ser distribuidor u obtener una franquicia?** <br/><br/> Te contamos que en este momento estamos enfocados en darle fuerza a nuestro sitio web y así llegar a los lugares donde no tenemos tienda física, no estamos otorgando franquicias o ventas al por mayor, sin embargo, puedes ver ropa con descuento cada semana en la pestaña del SALE. Puedes comprar y vender nuestra ropa, pero sin usar nuestro nombre y contenido por asuntos de propiedad intelectual <br/><br/> **2. ¿A qué correo puedo enviar mi hoja de vida?** <br/><br/> Nos alegra mucho que quieras hacer parte de nuestra comunidad, actualmente no recibimos hojas de vida por correo, pero puedes ver las vacantes que tenemos en comunidad.mattelsa.net y si tu perfil aplica para alguna, el área de Gestión Humana se estará comunicando contigo. <br/><br/> **3. ¿Cómo puedo ver la que está en la tienda de mi ciudad?** <br/><br/> Puedes ver toda la ropa que tenemos en el sitio web mattelsa.net, dando clic en la ropa que te gusta, está la opción 'ver inventario en tienda' ahí puedes ver si la ropa que quieres todavía está en la tienda de tu ciudad."
+        }
+    },
+    "rich-text#preguntas__frecuentes--nota":{
+        "title": "Texto para COMPRAS",
+        "props": {
+            "blockClass":"preguntas__frecuentes--generales",
+            "text": "**Nota:** <br/> Si tienes alguna otra duda o novedad con tu pedido (cambio de dirección, celular o persona quien recibe) puedes escribirnos al WhatsApp 300 507 1000 y de una te ayudamos."
+        }
+    }
+}

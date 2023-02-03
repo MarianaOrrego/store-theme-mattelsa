@@ -1,0 +1,24 @@
+{
+    "gallery-layout-switcher": {
+        "children": [
+            "gallery-layout-option#grid",
+            "gallery-layout-option#list"
+        ]
+    },
+    "gallery-layout-option#grid":{
+        "props": {
+            "name": "grid"
+        },
+        "children":[
+            "icon-grid"
+        ]
+    },
+    "gallery-layout-option#list":{
+        "props": {
+            "name": "list"
+        },
+        "children":[
+            "icon-inline-grid"
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "search-result-layout.desktop#department": {
+        "title": "Search result departament desktop",
+        "children": [
+            "flex-layout.row#department__breadcrumb",
+            "flex-layout.row#desktop__home--slider",
+            "flex-layout.row#products"
+        ],
+        "props": {
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#department__breadcrumb":{
+        "title": "Breadcrumb",
+        "children": [
+            "flex-layout.col#department__bradcrumb"
+        ],
+        "props": {
+            "blockClass": "department__bradcrumb",
+            "marginTop": 7
+        }
+    },
+
+    "flex-layout.row#products": {
+        "title": "Filtros y resultados de busqueda",
+        "children": [
+            "flex-layout.col#department__filter",
+            "flex-layout.col#department__results"
+        ],
+        "props": {
+            "blockClass": "products",
+            "colSizing": "auto",
+            "marginTop": 7
+        }
+    },
+    "flex-layout.col#department__filter": {
+        "title": "Breadcrumb y filtros",
+        "children": [
+            "flex-layout.row#department__filter"
+        ],
+        "props": {
+            "blockClass": "department__filter",
+            "width": "21%",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#department__bradcrumb": {
+        "title": "Breadcrumb",
+        "children": [
+            "breadcrumb.search"
+        ],
+        "props": {
+            "blockClass": "breadcrum__desktop"
+        }
+    },
+    "flex-layout.row#department__filter": {
+        "title": "Filtros",
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "blockClass": "filter__navigator--desktop"
+        }
+    },
+    "flex-layout.col#department__results": {
+        "title": "Resultado de busqueda",
+        "children": [
+            "flex-layout.row#searchinfo",
+            "search-content#desktop"
+        ],
+        "props": {
+            "width": "79%",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#searchinfo": {
+        "title": "Tipo de presentación",
+        "children": [
+            "order-by.v2",
+            "gallery-layout-switcher"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "preventHorizontalStretch": true,
+            "blockClass": "orderByAndSwitcher",
+            "colGap": 3
+        }
+    },
+    "order-by.v2": {
+        "title":"Ordenar por",
+        "props": {
+            "message": "Ordenar por",
+            "showOrderTitle":false,
+            "hiddenOptions": [
+                "",
+                "OrderByTopSaleDESC",
+                "OrderByBestDiscountDESC",
+                "OrderByNameASC",
+                "OrderByNameDESC",
+                "OrderByCollection"
+            ]
+        }
+    }
+}

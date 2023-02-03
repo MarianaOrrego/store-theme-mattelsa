@@ -1,0 +1,41 @@
+{
+    "rich-text#titulo__guia--tallas": {
+        "title": "Titulo modal guia de tallas",
+        "props": {
+            "text": "**Guía de tallas**",
+            "font": "t-heading-4",
+            "blockClass": "titulo__guia--tallas"
+        }
+    },
+    "rich-text#tomar__medidas--title": {
+        "title": "Titulo sección toma de medidas",
+        "props": {
+            "text": "Cómo tomar tus medidas",
+            "font": "t-heading-5",
+            "blockClass":"tomar__medidas--titulo"
+        }
+    },
+    "rich-text#tomar__medidas--estatura": {
+        "title": "Estatura",
+        "props": {
+            "text": "**1. Estatura** <br/><br/> De pies y con postura recta, toma la medida desde el piso hasta la parte superior de tu cabeza. <br/><br/> **2. Pecho** <br/><br/> Mide la circunferencia total de tu pecho en la parte de mayor volumen, por debajo de las axilas. <br/><br/> **3. Cintura** <br/><br/> Mide la circunferencia de tu cintura en su punto más estrecho. Más o menos 4 o 5 centímetros por encima del ombligo. <br/><br/> **4. Cadera** <br/><br/> Mide la circunferencia total de tu cadera en su parte más ancha a la altura de los glúteos.",
+            "blockClass":"tomar__medidas"
+        }
+    },
+    "flex-layout.col#tomar__medidas--imagen":{
+        "title": "Imagen para toma de medidas",
+        "children": [
+            "image#toma__medidas"
+        ],
+        "props": {
+            "blockClass":"imagen__medidas--hombre"
+        }
+    },
+    "image#toma__medidas":{
+        "title": "Imagen medidas hombre",
+        "props": {
+            "src": "assets/img/Superior-Hombre.jpg",
+            "blockClass":"img_medidas"
+        }
+    } 
+}

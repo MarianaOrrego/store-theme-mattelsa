@@ -1,0 +1,35 @@
+{
+    "flex-layout.col#modal__tallas--modal": {
+        "title": "Guía de tallas",
+        "children": [
+            "flex-layout.row#guia__tallas--mobile"
+        ],
+        "props": {
+            "blockClass": "info__tallas"
+        }
+    },
+    "flex-layout.row#guia__tallas--mobile": {
+        "title": "Guia de tallas modal e imagen mobile",
+        "children": [
+            "flex-layout.col#icon__regla",
+            "flex-layout.col#modal__regla--mobile"
+        ],
+        "props": {
+            "blockClass": "guia__tallas",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#modal__regla--mobile": {
+        "title": "Modal para ver guía de tallas",
+        "children": [
+            "modal-trigger#guia__tallas--mobile"
+        ]
+    },
+    "modal-trigger#guia__tallas--mobile": {
+        "title": "Modal guía de tallas",
+        "children": [
+            "rich-text#guia__tallas",
+            "modal-layout#guia__tallas--mobile"
+        ]
+    }
+}

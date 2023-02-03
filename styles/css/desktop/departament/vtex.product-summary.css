@@ -1,3 +1,8 @@
+.containerNormal--grid__summary {
+    position: relative;
+}
+
+
 .containerNormal--grid__summary .imageNormal {
     height: 280px;
     width : 100%;
@@ -10,4 +15,19 @@
 .containerNormal--list__summary .imageNormal {
     height: 220px;
     width : 100%;
+}
+
+.element--grid__summary {
+    align-items: start !important;
+    padding    : 10px;
+}
+
+.element--list__summary {
+    position: relative;
+}
+
+.element--list__summary :global(.vtex-button) {
+    bottom  : 15px;
+    position: absolute;
+    width   : 30%;
 }

@@ -1,0 +1,12 @@
+.biggy-autocomplete-wrapper {
+    width: 98vw !important;
+}
+
+.tileListSeeMore {
+    color          : #787878;
+    font           : normal normal normal 15px/18px Montserrat;
+    justify-content: center;
+    text-transform : initial;
+    text-decoration: underline;
+    width          : 100%;
+}

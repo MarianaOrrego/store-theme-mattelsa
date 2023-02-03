@@ -1,0 +1,78 @@
+{
+    "tab-layout#botones--mobile": {
+        "title": "Tab para botones de in y cm",
+        "children": [
+            "tab-list#botones",
+            "tab-content#botones"
+        ],
+        "props": {
+            "blockClass": "botones__medidas",
+            "defaultActiveTabId": "botoncm"
+        }
+    },
+    "tab-list#botones": {
+        "title": "Lista de botones del tab",
+        "children": [
+            "tab-list.item#boton__cm",
+            "tab-list.item#boton__in"
+        ]
+    },
+    "tab-list.item#boton__cm": {
+        "title": "Boton cm",
+        "props": {
+            "tabId": "botoncm",
+            "label": "cm",
+            "defaultActiveTab": true,
+            "blockClass":"boton__cm"
+        }
+    },
+    "tab-list.item#boton__in": {
+        "title": "Boton in",
+        "props": {
+            "tabId": "botonin",
+            "label": "in",
+            "blockClass":"boton__in"
+        }
+    },
+    "tab-content#botones": {
+        "title": "Contenido de los botones",
+        "children": [
+            "tab-content.item#boton__cm",
+            "tab-content.item#boton__in"
+        ],
+        "props": {
+            "blockClass":"content__btn"
+        }
+    },
+    "tab-content.item#boton__cm": {
+        "title": "Contenido boton cm",
+        "children": [
+            "image#boton__cm"
+        ],
+        "props": {
+            "tabId": "botoncm"
+        }
+    },
+    "tab-content.item#boton__in": {
+        "title": "Contenido boton in",
+        "children": [
+            "image#boton__in"
+        ],
+        "props": {
+            "tabId": "botonin"
+        }
+    },
+    "image#boton__cm":{
+        "title": "Imagen tabla cm",
+        "props": {
+            "src": "assets/img/boton__cm.png"
+        }
+    },
+    "image#boton__in":{
+        "title": "Imagen tabla in",
+        "props": {
+            "src": "assets/img/boton__in.png"
+        }
+    }
+
+}

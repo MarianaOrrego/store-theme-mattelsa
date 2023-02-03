@@ -1,0 +1,7 @@
+{
+    "store.custom#preguntas": {
+        "blocks": [
+            "flex-layout.row#preguntas__frecuentes"
+        ]
+    }
+}

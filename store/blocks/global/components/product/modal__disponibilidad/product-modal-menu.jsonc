@@ -1,0 +1,161 @@
+{
+    "vtex.menu@2.x:menu#tiendas__nacionales": {
+        "title": "Menu opciones de tiendas a nivel nacional",
+        "children": [
+            "menu-item#tiendas__nacionales"
+        ],
+        "props": {
+            "blockClass": "tiendas__nacionales"
+        }
+    },
+    "menu-item#tiendas__nacionales": {
+        "title": "Opciones tiendas a nivel nacional",
+        "props": {
+            "blockClass": "tiendas__nacionales",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "tiendas__nacionales",
+                "text": "Ingrese una ciudad"
+            },
+            "iconProps":{
+                "id":"arrow-down",
+                "size":16
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#shop"
+        ]
+    },
+    "vtex.menu@2.x:submenu#shop": {
+        "title": "Listado de tiendas",
+        "children": [
+            "vtex.menu@2.x:menu#submenu__tiendas"
+        ],
+        "props": {
+            "blockClass": "submenu__tiendas"
+        }
+    },
+    "vtex.menu@2.x:menu#submenu__tiendas": {
+        "title": "Listado de tiendas submenu",
+        "children": [
+            "menu-item#apartado",
+            "menu-item#armenia",
+            "menu-item#barbosa",
+            "menu-item#barrancabermeja",
+            "menu-item#barranquilla",
+            "menu-item#bogota",
+            "menu-item#cali",
+            "menu-item#cartagena",
+            "menu-item#florencia",
+            "menu-item#ibague",
+            "menu-item#manizales"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu__tiendas"
+        }
+    },
+    "menu-item#apartado": {
+        "title": "Apartadó",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Apartadó"
+            }
+        }
+    },
+    "menu-item#armenia": {
+        "title": "Armenia",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Armenia"
+            }
+        }
+    },
+    "menu-item#barbosa": {
+        "title": "Barbosa",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Barbosa"
+            }
+        }
+    },
+    "menu-item#barrancabermeja": {
+        "title": "Barrancabermeja",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Barrancabermeja"
+            }
+        }
+    },
+    "menu-item#barranquilla": {
+        "title": "Barranquilla",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Barranquilla"
+            }
+        }
+    },
+    "menu-item#bogota": {
+        "title": "Bogota",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Bogotá"
+            }
+        }
+    },
+    "menu-item#cali": {
+        "title": "Cali",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Cali"
+            }
+        }
+    },
+    "menu-item#cartagena": {
+        "title": "Cartagena",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Cartagena"
+            }
+        }
+    },
+    "menu-item#florencia": {
+        "title": "Florencia",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Florencia"
+            }
+        }
+    },
+    "menu-item#ibague": {
+        "title": "Ibague",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Ibague"
+            }
+        }
+    },
+    "menu-item#manizales": {
+        "title": "Manizales",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "Manizales"
+            }
+        }
+    }
+}

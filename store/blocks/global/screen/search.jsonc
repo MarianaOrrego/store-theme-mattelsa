@@ -1,34 +1,72 @@
 {
     "store.search": {
+        "title": "Search",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#department": {
+        "title": "Search departament",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#category": {
+        "title": "Search category",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#subcategory": {
+        "title": "Search subcategory",
         "blocks": [
             "search-result-layout"
         ]
     },
     "store.search#brand": {
+        "title": "Search brand",
         "blocks": [
             "search-result-layout"
         ]
     },
     "search-result-layout": {
+        "title": "Search result",
         "blocks": [
             "search-result-layout.desktop#department",
             "search-result-layout.mobile#department",
             "search-not-found-layout"
         ]
+    },
+    "store.not-found": {
+        "blocks": [
+            "flex-layout.row#text__not--found"
+        ]
+    },
+    "store.not-found#product": {
+        "blocks": [
+            "flex-layout.row#text__not--found"
+        ]
+    },
+    "store.not-found#search": {
+        "blocks": [
+            "flex-layout.row#text__not--found"
+        ]
+    },
+    "flex-layout.row#text__not--found": {
+        "title": "Texto not found",
+        "children": [
+            "rich-text#store"
+        ],
+        "props": {
+            "blockClass": "text__not--found"
+        }
+    },
+    "rich-text#store": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "La búsqueda no ha dado ningún resultado.",
+            "font": "t-body"
+        }
     }
 }

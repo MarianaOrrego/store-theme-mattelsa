@@ -1,0 +1,13 @@
+@media (max-width: 640px) {
+    .contentContainer--content__btn {
+        height  : 240px;
+        position: relative;
+        overflow: auto;
+    }
+
+    .contentContainer--content__btn :global(.vtex-tab-layout-0-x-contentItem) {
+        left    : 0px;
+        position: absolute;
+        width   : 840px;
+    }
+}

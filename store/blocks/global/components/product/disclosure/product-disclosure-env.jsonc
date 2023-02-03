@@ -1,0 +1,63 @@
+{
+    "disclosure-layout#envios": {
+        "title": "Envios layout",
+        "children": [
+            "disclosure-trigger#envios",
+            "disclosure-content#envios"
+        ]
+    },
+    "disclosure-trigger#envios": {
+        "title": "Envios trigger",
+        "children": [
+            "rich-text#envios",
+            "disclosure-state-indicator#desktop"
+        ],
+        "props": {
+            "blockClass": "ayuda__richtext"
+        }
+    },
+    "disclosure-content#envios": {
+        "children": [
+            "flex-layout.row#envios",
+            "flex-layout.row#link__info"
+        ],
+        "props":{
+            "blockClass":"contenido__disclosure"
+        }
+    },
+    "rich-text#envios":{
+        "title": "Texto opción de envíos",
+        "props": {
+            "text": "Envíos y devoluciones",
+            "blockClass": "disclosure__opciones"
+        }
+    },
+    "flex-layout.row#envios":{
+        "title": "Información para los enviós",
+        "children": [
+            "rich-text#info__envios"
+        ]
+    },
+    "rich-text#info__envios":{
+        "title": "Información sobre los enviós",
+        "props": {
+            "text": "**Tu envío es gratis si compras ropa que NO sea del SALE o COSAS y estás en Bogotá, Medellín, Cali, Barranquilla o Bucaramanga.** <br/><br/> Si es ropa del SALE, el costo depende de tu ubicación y es a partir de **$6.000.**",
+            "blockClass":"info__envios"
+        }
+    },
+    "flex-layout.row#link__info":{
+        "title": "Link de información",
+        "children": [
+            "link.product#link__info"
+        ]
+    },
+    "link.product#link__info":{
+        "title": "Más información",
+        "props": {
+            "label": "Más información",
+            "href": "#",
+            "target": "__blank",
+            "blockClass":"link__mas"
+        }
+    }
+}

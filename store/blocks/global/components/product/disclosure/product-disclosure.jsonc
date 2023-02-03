@@ -1,0 +1,31 @@
+{
+    "disclosure-layout-group#info__adicional--cuidados": {
+        "title": "Información de la ropa",
+        "children": [
+            "disclosure-layout#composicion",
+            "disclosure-layout#envios",
+            "disclosure-layout#cambios"
+        ]
+    },
+    "disclosure-state-indicator#desktop": {
+        "props": {
+            "Show": "image#down__desktop",
+            "Hide": "image#up__desktop",
+            "blockClass":"icon__arrow--desktop"
+        }
+    },
+    "image#down__desktop": {
+        "props": {
+            "src": "assets/img/Arrow-Down.svg",
+            "sizes": "16",
+            "blockClass":"arrow__down--desktop"
+        }
+    },
+    "image#up__desktop": {
+        "props": {
+            "src": "assets/img/Arrow-Down.svg",
+            "sizes": "16",
+            "blockClass":"arrow__up--desktop"
+        }
+    }
+}

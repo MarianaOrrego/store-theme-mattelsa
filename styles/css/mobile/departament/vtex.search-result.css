@@ -1,0 +1,30 @@
+.filterApplyButtonWrapper :global(.vtex-button) {
+    background-color: #484848;
+    color           : white;
+    font-family     : Montserrat;
+    text-transform  : initial;
+}
+
+.filterClearButtonWrapper :global(.vtex-button) {
+    text-decoration-line: underline;
+    text-transform      : initial;
+}
+
+.filterBreadcrumbsText,
+.filterBreadcrumbsItemName {
+    color         : #484848;
+    cursor        : pointer;
+    font          : normal normal bold 16px/18px Montserrat;
+    text-align    : center;
+    text-transform: initial;
+}
+
+.accordionFilterItemTitle {
+    color         : #484848;
+    cursor        : pointer;
+    font          : normal normal bold 15px/18px Montserrat;
+    margin-bottom : 0;
+    padding       : 15px 0;
+    text-transform: initial;
+
+}

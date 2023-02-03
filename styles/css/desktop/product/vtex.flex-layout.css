@@ -1,0 +1,115 @@
+/* .flexRowContent--product__info--dektop :global(.vtex-store-components-3-x-triggerContainer) {
+    width: 100%;
+} */
+
+.flexRow--product__info--dektop,
+.flexRow--recomendaciones__desktop {
+    margin: 0px 40px;
+}
+
+.flexRowContent--disclosure__info .stretchChildrenWidth {
+    flex-direction: column;
+}
+
+
+.flexColChild--informacion__producto :global(.vtex-store-components-3-x-sellingPrice) {
+    margin: 3% 0%;
+}
+
+.flexColChild--informacion__producto :global(.vtex-store-components-3-x-productDescriptionTitle) {
+    display: none;
+}
+
+.flexRow--product__info--quantity-modal {
+    margin: 5% 0%;
+}
+
+.flexColChild--info__tallas {
+    align-items    : end;
+    display        : flex;
+    justify-content: end;
+}
+
+.flexRow--modal__disponibilidad {
+    width: 100%;
+}
+
+.flexRow--dipo__tienda--img {
+    margin-top: 15%;
+}
+
+.flexRowContent--pago__efectivo {
+    width          : 100%;
+    display        : flex;
+    flex-wrap      : wrap;
+    font-family    : 'MontserratMedium';
+    color          : #484848;
+    font-style     : normal;
+    font-size      : 12px;
+    padding-top    : 10px;
+    justify-content: center;
+}
+
+.flexColChild--efectivo {
+    justify-content: start !important;
+}
+
+.flexCol--pago__efectivo--check {
+    margin-top: 8px;
+}
+
+.flexRow--pago__efectivo {
+    margin: 7% 0%;
+}
+
+.flexColChild--text__informacion,
+.flexColChild--img__informacion {
+    align-items: center;
+    display    : flex;
+}
+
+.flexRow--info__lavado {
+    margin-bottom: 10px;
+}
+
+.flexColChild--imagen__medidas--hombre {
+    display        : flex;
+    justify-content: end;
+}
+
+.flexRowContent--botones__medidas {
+    display        : flex;
+    justify-content: end;
+}
+
+.flexCol--botone__medidas {
+    align-items  : center;
+    border       : 1px solid #b4b4b4;
+    border-radius: 0;
+    box-shadow   : none;
+    cursor       : pointer;
+    font         : normal normal normal 12px/18px Montserrat-Medium;
+    height       : 30px;
+    padding      : 2px;
+    text-align   : center;
+    width        : 60px !important;
+}
+
+.flexCol--botone__medidas:active {
+    background-color: #484848;
+    color           : #f5f5f5;
+}
+
+.flexRowContent--recomendaciones__desktop {
+    margin-top: 5%;
+}
+
+.flexRow--product__tabs {
+    margin    : auto;
+    margin-top: 3%;
+    max-width : 64rem;
+}
+
+.flexRowContent--product__tabs :global(.vtex-button__label) {
+    text-transform: initial;
+}

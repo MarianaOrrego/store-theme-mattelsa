@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#modal__disponibilidad--mobile": {
+        "title": "Modal disponibilidad en tienda mobile",
+        "children": [
+            "modal-trigger#disponibilidad__tienda--mobile"
+        ]
+    },
+    "modal-trigger#disponibilidad__tienda--mobile": {
+        "title": "Modal disponibilidad mobile",
+        "children": [
+            "rich-text#disponibilidad__tienda",
+            "modal-layout#disponibilidad__tienda--mobile"
+        ],
+        "props": {
+            "blockClass":"disponibilidad__tienda"
+        }
+    },
+    "modal-layout#disponibilidad__tienda--mobile": {
+        "title": "Modal disponibilidad",
+        "children": [
+            "modal-header#disponibilidad__tienda",
+            "modal-content#disponibilidad__tienda"
+        ],
+        "props": {
+            "fullScreen": true,
+            "scroll": "content"
+        }
+    }
+}

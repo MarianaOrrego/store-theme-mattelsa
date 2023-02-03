@@ -1,0 +1,25 @@
+@media (min-width:1024px) {
+    .contentContainer--content__btn {
+        height  : 240px;
+        position: relative;
+    }
+    
+    .contentContainer--content__btn :global(.vtex-tab-layout-0-x-contentItem) {
+        left    : -710px;
+        position: absolute;
+        width   : 840px;
+    }
+}
+
+.listItem--boton__in,
+.listItem--boton__cm {
+    padding: 0px;
+}
+
+.listItem--boton__in :global(.vtex-button),
+.listItem--boton__cm :global(.vtex-button){
+    border       : 1px solid #b4b4b4;
+    border-radius: 0;
+    box-shadow   : none;
+    font         : normal normal normal 12px/18px Montserrat-Medium;
+}

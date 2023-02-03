@@ -1,0 +1,21 @@
+{
+    
+    "product-images.high-quality-image": {
+        "props": {
+            "zoomMode": "in-place-click",
+            "zoomFactor": 2
+        }
+    },
+    "modal-trigger#product__image": {
+        "title": "Modal para imagenes de producto",
+        "children": [
+            "modal-layout#product__image"
+        ]
+    },
+    "modal-layout#product__image": {
+        "title": "Renderización de la imagen del producto",
+        "children": [
+            "product-images.high-quality-image"
+        ]
+    }
+}

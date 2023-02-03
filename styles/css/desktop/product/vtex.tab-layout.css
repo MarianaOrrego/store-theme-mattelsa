@@ -1,0 +1,17 @@
+.contentItem--questions__answers :global(.vtex-button) {
+    background-color: #484848;
+    border-color    : #484848;
+    text-transform  : initial;
+}
+
+.contentItem--questions__answers :global(.vtex__icon-search) {
+    color: #484848;
+}
+
+.contentItem--questions__answers :global(.vtex-questions-and-answers-0-x-qna-header) {
+    color: #484848;
+}
+
+.contentItem--questions__answers :global(.vtex-questions-and-answers-0-x-create-question-container) {
+    color: #484848;
+}
