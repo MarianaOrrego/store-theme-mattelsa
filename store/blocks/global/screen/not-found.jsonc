@@ -1,15 +1,7 @@
 {
     "search-not-found-layout": {
         "children": [
-            "rich-text#not-found"
+            "flex-layout.row#text__not--found"
         ]
-    },
-    "rich-text#not-found": {
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "La búsqueda no ha dado ningún resultado.",
-            "font": "t-body"
-        }
     }
 }
