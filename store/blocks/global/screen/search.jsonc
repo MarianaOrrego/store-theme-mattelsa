@@ -2,53 +2,65 @@
     "store.search": {
         "title": "Search",
         "blocks": [
+            "whatsapp-button",
             "search-result-layout"
         ]
     },
     "store.search#department": {
         "title": "Search departament",
         "blocks": [
+            "whatsapp-button",
             "search-result-layout"
         ]
     },
     "store.search#category": {
         "title": "Search category",
         "blocks": [
+            "whatsapp-button",
             "search-result-layout"
         ]
     },
     "store.search#subcategory": {
         "title": "Search subcategory",
         "blocks": [
+            "whatsapp-button",
             "search-result-layout"
         ]
     },
     "store.search#brand": {
         "title": "Search brand",
         "blocks": [
+            "whatsapp-button",
             "search-result-layout"
         ]
     },
     "search-result-layout": {
         "title": "Search result",
         "blocks": [
+            "whatsapp-button",
             "search-result-layout.desktop#department",
             "search-result-layout.mobile#department",
             "search-not-found-layout"
         ]
     },
     "store.not-found": {
+        "title": "Search not found",
         "blocks": [
+            "whatsapp-button",
             "flex-layout.row#text__not--found"
         ]
     },
     "store.not-found#product": {
+        "title": "Search not found product",
         "blocks": [
+            "whatsapp-button",
             "flex-layout.row#text__not--found"
         ]
     },
     "store.not-found#search": {
+        "title": "Search not found search",
         "blocks": [
+            "whatsapp-button",
             "flex-layout.row#text__not--found"
         ]
     },
@@ -62,6 +74,7 @@
         }
     },
     "rich-text#store": {
+        "title": "Mensaje para page not found",
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
