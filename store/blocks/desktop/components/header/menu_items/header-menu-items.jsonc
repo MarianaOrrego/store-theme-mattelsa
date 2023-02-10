@@ -4,12 +4,10 @@
         "props": {
             "id": "menu-item-hombre",
             "type": "custom",
-            "highlight": false,
             "blockClass": "menu__item",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "noFollow": false,
+                "href": "/hombres",
                 "tagTitle": "hombre",
                 "text": "hombre"
             }

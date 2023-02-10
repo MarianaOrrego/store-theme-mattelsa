@@ -1,5 +1,8 @@
 {
     "store.custom#preguntas":{
         "path": "/preguntasfrecuentes"
+    },
+    "store.custom#hombres":{
+        "path": "/hombres"
     }
 }
