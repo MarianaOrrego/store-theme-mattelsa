@@ -2,6 +2,7 @@
   "store.home": {
     "title": "Store home",
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.desktop#home__section-1",
       "responsive-layout.mobile#phone__and__tablet"
     ]
