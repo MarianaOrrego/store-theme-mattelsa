@@ -6,13 +6,13 @@
         ],
         "props": {
             "blockClass": "hombres__custom",
-            "marginTop": 8
+            "marginTop": 9
         }
     },
     "flex-layout.col#bullet-list":{
         "title": "Contenido para custom",
         "children": [
-            "bullets-diagramation"
+            "list-context.bullets-group"
         ]
     }
 }

@@ -1,0 +1,30 @@
+{
+    "list-context.bullets-group": {
+        "title": "Bullets group",
+        "props": {
+            "bullets": [
+                {
+                    "image": "assets/img/calavera.jpg",
+                    "titleBullet": "Camiseta oversize negro ilustración",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/flores.jpg",
+                    "titleBullet": "Camisa verde flores",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "assets/img/flores2.jpg",
+                    "titleBullet": "Camisa negro flores",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        }
+    }
+}
