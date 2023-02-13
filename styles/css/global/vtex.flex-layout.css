@@ -1,3 +1,8 @@
-.flexRowContent--text__not--found{
+.flexRowContent--text__not--found {
     margin-top: 15%;
+}
+
+.flexRowContent--hombres__custom {
+    margin   : 65px auto;
+    max-width: 1120px;
 }

@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#bullet-list": {
+        "title": "Hombres custom",
+        "children": [
+            "flex-layout.col#bullet-list"
+        ],
+        "props": {
+            "blockClass": "hombres__custom",
+            "marginTop": 9
+        }
+    },
+    "flex-layout.col#bullet-list":{
+        "title": "Contenido para custom",
+        "children": [
+            "list-context.bullets-group"
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 {
   "vendor": "itgloberspartnercl",
-  "name": "mattelsa-store-theme",
+  "name": "mattelsaclothe-store-theme",
   "version": "0.0.1",
   "builders": {
     "assets": "0.x",
@@ -59,7 +59,8 @@
     "vtex.checkout-summary": "0.x",
     "vtex.category-menu": "2.x",
     "vtex.css-handles": "0.x",
-    "itgloberspartnercl.whatsapp-button": "0.x"
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x"
   },
   "peerDependencies": {
     "vtex.questions-and-answers": "0.x",

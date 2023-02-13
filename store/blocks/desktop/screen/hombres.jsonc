@@ -1,0 +1,7 @@
+{
+    "store.custom#hombres": {
+        "blocks": [
+            "flex-layout.row#bullet-list"
+        ]
+    }
+}
