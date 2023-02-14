@@ -25,7 +25,7 @@
 }
 
 .paper--modal__add--info {
-    height: 585px;
+    height: 515px;
     width : 530px;
 }
 
@@ -33,4 +33,11 @@
     align-items: center;
     display    : flex;
     padding    : 10px;
+}
+
+@media (max-width: 768px) {
+    .paper--modal__add--info-mobile {
+        height: 685px;
+        width : 300px;
+    }
 }

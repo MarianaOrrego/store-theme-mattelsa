@@ -15,6 +15,7 @@
             "flex-layout.row#description",
             "flex-layout.row#product__info--quantity-mobile",
             "add-to-cart-button",
+            "modal-trigger#add-to-cart-info--mobile",
             "flex-layout.row#product__info--additional-mobile"
         ]
     },
