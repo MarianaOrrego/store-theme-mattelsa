@@ -11,3 +11,12 @@
         border-color: transparent;
     }
 }
+
+.headerContainer--add__to--cart-mobile {
+    align-items: center;
+    padding    : 5px;
+}
+
+.closeButtonContainer--add__to--cart-mobile {
+    margin-top: 0px !important;
+}

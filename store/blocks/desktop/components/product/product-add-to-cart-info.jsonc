@@ -1,0 +1,40 @@
+{
+    "modal-trigger#add-to-cart-info": {
+        "title": "Modal para información al agregar producto",
+        "children":[
+            "modal-layout#add-to-cart-info"
+        ],
+        "props": {
+            "customPixelEventName": "addToCart",
+            "blockClass":"modal__add--info"
+        }
+    },
+    "modal-layout#add-to-cart-info": {
+        "title": "Contenido del modal de información",
+        "children":[
+            "modal-header#add-to-cart-info",
+            "add-to-cart-info"
+        ],
+        "props": {
+            "blockClass":"modal__add--info"
+        }
+    },
+    "modal-header#add-to-cart-info":{
+        "title": "Header del modal información producto agregado",
+        "props": {
+            "iconCloseSize": 16,
+            "showCloseButton": true,
+            "blockClass":"add-to-cart--desktop"
+        },
+        "children":[
+            "rich-text#add-to-cart-info"
+        ]
+    },
+    "rich-text#add-to-cart-info":{
+        "title": "Titulo modal información producto agregado",
+        "props": {
+            "text": "Productos en la bolsa",
+            "blockClass":"text__add--cart"
+        }
+    }
+}
