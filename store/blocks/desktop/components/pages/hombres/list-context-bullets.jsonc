@@ -1,0 +1,66 @@
+{
+    "list-context.bullets-group": {
+        "title": "Bullets group",
+        "children": [
+            "slider-layout#bullet-group"
+        ],
+        "props": {
+            "bullets": [
+                {
+                    "image": "assets/img/calavera.jpg",
+                    "titleBullet": "Camiseta oversize negro",
+                    "link": {
+                        "url": "/sol/p"
+                    }
+                },
+                {
+                    "image": "assets/img/flores.jpg",
+                    "titleBullet": "Camisa verde flores",
+                    "link": {
+                        "url": "/cemento-argos-gris-50kg/p"
+                    }
+                },
+                {
+                    "image": "assets/img/flores2.jpg",
+                    "titleBullet": "Camisa negro flores",
+                    "link": {
+                        "url": "/queso-alpina/p"
+                    }
+                },
+                {
+                    "image": "assets/img/nasaclothe.jpg",
+                    "titleBullet": "Buzo pullover azul texto",
+                    "link": {
+                        "url": "/zapatos-vans-url/p"
+                    }
+                },
+                {
+                    "image": "assets/img/veranito.jpg",
+                    "titleBullet": "Camisa verano",
+                    "link": {
+                        "url": "/puerta-triplex-okume/p"
+                    }
+                },
+                {
+                    "image": "assets/img/surfing.jpg",
+                    "titleBullet": "Camisa negro flores",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#bullet-group":{
+        "title":"Slider de bullet group",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never"
+        }
+    }
+}
