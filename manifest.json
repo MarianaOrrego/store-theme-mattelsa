@@ -61,7 +61,8 @@
     "vtex.css-handles": "0.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
     "itgloberspartnercl.bullets-diagramation": "0.x",
-    "itgloberspartnercl.add-to-cart-info": "0.x"
+    "itgloberspartnercl.add-to-cart-info": "0.x",
+    "itgloberspartnercl.custom-department-search": "0.x"
   },
   "peerDependencies": {
     "vtex.questions-and-answers": "0.x",
