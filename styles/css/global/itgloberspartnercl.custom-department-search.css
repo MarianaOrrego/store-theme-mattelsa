@@ -1,0 +1,17 @@
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border: solid 1px #b3b2b2 !important;
+    width : 70%;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input) {
+    display        : flex;
+    justify-content: center;
+}
+
+.searchBarIcon {
+    color: #484848;
+}
+
+.resultsList {
+    display: none;
+}
