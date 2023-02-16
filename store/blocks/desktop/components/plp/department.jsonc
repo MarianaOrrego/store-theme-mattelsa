@@ -36,7 +36,8 @@
     "flex-layout.col#department__filter": {
         "title": "Breadcrumb y filtros",
         "children": [
-            "flex-layout.row#department__filter"
+            "flex-layout.row#department__filter",
+            "flex-layout.row#quick-order"
         ],
         "props": {
             "blockClass": "department__filter",
