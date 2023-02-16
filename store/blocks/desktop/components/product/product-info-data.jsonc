@@ -43,7 +43,8 @@
             "product-description",
             "flex-layout.row#product__info--quantity-modal",
             "add-to-cart-button",
-            "flex-layout.row#product__info--additional"
+            "flex-layout.row#product__info--additional",
+            "modal-trigger#add-to-cart-info"
         ],
         "props": {
             "width": "35%",

@@ -23,3 +23,21 @@
 .contentContainer--modal__disponibilidad {
     height: 100%;
 }
+
+.paper--modal__add--info {
+    height: 515px;
+    width : 530px;
+}
+
+.paper--modal__add--info :global(.vtex-modal-layout-0-x-headerContainer) {
+    align-items: center;
+    display    : flex;
+    padding    : 10px;
+}
+
+@media (max-width: 768px) {
+    .paper--modal__add--info-mobile {
+        height: 685px;
+        width : 300px;
+    }
+}

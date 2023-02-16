@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#department-search": {
+        "title": "Departmen search custom",
+        "children": [
+            "department-search"
+        ],
+        "props": {
+            "blockClass": "hdepartment__search--custom",
+            "marginTop": 9
+        }
+    }
+}
