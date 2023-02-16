@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#pdf-reader": {
+        "title": "Lector de PDF",
+        "children": [
+            "flex-layout.col#pdf-reader"
+        ]
+    },
+    "flex-layout.col#pdf-reader": {
+        "title": "Lector de PDF",
+        "children": [
+            "flex-layout.row#texto__pdf",
+            "flex-layout.row#pdf__embebido"
+        ]
+    },
+    "flex-layout.row#texto__pdf":{
+        "title": "Texto de pdf",
+        "children": [
+            "rich-text#catalogo"
+        ]
+    },
+    "rich-text#catalogo": {
+        "title": "Catalogo ropa deportiva",
+        "props": {
+            "text": "Catalogo de temporada",
+            "font": "t-heading-4"
+        }
+    },
+    "flex-layout.row#pdf__embebido":{
+        "title":"PDF embebido",
+        "children": [
+            "pdf-reader"
+        ],
+        "props": {
+            "marginTop": 5
+        }
+    },
+    "pdf-reader": {
+        "title": "Componente PDF reader",
+        "props": {
+            "pdfUrl": "assets/docs/catalogo_ropa.pdf",
+            "width": 800,
+            "height": 500
+        }
+    }
+}

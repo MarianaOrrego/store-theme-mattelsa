@@ -2,7 +2,8 @@
     "store.custom#hombres": {
         "blocks": [
             "flex-layout.row#department-search",
-            "flex-layout.row#bullet-list"
+            "flex-layout.row#bullet-list",
+            "flex-layout.row#pdf-reader"
         ]
     }
 }
