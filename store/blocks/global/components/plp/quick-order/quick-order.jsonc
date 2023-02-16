@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#quick-order":{
+        "title": "Quick order",
+        "children": [
+            "flex-layout.col#quick-order"
+        ]
+    },
+    "flex-layout.col#quick-order":{
+        "title": "Componente quick order",
+        "children": [
+            "quick-order"
+        ]
+    }
+}
