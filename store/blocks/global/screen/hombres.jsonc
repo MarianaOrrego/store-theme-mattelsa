@@ -3,7 +3,8 @@
         "blocks": [
             "flex-layout.row#department-search",
             "flex-layout.row#bullet-list",
-            "flex-layout.row#pdf-reader"
+            "flex-layout.row#pdf-reader",
+            "flex-layout.row#special-diagramation"
         ]
     }
 }

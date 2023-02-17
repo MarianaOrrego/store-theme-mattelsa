@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#special-diagramation": {
+        "title": "Grilla custom configuración",
+        "children": [
+            "flex-layout.col#special-diagramation"
+        ],
+        "props": {
+            "blockClass": "special__diagramation--desktop"
+        }
+    },
+    "flex-layout.col#special-diagramation": {
+        "title": "Contenedor grilla custom configuración",
+        "children": [
+            "custom-grid"
+        ]
+    },
+    "custom-grid": {
+        "title": "Grilla",
+        "children": [
+            "flex-layout.row#contenido__grilla--1",
+            "flex-layout.row#contenido__grilla--2",
+            "flex-layout.row#contenido__grilla--3",
+            "flex-layout.row#contenido__grilla--4",
+            "flex-layout.row#contenido__grilla--5"
+        ]
+    }
+}
