@@ -2,7 +2,12 @@
     margin-top: 15%;
 }
 
-.flexRowContent--hombres__custom {
+.flexRowContent--hombres__custom{
     margin   : 65px auto;
     max-width: 1120px;
+}
+
+.flexRow--special__diagramation--desktop {
+    margin   : 65px auto;
+    max-width: 1095px;
 }
