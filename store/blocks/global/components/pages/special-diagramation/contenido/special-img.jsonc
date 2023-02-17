@@ -1,0 +1,32 @@
+{
+    "image#grilla1": {
+        "title": "Imagen para la grilla 1",
+        "props": {
+            "src": "assets/img/grilla5.webp"
+        }
+    },
+    "image#grilla2": {
+        "title": "Imagen para la grilla 2",
+        "props": {
+            "src": "assets/img/grilla2.jpg"
+        }
+    },
+    "image#grilla3": {
+        "title": "Imagen para la grilla 3",
+        "props": {
+            "src": "assets/img/grilla3.jpg"
+        }
+    },
+    "image#grilla4": {
+        "title": "Imagen para la grilla 4",
+        "props": {
+            "src": "assets/img/grilla4.jpg"
+        }
+    },
+    "image#grilla5": {
+        "title": "Imagen para la grilla 5",
+        "props": {
+            "src": "assets/img/grilla1.jpg"
+        }
+    }
+}
