@@ -17,11 +17,11 @@
     "custom-grid": {
         "title": "Grilla",
         "children": [
-            "flex-layout.row#contenido__grilla--1",
-            "flex-layout.row#contenido__grilla--2",
-            "flex-layout.row#contenido__grilla--3",
-            "flex-layout.row#contenido__grilla--4",
-            "flex-layout.row#contenido__grilla--5"
+            "image#grilla1",
+            "image#grilla2",
+            "image#grilla3",
+            "image#grilla4",
+            "image#grilla5"
         ]
     }
 }
