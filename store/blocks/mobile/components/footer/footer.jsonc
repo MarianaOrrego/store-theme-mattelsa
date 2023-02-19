@@ -1,6 +1,7 @@
 {
     "footer-layout.mobile": {
         "children": [
+            "whatsapp-button",
             "flex-layout.row#img__rabbit",
             "disclosure-layout-group#footer__menu--group",
             "flex-layout.row#footer-mobile",

@@ -1,7 +1,6 @@
 {
     "store.product": {
         "children": [
-            "whatsapp-button",
             "responsive-layout.desktop#product",
             "responsive-layout.mobile#product"
         ]

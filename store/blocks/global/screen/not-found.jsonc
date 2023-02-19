@@ -1,7 +1,6 @@
 {
     "search-not-found-layout": {
         "children": [
-            "whatsapp-button",
             "flex-layout.row#text__not--found"
         ]
     }
