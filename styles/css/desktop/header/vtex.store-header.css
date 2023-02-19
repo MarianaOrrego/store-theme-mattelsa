@@ -13,3 +13,7 @@
     z-index: 8 !important;
 
 }
+
+.headerRowContentContainer--header__top{
+    max-width: 100% !important;
+}
