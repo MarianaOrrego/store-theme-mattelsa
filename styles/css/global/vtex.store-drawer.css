@@ -1,0 +1,7 @@
+.drawer :global(.vtex-mega-menu-2-x-caretIcon--mega__menu--styles){
+    color: #484848;
+}
+
+.drawer :global(.vtex-mega-menu-2-x-departmentsTitle){
+    display: none;
+}
