@@ -15,7 +15,8 @@
     "flex-layout.col#products__mobile": {
         "children": [
             "flex-layout.row#filter",
-            "flex-layout.row#department__results-mobile"
+            "flex-layout.row#department__results-mobile",
+            "flex-layout.row#quick-order"
         ]
     },
     "flex-layout.row#filter": {
