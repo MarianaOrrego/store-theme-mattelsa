@@ -56,9 +56,15 @@
 .submenuContainer .submenuWrapper--isOpen {
     background-color: transparent;
     border-color    : transparent;
+    margin-top      : 0px
 }
 
 .styledLinkContainer--menu__item {
     margin-left : 1rem;
     margin-right: 1rem;
+}
+
+.styledLinkContainer--menu__item--hover {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
