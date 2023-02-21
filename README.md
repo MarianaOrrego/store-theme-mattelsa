@@ -69,7 +69,7 @@ Clon de la pagina [Mattelsa](https://www.mattelsa.net/) con fines de aprendizaje
 - store-theme
 
 ## Store Components Apps
-    ```json
+   ```json
      "dependencies": {
         "vtex.store": "2.x",
         "vtex.store-header": "2.x",
@@ -119,16 +119,16 @@ Clon de la pagina [Mattelsa](https://www.mattelsa.net/) con fines de aprendizaje
         "vtex.category-menu": "2.x",
         "vtex.css-handles": "0.x",
       }
-    ```
+   ```
 
 ## Peer Dependencies
 
-    ```json
+   ```json
        "peerDependencies": {
            "vtex.questions-and-answers": "0.x",
            "vtex.mega-menu": "2.x"
         }
-    ```
+   ```
 
 
 ### Custom Apps
